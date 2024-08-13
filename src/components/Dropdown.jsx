@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 
 export default function Dropdown({ title, items }) {
     const [isOpen, setIsOpen] = useState(false);
