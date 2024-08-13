@@ -1,10 +1,8 @@
-import React from 'react';
-import { useState } from 'react';
-import SwipeableViews from 'react-swipeable-views';
-import { autoPlay } from 'react-swipeable-views-utils';
+import React, { useState } from 'react';
+import Slider from 'react-slick';
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
-
-const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
+import 'slick-carousel/slick/slick.css'; 
+import 'slick-carousel/slick/slick-theme.css';
 
 const images = [
   {
@@ -30,40 +28,43 @@ const images = [
 ];
 
 function SwipeableTextMobileStepper() {
-  const [activeStep, setActiveStep] = useState(0);
-  const maxSteps = images.length;
+  const [sliderRef, setSliderRef] = useState(null);
 
-  const handleNext = () => {
-    setActiveStep((prevActiveStep) => (prevActiveStep + 1) % maxSteps);
-  };
-
-  const handleBack = () => {
-    setActiveStep((prevActiveStep) => (prevActiveStep - 1 + maxSteps) % maxSteps);
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    dotsClass: "absolute bottom-20 left-1/2 transform -translate-x-1/2 z-10",
+    appendDots: (dots) => (
+      <div>
+        <ul className="flex space-x-2">{dots}</ul>
+      </div>
+    ),
+    customPaging: (i) => (
+      <div className="w-3 h-3 bg-white rounded-full"></div> // Custom dot style
+    ),
   };
 
   return (
-    <div className="relative w-full overflow-hidden z-30">
-      <AutoPlaySwipeableViews
-        index={activeStep}
-        onChangeIndex={setActiveStep}
-        enableMouseEvents
-      >
-        {images.map((step, index) => (
+    <div className="relative w-full">
+      <Slider {...settings} ref={setSliderRef}>
+        {images.map((step) => (
           <div key={step.label}>
-            {Math.abs(activeStep - index) <= 2 ? (
-              <img
-                className="w-full h-auto object-cover"
-                src={step.imgPath}
-                alt={step.label}
-              />
-            ) : null}
+            <img
+              className="w-full h-auto object-cover"
+              src={step.imgPath}
+              alt={step.label}
+            />
           </div>
         ))}
-      </AutoPlaySwipeableViews>
+      </Slider>
 
       <div className="absolute top-1/2 left-2 transform -translate-y-1/2">
         <button
-          onClick={handleBack}
+          onClick={() => sliderRef.slickPrev()}
           className="bg-white rounded-full p-2 shadow hover:bg-gray-200"
         >
           <FaArrowLeft />
@@ -71,7 +72,7 @@ function SwipeableTextMobileStepper() {
       </div>
       <div className="absolute top-1/2 right-2 transform -translate-y-1/2">
         <button
-          onClick={handleNext}
+          onClick={() => sliderRef.slickNext()}
           className="bg-white rounded-full p-2 shadow hover:bg-gray-200"
         >
           <FaArrowRight />
