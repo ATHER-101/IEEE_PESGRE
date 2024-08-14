@@ -1,30 +1,37 @@
 import React, { useState, useEffect, useRef } from 'react';
+import { Link } from 'react-router-dom';
 import Dropdown from './Dropdown';
 
 const navItems = [
     {
         title: 'Home',
         dropdownItems: [],
+        routes: ["/"],
     },
     {
         title: 'About',
         dropdownItems: ['Organizing Committee', 'Chairs'],
+        routes: ['/about/organizing-committee', '/about/chairs'],
     },
     {
         title: 'Authors',
         dropdownItems: ['Call for Papers', 'Submission & Registration'],
+        routes: ['/authors/call-for-papers', '/authors/submission-registration'],
     },
     {
         title: 'Program',
         dropdownItems: ['Keynote Speakers'],
+        routes: ['/program/keynote-speakers'],
     },
     {
         title: 'Students & YPs',
         dropdownItems: [],
+        routes: ["/students-yp"],
     },
     {
         title: 'Contact',
         dropdownItems: [],
+        routes: ["/contact"],
     },
 ];
 
@@ -38,7 +45,9 @@ export default function DrawerAppBar() {
     };
 
     const toggleDropdown = (index) => {
-        setActiveIndex(activeIndex === index ? null : index);
+        if (navItems[index].dropdownItems.length > 0) {
+            setActiveIndex(activeIndex === index ? null : index);
+        }
     };
 
     const handleClickOutside = (event) => {
@@ -61,7 +70,7 @@ export default function DrawerAppBar() {
 
     return (
         <div>
-            <header className="sticky w-[100%] bg-white text-black top-0 z-39 shadow-md">
+            <header className="sticky w-[100%] bg-white text-black top-0 z-40 shadow-md">
                 <div className="flex items-center justify-between p-2 md:p-4">
                     <div className="flex items-center">
                         <img
@@ -85,8 +94,8 @@ export default function DrawerAppBar() {
                         </svg>
                     </button>
                     <nav className="hidden md:flex space-x-4">
-                        {navItems.map(({ title, dropdownItems }) => (
-                            <Dropdown key={title} title={title} items={dropdownItems} />
+                        {navItems.map(({ title, dropdownItems, routes }) => (
+                            <Dropdown key={title} title={title} items={dropdownItems} routes={routes} />
                         ))}
                     </nav>
                 </div>
@@ -115,29 +124,31 @@ export default function DrawerAppBar() {
                             </button>
                         </div>
                         <div className="flex flex-col px-4">
-                            {navItems.map(({ title, dropdownItems }, index) => (
+                            {navItems.map(({ title, dropdownItems, routes }, index) => (
                                 <div key={title} className="border-b border-gray-300 py-2">
                                     <button
                                         className="flex items-center justify-between w-full text-black text-left"
                                         onClick={() => toggleDropdown(index)}
                                     >
-                                        {title}
-                                        <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            fill="none"
-                                            viewBox="0 0 24 24"
-                                            stroke="currentColor"
-                                            className="h-4 w-4"
-                                        >
-                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                                        </svg>
+                                        {dropdownItems.length == 0?<Link to={routes[0]}>{title}</Link>:<>{title}</>}
+                                        {dropdownItems.length > 0 && (
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                fill="none"
+                                                viewBox="0 0 24 24"
+                                                stroke="currentColor"
+                                                className="h-4 w-4"
+                                            >
+                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                                            </svg>
+                                        )}
                                     </button>
-                                    {activeIndex === index && (
+                                    {activeIndex === index && dropdownItems.length > 0 && (
                                         <div className="mt-2 ml-4">
                                             {dropdownItems.map((item, i) => (
-                                                <div key={i} className="text-black py-1">
+                                                <Link key={i} to={routes[i]} className="text-black py-1 block">
                                                     {item}
-                                                </div>
+                                                </Link>
                                             ))}
                                         </div>
                                     )}
