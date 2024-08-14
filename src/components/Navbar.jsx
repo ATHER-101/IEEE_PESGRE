@@ -4,15 +4,27 @@ import Dropdown from './Dropdown';
 const navItems = [
     {
         title: 'Home',
-        dropdownItems: ['Sub Item 1', 'Sub Item 2', 'Sub Item 3'],
+        dropdownItems: [],
     },
     {
         title: 'About',
-        dropdownItems: ['Sub Item A', 'Sub Item B'],
+        dropdownItems: ['Organizing Committee', 'Chairs'],
+    },
+    {
+        title: 'Authors',
+        dropdownItems: ['Call for Papers', 'Submission & Registration'],
+    },
+    {
+        title: 'Program',
+        dropdownItems: ['Keynote Speakers'],
+    },
+    {
+        title: 'Students & YPs',
+        dropdownItems: [],
     },
     {
         title: 'Contact',
-        dropdownItems: ['Sub Item X', 'Sub Item Y'],
+        dropdownItems: [],
     },
 ];
 

@@ -16,43 +16,39 @@ const Footer = () => {
   return (
     <div id="footer" className="bg-gray-800 text-white">
       <div className="max-w-6xl mx-auto py-6 px-4">
-      <div className="flex items-center mb-4 md:mb-0">
-            <a href="#" className="w-full">
-              <img
-                className="max-w-[400px] w-[100%] px-3 py-5"
-                src={`/Logo_PESGRE_1.png`}
-                alt="Logo"
-              />
+        <div className="flex items-center mb-4 md:mb-0">
+            <a href="#" className="w-full items-center flex justify-center">
+              <div className="bg-gray-300 p-3 w-[20rem] justify-center items-center rounded">
+                <img
+                  className="max-w-[400px] w-[100%] px-1 py-1"
+                  src={`/Logo_PESGRE_1.png`}
+                  alt="Logo"
+                />
+              </div>
             </a>
-          </div>
+        </div>
         <div className="flex flex-col md:flex-row items-center justify-between">
           <div className="flex space-x-4 mb-4 md:mb-0">
             <div
               onClick={() => handleOnClick("hero")}
-              className="cursor-pointer hover:underline"
+              className="cursor-pointer hover:underline m-5"
             >
               Home
             </div>
             <div
               onClick={() => handleOnClick("eventsId")}
-              className="cursor-pointer hover:underline"
+              className="cursor-pointer hover:underline m-5"
             >
-              Events
+              Contact
             </div>
           </div>
 
           <div className="flex flex-col mb-4 md:mb-0">
             <a
-              href="mailto:gstech@iitdh.ac.in"
+              href="mailto:pro@iitdh.ac.in"
               className="hover:underline"
             >
-              gstech@iitdh.ac.in
-            </a>
-            <a
-              href="mailto:oss@iitdh.ac.in"
-              className="hover:underline"
-            >
-              oss@iitdh.ac.in
+              pro@iitdh.ac.in
             </a>
           </div>
           <div className="flex items-center space-x-4">
@@ -71,7 +67,7 @@ const Footer = () => {
                 />
               </a>
             </div>
-            <div>© Copyright - {year} SOI all rights reserved</div>
+            <div>© Copyright - {year} IITDh all rights reserved</div>
           </div>
         </div>
       </div>
