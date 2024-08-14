@@ -2,7 +2,7 @@ import React from 'react'
 
 function CallForPapers() {
   const openPDF = () => {
-    window.open('/example.pdf', '_blank'); // Opens the PDF in a new tab
+    window.open('/pdf.pdf', '_blank'); // Opens the PDF in a new tab
   };
 
   return (
