@@ -30,7 +30,7 @@ export default function Dropdown({ title, items }) {
                 </svg>
             </button>
             {isOpen && (
-                <div className="absolute right-0 w-48 bg-white border-gray-300 rounded-sm shadow-lg z-10">
+                <div className="absolute right-0 w-auto bg-white border border-gray-300 rounded-sm shadow-lg z-10">
                     {items.map((item, index) => (
                         <React.Fragment key={index}>
                             <div className="px-4 py-2 text-black hover:bg-gray-100 cursor-pointer">
