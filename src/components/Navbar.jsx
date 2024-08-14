@@ -72,13 +72,13 @@ export default function DrawerAppBar() {
         <div>
             <header className="sticky w-[100%] bg-white text-black top-0 z-40 shadow-md">
                 <div className="flex items-center justify-between p-2 md:p-4">
-                    <div className="flex items-center">
+                    <Link to="/" className="flex items-center">
                         <img
                             src="/Logo_PESGRE_1.png"
                             alt="Logo"
                             className="h-8 md:h-12" // Adjust the height as needed
                         />
-                    </div>
+                    </Link>
                     <button
                         className="md:hidden p-2"
                         onClick={toggleDrawer}
@@ -106,11 +106,13 @@ export default function DrawerAppBar() {
                 <div className="fixed inset-0 bg-gray-700 bg-opacity-50 z-40 md:hidden">
                     <div ref={drawerRef} className="absolute top-0 left-0 w-64 bg-white h-full shadow-lg">
                         <div className="flex items-center justify-between p-4">
-                            <img
-                                src="/Logo_PESGRE_1.png"
-                                alt="Logo"
-                                className="h-6"
-                            />
+                            <Link to="/">
+                                <img
+                                    src="/Logo_PESGRE_1.png"
+                                    alt="Logo"
+                                    className="h-6"
+                                />
+                            </Link>
                             <button onClick={toggleDrawer}>
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -130,7 +132,7 @@ export default function DrawerAppBar() {
                                         className="flex items-center justify-between w-full text-black text-left"
                                         onClick={() => toggleDropdown(index)}
                                     >
-                                        {dropdownItems.length == 0?<Link to={routes[0]}>{title}</Link>:<>{title}</>}
+                                        {dropdownItems.length == 0 ? <Link to={routes[0]}>{title}</Link> : <>{title}</>}
                                         {dropdownItems.length > 0 && (
                                             <svg
                                                 xmlns="http://www.w3.org/2000/svg"

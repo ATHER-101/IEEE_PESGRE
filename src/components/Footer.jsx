@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const prefix = "prefix";
 
@@ -16,11 +17,13 @@ const Footer = () => {
   return (
     <div id="footer" className="bg-gray-800 text-white">
       <div className="max-w-6xl mx-auto py-6 px-4">
-        <img
-          className="max-w-[400px] w-[100%] px-5 py-3 fill-current text-white"
-          src={`/Logo_PESGRE_1.svg`}
-          alt="Logo"
-        />
+        <Link to="/">
+          <img
+            className="max-w-[400px] w-[100%] px-5 py-3 fill-current text-white"
+            src={`/Logo_PESGRE_1.svg`}
+            alt="Logo"
+          />
+        </Link>
         <div className="flex flex-col md:flex-row items-center justify-between">
           <div className="flex space-x-4 mb-4 md:mb-0">
             <div
