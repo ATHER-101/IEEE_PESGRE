@@ -1,0 +1,16 @@
+.responsive-carousel-div {
+    /* Default styles for PC screens */
+    width: 100%;
+}
+
+@media (max-width: 768px) { /* Adjust the max-width as needed for your mobile breakpoint */
+    .responsive-carousel-div {
+            height: 30vh; /* Set height to 30% of the viewport height for mobile screens */
+        }
+
+    .responsive-img {
+        height: 100%; /* Fill the height of the container */
+        width: auto; /* Allow width to adjust automatically */
+        object-fit: cover; /* Cover the container while preserving aspect ratio */
+    }
+}

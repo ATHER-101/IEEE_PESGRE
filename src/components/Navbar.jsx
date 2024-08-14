@@ -84,7 +84,7 @@ export default function DrawerAppBar() {
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16m-7 6h7" />
                         </svg>
                     </button>
-                    <nav className="hidden md:flex space-x-4">
+                    <nav className="hidden md:flex space-x-4 z-100">
                         {navItems.map(({ title, dropdownItems }) => (
                             <Dropdown key={title} title={title} items={dropdownItems} />
                         ))}

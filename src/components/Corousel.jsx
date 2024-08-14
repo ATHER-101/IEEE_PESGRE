@@ -3,6 +3,7 @@ import Slider from 'react-slick';
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import '/src/components/carousel.css'
 
 const images = [
   {
@@ -73,7 +74,7 @@ function SwipeableTextMobileStepper() {
   };
 
   return (
-    <div className="relative w-full">
+    <div className="relative responsive-carousel-div w-full">
       <Slider {...settings} ref={setSliderRef}>
         {images.map((step) => (
           <div key={step.label}>

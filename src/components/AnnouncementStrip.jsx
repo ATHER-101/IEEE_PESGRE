@@ -1,11 +1,12 @@
 import React, { useState, useRef, useEffect } from 'react';
 
 const textArray = [
-  "Item 1 - News",
-  "Item 2 - Updates",
-  "Item 3 - Announcements",
-  "Item 4 - Alerts",
-  "Item 5 - Events",
+  "For News",
+  "Updates",
+  "Announcements",
+  "Alerts",
+  "Events",
+  "look into the contacts section of the page"
 ];
 
 export default function RunningTextStrip() {

@@ -54,7 +54,7 @@ const Footer = () => {
           <div className="flex items-center space-x-4">
             <div className="flex items-center">
               <a
-                href="https://www.instagram.com/technical.council_iitdh/"
+                href=""
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:underline"
