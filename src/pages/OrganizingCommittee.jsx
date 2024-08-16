@@ -29,7 +29,7 @@ function OrganizingCommittee() {
           General Co-Chairs
         </div>
         <div className="text-lg text-center">
-          Sertac Bayhan, Gazi University, Turkiye & HBKU, Qatar
+          Satish Naik Banavath, Gazi University, Turkiye & HBKU, Qatar
           <br />
           Haitham Abu-Rub, Texas A&M University at Qatar, Qatar
           <br />
