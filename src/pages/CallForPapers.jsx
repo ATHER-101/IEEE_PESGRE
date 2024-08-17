@@ -56,13 +56,10 @@ function CallForPapers() {
         <section className="mb-8">
           <h2 className="text-xl font-semibold text-blue-600 mb-2">Overview</h2>
           <p>
-            CPE-POWERENG is a flagship conference of the IEEE Industrial Electronics Society. It is devoted to the
-            dissemination of new ideas, research and work in progress within the fields of power electronics, renewable
-            energy integration, power generation, transmission and distribution, power systems, electro-mechanical energy
-            conversion, automation and EMC/EMI issues. The objectives of the conference are to provide high quality
-            research and professional interactions between industry and academia for the advancement of science,
-            technology and fellowship. The main features of the conference include Invited Talks, Regular Sessions, and
-            Special Sessions.
+            PESGRE 2025 is a biennial conference organized by IA/IE/PEL Jt. Chapter Kerala. The conference is sponsored by financially co-sponsored by IEEE Industry Applications Society, IEEE
+Kerala section, and IA/IE/PEL Jt. Chapter Kerala. The conference is technically co-sponsored by IEEE Power Electronics Society, Industrial Electronics Society, and Power&
+Energy Society. The theme of the conference is “Power Electronics and renewable energy for sustainable development” and will be held from 18-24 December 2025 at
+IIT Dharwad, Dharwad, India.
           </p>
         </section>
 
