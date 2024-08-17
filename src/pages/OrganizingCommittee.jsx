@@ -29,11 +29,11 @@ function OrganizingCommittee() {
           General Co-Chairs
         </div>
         <div className="text-lg text-center">
-          Satish Naik Banavath, Gazi University, Turkiye & HBKU, Qatar
+          Satish Naik Banavath, Indian Institute of Technology Dharwad, Karnataka, India
           <br />
-          Haitham Abu-Rub, Texas A&M University at Qatar, Qatar
+          Dmitri Vinnikov, Tallinn University of Technology, Estonia
           <br />
-          Naki Guler, Gazi University, Turkiye
+          Sheldon Williamson, Ontario Tech University, Canada
         </div>
       </div>
 
@@ -41,17 +41,18 @@ function OrganizingCommittee() {
       <div className="flex flex-wrap m-7">
         <div className="w-full md:w-1/2 p-4">
           <h2 className="text-blue-600 font-bold">Honorary Chair</h2>
-          <p>Mariusz Malinowski, Warsaw University of Technology, Poland</p>
-
-          <h2 className="text-blue-600 font-bold">Honorary Co-Chairs</h2>
-          <p>Joao Martins, Nova School of Science and Technology, Portugal</p>
-          <p>Ryszard Strzelecki, Gdansk University of Technology, Poland</p>
+          <p> Andy Knight, President, IEEE IAS </p>
+          <p> Brad Lehman, President, IEEE PELS </p>
+          <p> Milos Manic, President, IEEE IES </p>
+          <p> Shay Bahramirad, President, IEEE PES </p>
+          <p> Muhammed Kasim S, Chair, IEEE Kerala Section </p>
+          <p> Vasanthi V, Chair IA/IE/PELS Jt. Chapter Kerala Section </p>
 
           <h2 className="text-blue-600 font-bold">Technical Program Chairs</h2>
-          <p>Enrique R. Cadaval, University of Extremadura, Spain</p>
-          <p>Krzysztof Górecki, Gdynia Maritime University, Poland</p>
-          <p>Ramazan Bayindir, Gazi University, Turkiye</p>
-          <p>Mohamad Shadmand, University of Illinois Chicago, USA</p>
+          <p>Abhijit Kshirsagar, IIT Dharwad, India </p>
+          <p>Andrii Chub, Tallinn University of Technology, Estonia </p>
+          <p>Rajendra Singh, Clemson University, Clemson USA </p>
+          <p>Bijuna Kunju K, TKMCE, Kollam, India</p>
 
           <h2 className="text-blue-600 font-bold">Special Session Chairs</h2>
           <p>Hadi Kanaan, Saint-Joseph University of Beirut, Lebanon</p>
