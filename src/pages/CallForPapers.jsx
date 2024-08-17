@@ -66,7 +66,7 @@ IIT Dharwad, Dharwad, India.
         <section className="mb-8">
           <h2 className="text-xl font-semibold text-blue-600 mb-2">Paper Submission</h2>
           <p>
-            Prospective authors are invited to electronically submit full papers in English, 4-6 pages, in pdf format
+            Prospective authors are invited to electronically submit full papers in English, 6 pages, in pdf format
             following instructions on the website. The conference proceedings will be submitted to the IEEE Xplore
             Digital Library®.
           </p>
@@ -119,7 +119,7 @@ IIT Dharwad, Dharwad, India.
           <p>
             Prospective authors are invited to submit full papers to{' '}
             <a
-              href="https://confcomm.ieee-ies.org/app/general/conferences/CPE-POWERENG25/initial-submission"
+              href="https://pesgre2025.org/"
               className="text-blue-500 underline"
               target="_blank"
               rel="noopener noreferrer"
