@@ -7,7 +7,7 @@ import 'slick-carousel/slick/slick-theme.css';
 const images = [
   {
     label: 'San Francisco – Oakland Bay Bridge, United States',
-    imgPath: '/tmp1.jpg',
+    imgPath: '/banner_1.jpg',
   },
   {
     label: 'San Francisco – Oakland Bay Bridge, United States',
