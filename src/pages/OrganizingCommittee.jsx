@@ -95,55 +95,40 @@ function OrganizingCommittee() {
 
         <div className="w-full md:w-1/2 p-4">
           <h2 className="text-blue-600 font-bold">International Advisory Board</h2>
-          <p>K. Al Haddad, University of Quebec, Canada</p>
-          <p>O. Kaynak, Bogazici University, Turkiye</p>
-          <p>K. Abdellah, Djelfa University, Algeria</p>
-          <p>A. M. Cardoso, University of Beira Interior, Portugal</p>
-          <p>M. Aly, Universidad San Sebastián, Chile</p>
-          <p>A. Barrado, Universidad Carlos III de Madrid, Spain</p>
-          <p>P. Bauer, Delft University of Technology, Netherlands</p>
-          <p>A. Benigni, Forschungszentrum Jülich, Germany</p>
-          <p>S. Bernet, Technische Universitat Dresden, Germany</p>
-          <p>R. Blasco, Technical University of Valencia, Spain</p>
-          <p>C. Cecati, University of L’Aquila, Italy</p>
-          <p>C. Chakraborty, Indian Institute of Technology Kharagpur, India</p>
-          <p>R. W. De Doncker, RWTH Aachen, Germany</p>
-          <p>F. Flores, Universidad Andres Bello, Chile</p>
-          <p>F. Gao, University of Technology of Belfort-Montbéliard, France</p>
-          <p>O. García, Universidad Politécnica de Madrid, Spain</p>
-          <p>A. Emadi, McMaster University, Canada</p>
-          <p>A. Iqbal, Qatar University, Qatar</p>
-          <p>P. Karamanakos, Tampere University, Finland</p>
-          <p>J. W. Kolar, ETH Zurich, Switzerland</p>
-          <p>S. Kouro, Federico Santa María Technical University, Chile</p>
-          <p>J. Kyyrä, Aalto University, Finland</p>
-          <p>M. Liserre, University of Kiel, Germany</p>
-          <p>Y. Liu, Beihang University, China</p>
-          <p>O. Lucía, University of Zaragoza, Spain</p>
-          <p>P. Mattavelli, University of Padova, Italy</p>
-          <p>H. Mashinchi Maheri, University of Tabriz, Iran</p>
-          <p>R. Mastromauro, University of Florence, Italy</p>
-          <p>V. Monteiro, University of Minho, Portugal</p>
-          <p>A. Moreno, University of Cordoba, Spain</p>
-          <p>S. Norrga, KTH Royal Institute of Technology, Sweden</p>
-          <p>G. Petrone, University of Salerno, Italy</p>
-          <p>S. Pinto, University of Lisboa, Portugal</p>
-          <p>A. Pires, Polytechnic Institute of Setubal, Portugal</p>
-          <p>J. Rabkowski, Warsaw University of Technology, Poland</p>
-          <p>M. Ricco, University of Bologna, Italy</p>
-          <p>S. Rivera, Universidad de los Andes, Chile</p>
-          <p>R. Rizzo, Università di Napoli Federico II, Italy</p>
-          <p>J. Rodriguez, Andrés Bello National University, Chile</p>
-          <p>M. Shafie-khah, University of Vaasa, Finland</p>
-          <p>Y. Shi, University of Victoria, Canada</p>
-          <p>T. Strasser, Austrian Institute of Technology, Austria</p>
-          <p>S. Vazquez, University of Seville, Spain</p>
-          <p>J. Onno Krah, TH Köln, Germany</p>
-          <p>H. Gao, Harbin Institute of Technology, China</p>
-          <p>M. Trabelsi, Kuwait College of Science and Technology, Kuwait</p>
-          <p>S. Khalil, University of Hertfordshire, UK</p>
-          <p>Z. Li, Ningbo University of Technology, China</p>
-          <p>L. Yang, Ningbo University of Technology, China</p>
+         <p> A K Srivasthava, IIT Kanpur, India</p>
+          <p>  Amit Kumar Gupta, Rolls Royce, Singapore</p>
+<p>Bhim Singh, IIT Delhi, India</p>
+<p>C. Cecati, University of L’Aquila, Italy</p>
+<p>C. Chakraborty, Indian Inst. of Technology Kharagpur, India</p>
+<p>Chun Che Fung, Director, IEEE R10</p>
+<p>Drazen Dujic, École Polytechnique Fédérale de Lausanne – EPFL, Switzerland</p>
+<p>Enrique Romero Cadaval, University of Extremadura, Badajoz, Spain</p>
+<p>F. Flores, Universidad Andres Bello, Chile</p>
+<p>Frede Blaabjerg, Aalborg University</p>
+<p>G. Bhuvaneswari, Mahindra University, India</p>
+<p>Gopakumar K, IISc Bangalore, India</p>
+<p>Holtz, University of Wuppertal, Germany</p>
+<p>J. Rabkowski, Warsaw University of Technology, Poland</p>
+<p>Johann W. Kolar, ETH Zurich, Zurich, Switzerland</p>
+<p>John D. McDonald, GE’s Grid Solutions business, USA</p>
+<p>Joseph Ojo, Tennessee Technological University</p>
+<p>Kaushik Rajashekara, University of Houston, Texas, USA</p>
+<p>L Umanand, IISC Bangalore, India</p>
+<p>Mariusz Malinowski, Warsaw University of Technology, Poland</p>
+<p>Pragasen Pillai, Concordia University, Canada</p>
+<p>Prasad Enjeti, Texas A&M University, USA</p>
+<p>S S Murthy, BoG Member, IIT Dharwad</p>
+<p>Subba Reddy B, IISc Bangalore</p>
+<p>S. Norrga, KTH Royal Institute of Technology, Sweden</p>
+<p>S. Pinto, University of Lisboa, Portugal</p>
+<p>Saifur Rahman, Advanced Research Institute at Virginia Tech, USA</p>
+<p>Sameer S M, Secretary, IEEE R10</p>
+<p>Samir Kouro, Universidad Tecnica Federico Santa Maria Valparaiso, Chile</p>
+<p>Sanjib Panda, NUS Singapore</p>
+<p>Suresh Nair, Immediate past chair, IEEE India Council</p>
+<p>Vivek Agarwal, IIT Bombay, India</p>
+<p>V. Fernão Pires, Polytechnic Institute of Setubal, Portugal</p>
+         
         </div>
       </div>
     </div>
