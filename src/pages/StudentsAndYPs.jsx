@@ -30,7 +30,7 @@ function StudentsAndYPs() {
         the IES President, AdCom members, and experienced colleagues. The SYP forum program will include a series of keynote speeches by the leaders of academia and industry, a 3M video session,
         and an open discussion between the participants. We encourage all conference participants to join!
               
-      This event includes tutorials from academia and industry, a 3-min Video Session, and an open discussion forum.
+      This event includes tutorials from academia and industry, a <b></>3-min Video Session</b>, and an open discussion forum.
       
       
       
