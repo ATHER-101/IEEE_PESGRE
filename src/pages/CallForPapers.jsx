@@ -71,9 +71,8 @@ IIT Dharwad, Dharwad, India.
             Digital Library®.
           </p>
           <p>
-            The top 10% of papers (as per the review score) of CPE-POWERENG conference papers will be invited to submit
-            the revised versions as post-conference papers for further review and possible publication in the IEEE-IES
-            Journals.
+            The papers presented at the PESGRE 2025 conference are eligible to submit the revised versions as post-conference papers for further review and possible publication in the IEEE-IAS
+            Transactions and Magazine.
           </p>
         </section>
 
