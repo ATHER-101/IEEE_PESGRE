@@ -22,7 +22,7 @@ function StudentsAndYPs() {
 
       <div className="text-3xl text-center m-5 mb-20 uppercase">
         Students & YPs
-      <div className="mx-[12%] mt-5 mb-20"> 
+      <h2>
         The Student & Young Professionals (S&YP) Activity Committee of the Industrial Electronics Society (IES) is continuously implementing a paper assistance program (IES-SYPA)
         – a competition-based financial support for the IES S&YP members to attend IES Majority Sponsored Conferences.
         Moreover, during the conference, we will organize a SYP forum – a special event aimed at helping students and young professional members 
@@ -31,12 +31,8 @@ function StudentsAndYPs() {
         and an open discussion between the participants. We encourage all conference participants to join!
               
       This event includes tutorials from academia and industry, a <b></>3-min Video Session</b>, and an open discussion forum.
-      
-      
-      
-      </div>
-
-        
+      </h2>           
+         
       </div>
     </div>
   )
