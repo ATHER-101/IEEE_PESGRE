@@ -65,29 +65,19 @@ function OrganizingCommittee() {
           <p> Jaison Mathew, Government Engineering College Thrissur, Kerala, India</p>
       
           <h2 className="text-blue-600 font-bold">Publicity Chairs</h2>
-          <p>Animesh Kumar Sahoo, IIT Dharwad, India</p>
+           <p>Animesh Kumar Sahoo, IIT Dharwad, India</p>
            <p> Naga Brahmendra , IIT Palakad, India</p>
            <p> Biju K, APJ Abdul Kalam Technological University, Kerala, India</p>
           
           <h2 className="text-blue-600 font-bold">Finance Chair</h2>
           <p>Satish Naik Banavath, IIT Dharwad, India </p>
-           <p>  Prathyasa Bhui, IIT Dharwad, India</p>
-            <p> Nandan S, Treasurer, IEEE Kerala Section, India</p>
+          <p>  Prathyasa Bhui, IIT Dharwad, India</p>
+           <p> Nandan S, Treasurer, IEEE Kerala Section, India</p>
 
           <h2 className="text-blue-600 font-bold">Student and Young Professionals Chairs</h2>
-          <p>Dmitri Vinnikov, Tallinn University of Technology, Estonia</p>
-          <p>Andrii Chub, Tallinn University of Technology, Estonia</p>
-          <p>Hani Vahedi, Delft University of Technology, Netherlands</p>
-          <p>Ali Sharida, Hamad Bin Khalifa University, Qatar</p>
-
-          <h2 className="text-blue-600 font-bold">Local Organizing Committee</h2>
-          <p>Fatih Issı, Cankiri Karatekin University, Turkiye</p>
-          <p>Seyfettin Vadi, Gazi University, Turkiye</p>
-          <p>Halil Ertaş, Akdeniz University, Turkiye</p>
-          <p>Kemal Celik, Akdeniz University, Turkiye</p>
-          <p>Murat Akın, Gazi University, Turkiye</p>
-          <p>Rıdvan Canbaz, Hacı Bektas Veli University, Turkiye</p>
-          <p>Halil İbrahim Aytekin, Akdeniz University, Turkiye</p>
+          <p>Edivan Laercio Carvalho da Silva, Tallinn University of Technology, Estonia</p>
+           <p> Sai Ram Boggavarapu, IIT Dharwad, India</p>
+        
         </div>
 
         <div className="w-full md:w-1/2 p-4">
