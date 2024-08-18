@@ -22,7 +22,7 @@ function StudentsAndYPs() {
 
       <div className="text-3xl text-center m-5 mb-20 uppercase">
         Students & YPs
-      <h2>
+      <h3>
         <p>The Student & Young Professionals (S&YP) Activity Committee of the Industrial Electronics Society (IES) is continuously implementing a paper assistance program (IES-SYPA)
         – a competition-based financial support for the IES S&YP members to attend IES Majority Sponsored Conferences.
         Moreover, during the conference, we will organize a SYP forum – a special event aimed at helping students and young professional members 
@@ -31,9 +31,9 @@ function StudentsAndYPs() {
         and an open discussion between the participants. We encourage all conference participants to join!
               
       This event includes tutorials from academia and industry, a <b>3-min Video Session</b>, and an open discussion forum. </p>
-     </h2> 
+     </h3> 
    <h1> <b>HOW TO APPLY</b></h1>
-   <h2> You MUST be an IEEE member. Whether Student, Graduate Student or Young Professional (YP). You are considered YP up to 15 years after your graduation.
+   <h3> You MUST be an IEEE member. Whether Student, Graduate Student or Young Professional (YP). You are considered YP up to 15 years after your graduation.
    <p> You MUST be a member of the IEEE Industrial Electronics Society.</p>
    <p> You MUST have a paper accepted at the conference as an author or co-author and be the person to present it at the conference.</p>
   <p>  You MUST reside outside the city in which the conference is held.</p>
@@ -47,14 +47,10 @@ function StudentsAndYPs() {
   <p>  At least the last 5 seconds MUST contain the Acknowledgment to IEEE IES for the IES-SYPA!</p>
   <p>  The video MUST be shared through sharing websites like Dropbox, Google Drive, OneDrive, etc. Make sure to provide the link without requiring permission (MUST be viewable to anyone who has the link)</p>
       
-      </h2>           
-
-
-
-        
+      </h3>           
+       
       </div>
     </div>
-  )
 }
 
 export default StudentsAndYPs
