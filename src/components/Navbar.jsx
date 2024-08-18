@@ -29,6 +29,16 @@ const navItems = [
         routes: ["/students-yp"],
     },
     {
+        title: 'Travel',
+        dropdownItems: ['Keynote Speakers'],
+        routes: ['/program/keynote-speakers'],
+    },
+        {
+        title: 'Sponsorship',
+        dropdownItems: [],
+        routes: ["/industry-sponsor"],
+    },
+    {
         title: 'Contact',
         dropdownItems: [],
         routes: ["/contact"],
