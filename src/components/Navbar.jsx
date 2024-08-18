@@ -29,6 +29,16 @@ const navItems = [
         routes: ["/students-yp"],
     },
     {
+        title: 'Travel',
+        dropdownItems: ['Visa Information', 'Hotel Booking', 'Tour', 'Food', 'Directions to Conference Venue'],
+        routes: [""],
+    },
+        {
+        title: 'Sponsorship',
+        dropdownItems: [],
+        routes: ["/industry-sponsor"],
+    },
+    {
         title: 'Contact',
         dropdownItems: [],
         routes: ["/contact"],
