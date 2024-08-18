@@ -69,7 +69,7 @@ function SwipeableTextMobileStepper() {
           className="justify-center text-center text-white"
           style={{ fontFamily: 'Libre Franklin, sans-serif', fontWeight: 800 }}
         >
-          Welcome to PESGRE 2025
+          
         </h1>
       </div>
     </div>
