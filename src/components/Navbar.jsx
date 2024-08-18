@@ -30,8 +30,8 @@ const navItems = [
     },
     {
         title: 'Travel',
-        dropdownItems: ['Keynote Speakers'],
-        routes: ['/program/keynote-speakers'],
+        dropdownItems: ['Visa Information', 'Hotel Booking', 'Tour', 'Food', 'Directions to Conference Venue'],
+        routes: [""],
     },
         {
         title: 'Sponsorship',
