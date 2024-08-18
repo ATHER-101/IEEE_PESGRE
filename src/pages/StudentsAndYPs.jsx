@@ -51,6 +51,7 @@ function StudentsAndYPs() {
        
       </div>
     </div>
+    )
 }
 
 export default StudentsAndYPs
