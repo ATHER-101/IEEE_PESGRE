@@ -55,27 +55,24 @@ function OrganizingCommittee() {
           <p>Bijuna Kunju K, TKMCE, Kollam, India</p>
 
           <h2 className="text-blue-600 font-bold">Special Session Chairs</h2>
-          <p>Hadi Kanaan, Saint-Joseph University of Beirut, Lebanon</p>
-          <p>Hasan Komurcugil, Eastern Mediterranean Univ., Turkiye</p>
-          <p>Sheldon Williamson, Ontario Tech University, Canada</p>
-
+          <p>Deepak Ronanki, IIT Madras, India</p>
+           <p> Sertac Bayhan, Hamad Bin Khalifa University, Qatar</p>
+           <p> Sairaj Dhople, University of Minnesota, USA</p>
+          
           <h2 className="text-blue-600 font-bold">Publication Chairs</h2>
-          <p>Leopoldo Franquelo, University of Seville, Spain</p>
-          <p>Sevki Demirbas, Gazi University, Turkiye</p>
-          <p>Luigi Piegari, Polytechnic University of Milan, Italy</p>
-          <p>Giampaolo Buticchi, University of Nottingham Ningbo China</p>
-
+          <p>Srinivas Bhaskar Karanki, IIT Bhubaneswar, India </p>
+          <p>  Amarkumar Ayodhyasingh Kushwaha, IIT Dharwad, India </p>
+          <p> Jaison Mathew, Government Engineering College Thrissur, Kerala, India</p>
+      
           <h2 className="text-blue-600 font-bold">Publicity Chairs</h2>
-          <p>Farzaneh Bagheri, Antalya Bilim University, Turkiye</p>
-          <p>Anas Karaki, Hamad Bin Khalifa University, Qatar</p>
-          <p>Akshay Rathore, Singapore Institute of Technology</p>
-          <p>Erdal Irmak, Gazi University, Turkiye</p>
-          <p>Jun Cheng, Ningbo University of Technology, China</p>
-          <p>Hamza Makhamreh, Ozyegin University, Turkey</p>
-          <p>Hasan Dincer, Istanbul Medipol University, Turkey</p>
-
+          <p>Animesh Kumar Sahoo, IIT Dharwad, India</p>
+           <p> Naga Brahmendra , IIT Palakad, India</p>
+           <p> Biju K, APJ Abdul Kalam Technological University, Kerala, India</p>
+          
           <h2 className="text-blue-600 font-bold">Finance Chair</h2>
-          <p>Ugur Fesli, Gazi University, Turkiye</p>
+          <p>Satish Naik Banavath, IIT Dharwad, India </p>
+           <p>  Prathyasa Bhui, IIT Dharwad, India</p>
+            <p> Nandan S, Treasurer, IEEE Kerala Section, India</p>
 
           <h2 className="text-blue-600 font-bold">Student and Young Professionals Chairs</h2>
           <p>Dmitri Vinnikov, Tallinn University of Technology, Estonia</p>
@@ -96,38 +93,38 @@ function OrganizingCommittee() {
         <div className="w-full md:w-1/2 p-4">
           <h2 className="text-blue-600 font-bold">International Advisory Board</h2>
          <p> A K Srivasthava, IIT Kanpur, India</p>
-          <p>  Amit Kumar Gupta, Rolls Royce, Singapore</p>
-<p>Bhim Singh, IIT Delhi, India</p>
-<p>C. Cecati, University of L’Aquila, Italy</p>
-<p>C. Chakraborty, Indian Inst. of Technology Kharagpur, India</p>
-<p>Chun Che Fung, Director, IEEE R10</p>
-<p>Drazen Dujic, École Polytechnique Fédérale de Lausanne – EPFL, Switzerland</p>
-<p>Enrique Romero Cadaval, University of Extremadura, Badajoz, Spain</p>
-<p>F. Flores, Universidad Andres Bello, Chile</p>
-<p>Frede Blaabjerg, Aalborg University</p>
-<p>G. Bhuvaneswari, Mahindra University, India</p>
-<p>Gopakumar K, IISc Bangalore, India</p>
-<p>Holtz, University of Wuppertal, Germany</p>
-<p>J. Rabkowski, Warsaw University of Technology, Poland</p>
-<p>Johann W. Kolar, ETH Zurich, Zurich, Switzerland</p>
-<p>John D. McDonald, GE’s Grid Solutions business, USA</p>
-<p>Joseph Ojo, Tennessee Technological University</p>
-<p>Kaushik Rajashekara, University of Houston, Texas, USA</p>
-<p>L Umanand, IISC Bangalore, India</p>
-<p>Mariusz Malinowski, Warsaw University of Technology, Poland</p>
-<p>Pragasen Pillai, Concordia University, Canada</p>
-<p>Prasad Enjeti, Texas A&M University, USA</p>
-<p>S S Murthy, BoG Member, IIT Dharwad</p>
-<p>Subba Reddy B, IISc Bangalore</p>
-<p>S. Norrga, KTH Royal Institute of Technology, Sweden</p>
-<p>S. Pinto, University of Lisboa, Portugal</p>
-<p>Saifur Rahman, Advanced Research Institute at Virginia Tech, USA</p>
-<p>Sameer S M, Secretary, IEEE R10</p>
-<p>Samir Kouro, Universidad Tecnica Federico Santa Maria Valparaiso, Chile</p>
-<p>Sanjib Panda, NUS Singapore</p>
-<p>Suresh Nair, Immediate past chair, IEEE India Council</p>
-<p>Vivek Agarwal, IIT Bombay, India</p>
-<p>V. Fernão Pires, Polytechnic Institute of Setubal, Portugal</p>
+         <p>  Amit Kumar Gupta, Rolls Royce, Singapore</p>
+          <p>Bhim Singh, IIT Delhi, India</p>
+          <p>C. Cecati, University of L’Aquila, Italy</p>
+          <p>C. Chakraborty, Indian Inst. of Technology Kharagpur, India</p>
+          <p>Chun Che Fung, Director, IEEE R10</p>
+          <p>Drazen Dujic, École Polytechnique Fédérale de Lausanne – EPFL, Switzerland</p>
+          <p>Enrique Romero Cadaval, University of Extremadura, Badajoz, Spain</p>
+          <p>F. Flores, Universidad Andres Bello, Chile</p>
+          <p>Frede Blaabjerg, Aalborg University</p>
+          <p>G. Bhuvaneswari, Mahindra University, India</p>
+          <p>Gopakumar K, IISc Bangalore, India</p>
+          <p>Holtz, University of Wuppertal, Germany</p>
+          <p>J. Rabkowski, Warsaw University of Technology, Poland</p>
+          <p>Johann W. Kolar, ETH Zurich, Zurich, Switzerland</p>
+          <p>John D. McDonald, GE’s Grid Solutions business, USA</p>
+          <p>Joseph Ojo, Tennessee Technological University</p>
+          <p>Kaushik Rajashekara, University of Houston, Texas, USA</p>
+          <p>L Umanand, IISC Bangalore, India</p>
+          <p>Mariusz Malinowski, Warsaw University of Technology, Poland</p>
+          <p>Pragasen Pillai, Concordia University, Canada</p>
+          <p>Prasad Enjeti, Texas A&M University, USA</p>
+          <p>S S Murthy, BoG Member, IIT Dharwad</p>
+          <p>Subba Reddy B, IISc Bangalore</p>
+          <p>S. Norrga, KTH Royal Institute of Technology, Sweden</p>
+          <p>S. Pinto, University of Lisboa, Portugal</p>
+          <p>Saifur Rahman, Advanced Research Institute at Virginia Tech, USA</p>
+          <p>Sameer S M, Secretary, IEEE R10</p>
+          <p>Samir Kouro, Universidad Tecnica Federico Santa Maria Valparaiso, Chile</p>
+          <p>Sanjib Panda, NUS Singapore</p>
+          <p>Suresh Nair, Immediate past chair, IEEE India Council</p>
+          <p>Vivek Agarwal, IIT Bombay, India</p>
+          <p>V. Fernão Pires, Polytechnic Institute of Setubal, Portugal</p>
          
         </div>
       </div>
