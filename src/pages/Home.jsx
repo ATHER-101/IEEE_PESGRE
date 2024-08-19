@@ -13,7 +13,7 @@ function Home() {
       </div>
      <div className="p-5">
         <div className="text-4xl mt-5 text-center text-red-500" style={{fontWeight: 500}}><u>Important Dates</u></div>
-        <div className="mx-[12%] mt-5 mb-20">    </div>
+        <div className="mx-[12%] mt-5 mb-20">  Submission Open: 15th April 2025  </div>
       </div>
     <div className="w-full bg-gray-200 p-5">
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
