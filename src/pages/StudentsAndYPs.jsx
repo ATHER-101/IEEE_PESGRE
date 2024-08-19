@@ -18,7 +18,7 @@ function StudentsAndYPs() {
         >
           Students & YPs
         </h1>
-      </div>
+    
 
       <div className="text-3xl text-center m-5 mb-20 uppercase">
         Students & YPs
@@ -48,7 +48,7 @@ function StudentsAndYPs() {
   <p>  The video MUST be shared through sharing websites like Dropbox, Google Drive, OneDrive, etc. Make sure to provide the link without requiring permission (MUST be viewable to anyone who has the link)</p>
       
       </h3>           
-       
+         </div>
       </div>
     </div>
     )
