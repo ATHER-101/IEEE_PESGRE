@@ -11,7 +11,7 @@ const images = [
   },
   {
     label: 'San Francisco – Oakland Bay Bridge, United States',
-    imgPath: '/tmp2.jpg',
+    imgPath: '/banner_2.jpg',
   },
   {
     label: 'San Francisco – Oakland Bay Bridge, United States',
