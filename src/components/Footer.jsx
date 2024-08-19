@@ -20,7 +20,7 @@ const Footer = () => {
         <Link to="/">
           <img
             className="max-w-[400px] w-[100%] px-5 py-3 fill-current text-white"
-            src={`/Logo_pesgre1.svg`}
+            src={`/Logo_pesgre1.png`}
             alt="Logo"
           />
         </Link>
