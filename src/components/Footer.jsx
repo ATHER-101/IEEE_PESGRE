@@ -20,7 +20,7 @@ const Footer = () => {
         <Link to="/">
           <img
             className="max-w-[400px] w-[100%] px-5 py-3 fill-current text-white"
-            src={`/Logo_PESGRE_1.svg`}
+            src={`/Logo_pesgre1.svg`}
             alt="Logo"
           />
         </Link>
@@ -42,10 +42,10 @@ const Footer = () => {
 
           <div className="flex flex-col mb-4 md:mb-0">
             <a
-              href="mailto:pro@iitdh.ac.in"
+              href="mailto:pesgre2025@iitdh.ac.in"
               className="hover:underline"
             >
-              pro@iitdh.ac.in
+              pesgre2025@iitdh.ac.in
             </a>
           </div>
           <div className="flex items-center space-x-4">
