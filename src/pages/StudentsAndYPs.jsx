@@ -18,10 +18,15 @@ function StudentsAndYPs() {
         >
           Students & YPs
         </h1>
-    
+     </div>
 
       <div className="text-3xl text-center m-5 mb-20 uppercase">
         Students & YPs
+
+      <div className="p-5">
+        <div className="text-4xl mt-5 text-center text-red-500" style={{fontWeight: 500}}><u>Important Info</u></div>
+        <div className="mx-[12%] mt-5 mb-20"> type here SYPA details </div>
+        </div>   
       <h3>
         <p>The Student & Young Professionals (S&YP) Activity Committee of the Industrial Electronics Society (IES) is continuously implementing a paper assistance program (IES-SYPA)
         – a competition-based financial support for the IES S&YP members to attend IES Majority Sponsored Conferences.
@@ -48,7 +53,7 @@ function StudentsAndYPs() {
   <p>  The video MUST be shared through sharing websites like Dropbox, Google Drive, OneDrive, etc. Make sure to provide the link without requiring permission (MUST be viewable to anyone who has the link)</p>
       
       </h3>           
-         </div>
+        
       </div>
     </div>
     )
