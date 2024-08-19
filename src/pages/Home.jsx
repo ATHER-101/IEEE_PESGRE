@@ -13,10 +13,14 @@ function Home() {
         </div>
         <div className="p-5">
         <div className="text-4xl mt-5 text-center text-red-500" style={{fontWeight: 500}}><u>Important Dates</u></div>
-        <div className="mx-[12%] mt-5 mb-20"> <p>Submission Open: 15th April 2025 </p>
-                                               <p> Paper Submission Deadline: 15th June 2025</p>
-        
-        </div>
+        <div className="mx-[12%] mt-5 mb-20">      <p>Submission Open: 15th April 2025 </p>
+                                                   <p>Paper Submission Deadline: 15th June 2025</p>
+                                                   <p>Call for Special Sessions: 15th April 2025</p>
+                                                   <p>Deadline for Special Session Proposals: 15th May 2025</p>
+                                                   <p>Notification of Paper Acceptance: 15th August 2025</p>
+                                                   <p>Paper Submission Deadline: 15th June 2025</p>
+                                                   <p>Final Camera-ready Paper: 15th September 2025</p>
+           </div>
         </div>  
         <div className="w-full bg-gray-200 p-5">
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
