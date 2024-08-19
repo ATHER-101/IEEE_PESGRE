@@ -13,10 +13,7 @@ const images = [
     label: 'San Francisco – Oakland Bay Bridge, United States',
     imgPath: '/banner_2.jpg',
   },
-  {
-    label: 'San Francisco – Oakland Bay Bridge, United States',
-    imgPath: '/tmp1.jpg',
-  },
+  
 ];
 
 function SwipeableTextMobileStepper() {
