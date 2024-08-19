@@ -27,7 +27,7 @@ function StudentsAndYPs() {
         <div className="text-4xl mt-5 text-center text-red-500" style={{fontWeight: 500}}><u>Important Info</u></div>
         <div className="mx-[12%] mt-5 mb-20"> type here SYPA details </div>
         </div>   
-      <h3>
+      <h5>
         <p>The Student & Young Professionals (S&YP) Activity Committee of the Industrial Electronics Society (IES) is continuously implementing a paper assistance program (IES-SYPA)
         – a competition-based financial support for the IES S&YP members to attend IES Majority Sponsored Conferences.
         Moreover, during the conference, we will organize a SYP forum – a special event aimed at helping students and young professional members 
@@ -36,7 +36,7 @@ function StudentsAndYPs() {
         and an open discussion between the participants. We encourage all conference participants to join!
               
       This event includes tutorials from academia and industry, a <b>3-min Video Session</b>, and an open discussion forum. </p>
-     </h3> 
+     </h5> 
    <h1> <b>HOW TO APPLY</b></h1>
    <h3> You MUST be an IEEE member. Whether Student, Graduate Student or Young Professional (YP). You are considered YP up to 15 years after your graduation.
    <p> You MUST be a member of the IEEE Industrial Electronics Society.</p>
