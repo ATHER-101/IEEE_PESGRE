@@ -25,8 +25,8 @@ function StudentsAndYPs() {
 
       <div className="p-5">
         <div className="text-4xl mt-5 text-center text-red-500" style={{fontWeight: 500}}><u>Important Info</u></div>
-        <div className="mx-[12%] mt-5 mb-20"> PESGRE 2025 is a biennial conference organized by IA/IE/PEL Jt. Chapter Kerala. The conference is co-sponsored by IEEE Industry Applications Society, IEEE Kerala section, and IEEE IA/IE/PEL Jt. Chapter Kerala. The conference is technically co-sponsored by the IEEE Power Electronics Society, IEEE Industrial Electronics Society, IEEE Industry Applications Society and IEEE Power& Energy Society. The theme of the conference is “Power Electronics and Renewable Energy for Sustainable Development” and will be held from 18-21 December 2025 at IIT Dharwad, Dharwad, Karnataka, India.</div>
-        </div>
+        <div className="mx-[12%] mt-5 mb-20"> type here SYPA details </div>
+        </div>   
       <h3>
         <p>The Student & Young Professionals (S&YP) Activity Committee of the Industrial Electronics Society (IES) is continuously implementing a paper assistance program (IES-SYPA)
         – a competition-based financial support for the IES S&YP members to attend IES Majority Sponsored Conferences.
