@@ -41,7 +41,7 @@ function SwipeableTextMobileStepper() {
               src={step.imgPath}
               alt={step.label}
             />
-            <div className="absolute inset-0 bg-black opacity-5"></div>
+            <div className="absolute inset-0 bg-white opacity-5"></div>
           </div>
         ))}
       </Slider>
