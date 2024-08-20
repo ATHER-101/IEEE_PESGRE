@@ -20,11 +20,13 @@ function StudentsAndYPs() {
         </h1>
       </div>
 
-      <div className="px-8 md:px-[80px] py-5">
-        <div className="text-3xl text-center mb-5 uppercase">
-          Students & YPs
-        </div>
-        <div className="text-lg">
+      <div className="text-3xl text-center m-5 uppercase">
+        Students & YPs
+      </div>
+
+      <div className="max-w-3xl mx-auto px-4 py-8">
+        <section className="mb-8">
+          <h2 className="text-xl font-semibold text-blue-600 mb-2">Overview</h2>
           <p className="mb-5">
             The Student & Young Professionals (S&YP) Activity Committee of the Industrial Electronics Society (IES) is continuously implementing a paper assistance program (IES-SYPA) – a competition-based financial support for the IES S&YP members to attend IES Majority Sponsored Conferences. Moreover, during the conference, we will organize a SYP forum – a special event aimed at helping students and young professional members stay connected in the IES community. SYP forum will provide a unique opportunity to ask questions and get professional advice directly from IEEE Fellows, the IES President, AdCom members, and experienced colleagues. The SYP forum program will include a series of keynote speeches by the leaders of academia and industry, a 3M video session, and an open discussion between the participants. We encourage all conference participants to join!
           </p>
@@ -32,10 +34,10 @@ function StudentsAndYPs() {
           <p className="mb-5">
             This event includes tutorials from academia and industry, a <strong>3-min Video Session</strong>, and an open discussion forum.
           </p>
-        </div>
+        </section>
 
-        <h2 className="text-2xl text-blue-500 mt-7 mb-3">How to Apply</h2>
-        <div className="text-lg">
+        <section className="mb-8">
+          <h2 className="text-xl font-semibold text-blue-600 mb-2">How to Apply</h2>
           <ol className="list-decimal list-inside">
             <li>You MUST be an IEEE member, whether Student, Graduate Student, or Young Professional (YP). You are considered YP up to 15 years after your graduation.</li>
             <li>You MUST be a member of the IEEE Industrial Electronics Society.</li>
@@ -53,7 +55,7 @@ function StudentsAndYPs() {
               <li>The video MUST be shared through sharing websites like Dropbox, Google Drive, OneDrive, etc. Make sure to provide the link without requiring permission (MUST be viewable to anyone who has the link).</li>
             </ol>
           </ol>
-        </div>
+        </section>
       </div>
     </div>
   );
