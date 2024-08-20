@@ -1,11 +1,11 @@
 import React, { useState, useRef, useEffect } from 'react';
 
 const textArray = [
-  "Item 1 - News",
-  "Item 2 - Updates",
-  "Item 3 - Announcements",
-  "Item 4 - Alerts",
-  "Item 5 - Events",
+  "Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, consectetur.",
+  "Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, consectetur.",
+  "Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, consectetur.",
+  "Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, consectetur.",
+  "Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, consectetur.",
 ];
 
 export default function RunningTextStrip() {
@@ -48,6 +48,8 @@ export default function RunningTextStrip() {
       return () => clearInterval(interval);
     }
   }, [isPaused, offset]);
+
+  if(textArray.length==0) return <></>;
 
   return (
     <div

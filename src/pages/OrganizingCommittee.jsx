@@ -21,7 +21,7 @@ function OrganizingCommittee() {
       </div>
 
       {/* text */}
-      <div className="px-[70px] md:px-[200px] py-5">
+      <div className="px-8 md:px-34 py-5">
         <div className="text-3xl text-center mb-5 uppercase">
           Conference Organizing Committee
         </div>
@@ -38,7 +38,7 @@ function OrganizingCommittee() {
       </div>
 
       {/* Committee Details */}
-      <div className="flex flex-wrap m-7">
+      <div className="flex flex-wrap mx-10 mb-10">
         <div className="w-full md:w-1/2 p-4">
           <h2 className="text-blue-600 font-bold">Honorary Chair</h2>
           <p> Andy Knight, President, IEEE IAS </p>

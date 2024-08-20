@@ -1,55 +1,44 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const prefix = "prefix";
-
 const Footer = () => {
-  const handleOnClick = (id) => {
-    const element = document.getElementById(id);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
-  };
-
   const date = new Date();
   const year = date.getFullYear();
 
   return (
-    <div id="footer" className="bg-gray-800 text-white">
-      <div className="max-w-6xl mx-auto py-6 px-4">
+    <div id="footer" className="bg-gray-800 text-white py-3 px-4">
+      <div className="max-w-6xl mx-auto">
         <Link to="/">
           <img
-            className="max-w-[400px] w-[100%] px-5 py-3 fill-current text-white"
-            src={``}
+            className="max-w-[400px] w-[100%] px-5 fill-current text-white"
+            src="/Logo_pesgre1-bgless.png"
             alt="Logo"
           />
         </Link>
         <div className="flex flex-col md:flex-row items-center justify-between">
-          <div className="flex space-x-4 mb-4 md:mb-0">
-            <div
-              onClick={() => handleOnClick("hero")}
-              className="cursor-pointer hover:underline px-5 py-1"
+          <div className="flex mb-4 md:mb-0">
+            <Link to="/"
+              className="cursor-pointer hover:text-blue-600 px-5 py-1"
             >
               Home
-            </div>
-            <div
-              onClick={() => handleOnClick("eventsId")}
-              className="cursor-pointer hover:underline px-5 py-1"
+            </Link>
+            <Link to="/contact"
+              className="cursor-pointer hover:text-blue-600 px-5 py-1"
             >
               Contact
-            </div>
+            </Link>
           </div>
 
           <div className="flex flex-col mb-4 md:mb-0">
             <a
               href="mailto:pesgre2025@iitdh.ac.in"
-              className="hover:underline"
+              className="hover:text-blue-600"
             >
               pesgre2025@iitdh.ac.in
             </a>
           </div>
           <div className="flex items-center space-x-4">
-            <div className="flex items-center">
+            {/* <div className="flex items-center">
               <a
                 href="https://www.instagram.com/technical.council_iitdh/"
                 target="_blank"
@@ -63,7 +52,7 @@ const Footer = () => {
                   className="h-6 w-6" // Adjust size as needed
                 />
               </a>
-            </div>
+            </div> */}
             <div>© Copyright - {year} IITDh all rights reserved</div>
           </div>
         </div>

@@ -24,16 +24,16 @@ const navItems = [
         routes: ['/program/keynote-speakers'],
     },
     {
+        title: 'Travel',
+        dropdownItems: ['Visa Information', 'Hotel Booking', 'Tour', 'Food', 'Directions to Conference Venue'],
+        routes: ["/visa-info", "/hotel-booking", "/tour", "/food", "/directions-to-conference"],
+    },
+    {
         title: 'Students & YPs',
         dropdownItems: [],
         routes: ["/students-yp"],
     },
     {
-        title: 'Travel',
-        dropdownItems: ['Visa Information', 'Hotel Booking', 'Tour', 'Food', 'Directions to Conference Venue'],
-        routes: [""],
-    },
-        {
         title: 'Sponsorship',
         dropdownItems: [],
         routes: ["/industry-sponsor"],
@@ -81,12 +81,12 @@ export default function DrawerAppBar() {
     return (
         <div>
             <header className="sticky w-[100%] bg-white text-black top-0 z-40 shadow-md">
-                <div className="flex items-center justify-between p-2 md:p-4">
+                <div className="flex items-center justify-between px-1 md:px-6 pb-1 pt-2">
                     <Link to="/" className="flex items-center">
                         <img
-                            src="/Logo_pesgre1.png"
+                            src="/Logo_pesgre1-bgless.png"
                             alt="Logo"
-                            className="h-8 md:h-12" // Adjust the height as needed
+                            className="h-10 md:h-14 pl-3" // Adjust the height as needed
                         />
                     </Link>
                     <button
@@ -115,12 +115,12 @@ export default function DrawerAppBar() {
             {isDrawerOpen && (
                 <div className="fixed inset-0 bg-gray-700 bg-opacity-50 z-40 md:hidden">
                     <div ref={drawerRef} className="absolute top-0 left-0 w-64 bg-white h-full shadow-lg">
-                        <div className="flex items-center justify-between p-4">
+                        <div className="flex items-center justify-between px-4 py-2">
                             <Link to="/">
                                 <img
-                                    src="/Logo_pesgre1.png"
+                                    src="/Logo_pesgre1-bgless.png"
                                     alt="Logo"
-                                    className="h-6"
+                                    className="h-10"
                                 />
                             </Link>
                             <button onClick={toggleDrawer}>

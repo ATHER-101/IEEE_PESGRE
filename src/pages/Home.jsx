@@ -1,53 +1,35 @@
 import React from 'react'
 import Corousel from "../components/Corousel"
 import AnnouncementStrip from "../components/AnnouncementStrip"
+import CardList from '../components/CardList'
 
 function Home() {
-    return (
-        <div>
-            <Corousel />
-            <AnnouncementStrip />
-            <div className="p-5">
-        <div className="text-4xl mt-5 text-center text-red-500" style={{fontWeight: 500}}><u>Important Info</u></div>
-        <div className="mx-[12%] mt-5 mb-20"> PESGRE 2025 is a biennial conference organized by IA/IE/PEL Jt. Chapter Kerala. The conference is co-sponsored by IEEE Industry Applications Society, IEEE Kerala section, and IEEE IA/IE/PEL Jt. Chapter Kerala. The conference is technically co-sponsored by the IEEE Power Electronics Society, IEEE Industrial Electronics Society, IEEE Industry Applications Society and IEEE Power& Energy Society. The theme of the conference is “Power Electronics and Renewable Energy for Sustainable Development” and will be held from 18-21 December 2025 at IIT Dharwad, Dharwad, Karnataka, India.</div>
+  return (
+    <div>
+      <Corousel />
+      <AnnouncementStrip />
+      <div className="py-6 px-0 md:px-24">
+        <div className="text-3xl mt-6 text-center text-blue-600">Important Information</div>
+        <div className="mx-8 md:mx-10 mt-4 text-lg leading-relaxed">
+          PESGRE 2025 is a biennial conference organized by IA/IE/PEL Jt. Chapter Kerala. The conference is co-sponsored by IEEE Industry Applications Society, IEEE Kerala section, and IEEE IA/IE/PEL Jt. Chapter Kerala. The conference is technically co-sponsored by the IEEE Power Electronics Society, IEEE Industrial Electronics Society, IEEE Industry Applications Society and IEEE Power & Energy Society. The theme of the conference is “Power Electronics and Renewable Energy for Sustainable Development” and will be held from 18-21 December 2025 at IIT Dharwad, Dharwad, Karnataka, India.
         </div>
-        <div className="p-5">
-        <div className="text-4xl mt-5 text-center text-red-500" style={{fontWeight: 500}}><u>Important Dates</u></div>
-        <div className="mx-[12%] mt-5 mb-20">      <p>Submission Open: 15th April 2025 </p>
-                                                   <p>Paper Submission Deadline: 15th June 2025</p>
-                                                   <p>Call for Special Sessions: 15th April 2025</p>
-                                                   <p>Deadline for Special Session Proposals: 15th May 2025</p>
-                                                   <p>Notification of Paper Acceptance: 15th August 2025</p>
-                                                   <p>Paper Submission Deadline: 15th June 2025</p>
-                                                   <p>Final Camera-ready Paper: 15th September 2025</p>
-           </div>
-        </div>  
-        <div className="w-full bg-gray-200 p-5">
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
-        <div className="max-w-sm mx-auto bg-white rounded-lg border border-gray-200 shadow-lg transition-transform transform hover:-translate-y-1 hover:shadow-xl p-6 text-center mb-5 mt-5">
-          <h2 className="font-libre-franklin font-light text-2xl mb-4" style={{ fontFamily: 'Libre Franklin, sans-serif', fontWeight: 700}}>Header Text 1</h2>
-          <p className="text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat debitis, aperiam tempora veniam unde dolore? Explicabo suscipit delectus at harum, doloribus recusandae facilis</p>
-        </div>
-
-        <div className="max-w-sm mx-auto bg-white rounded-lg border border-gray-200 shadow-lg transition-transform transform hover:-translate-y-1 hover:shadow-xl p-6 text-center m-5">
-          <h2 className="font-libre-franklin font-light text-2xl mb-4" style={{ fontFamily: 'Libre Franklin, sans-serif', fontWeight: 700}}>Header Text 2</h2>
-          <p className="text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat debitis, aperiam tempora veniam unde dolore? Explicabo suscipit delectus at harum, doloribus recusandae facilis</p>
-        </div>
-
-        <div className="max-w-sm mx-auto bg-white rounded-lg border border-gray-200 shadow-lg transition-transform transform hover:-translate-y-1 hover:shadow-xl p-6 text-center m-5">
-          <h2 className="font-libre-franklin font-light text-2xl mb-4" style={{ fontFamily: 'Libre Franklin, sans-serif', fontWeight: 700}}>Header Text 3</h2>
-          <p className="text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat debitis, aperiam tempora veniam unde dolore? Explicabo suscipit delectus at harum, doloribus recusandae facilis</p>
-        </div>
-
-        <div className="max-w-sm mx-auto bg-white rounded-lg border border-gray-200 shadow-lg transition-transform transform hover:-translate-y-1 hover:shadow-xl p-6 text-center m-5">
-          <h2 className="font-libre-franklin font-light text-2xl mb-4" style={{ fontFamily: 'Libre Franklin, sans-serif', fontWeight: 700}}>Header Text 4</h2>
-          <p className="text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat debitis, aperiam tempora veniam unde dolore? Explicabo suscipit delectus at harum, doloribus recusandae facilis</p>
-        </div>
-
       </div>
-    </div>
+
+      <div className="py-6 px-0 md:px-24">
+        <div className="text-3xl text-center text-blue-600">Important Dates</div>
+        <div className="mx-8 md:mx-10 mt-4 mb-4 text-lg leading-relaxed">
+          <p>Submission Open: 15th April 2025</p>
+          <p>Paper Submission Deadline: 15th June 2025</p>
+          <p>Call for Special Sessions: 15th April 2025</p>
+          <p>Deadline for Special Session Proposals: 15th May 2025</p>
+          <p>Notification of Paper Acceptance: 15th August 2025</p>
+          <p>Final Camera-ready Paper: 15th September 2025</p>
         </div>
-    )
+      </div>
+
+      <CardList/>
+    </div>
+  )
 }
 
 export default Home
