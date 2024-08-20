@@ -69,7 +69,7 @@ function CallForPapers() {
           </p>
           <p>
             The papers presented at the PESGRE 2025 conference are eligible to submit the revised versions as post-conference papers for further review and possible publication in the IEEE-IAS
-            Transactions and Magazine.
+            Transactions and Magazine (Yet to get the approval from IEEE IAS).
           </p>
         </section>
 
