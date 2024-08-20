@@ -7,11 +7,11 @@ import 'slick-carousel/slick/slick-theme.css';
 const images = [
   {
     label: '1',
-    imgPath: '/banner_2.png',
+    imgPath: '/banner_1x.png',
   },
   {
     label: '2',
-    imgPath: '/banner_1x.png',
+    imgPath: '/banner_2.png',
   },
 ];
 
@@ -25,6 +25,8 @@ function SwipeableTextMobileStepper() {
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,
+    autoplay: true, // Enable autoplay
+    autoplaySpeed: 4000, // Set autoplay speed in milliseconds
   };
 
   return (
