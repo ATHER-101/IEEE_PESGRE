@@ -16,7 +16,7 @@ const navItems = [
     {
         title: 'Authors',
         dropdownItems: ['Call for Papers', 'Call for Special Session', 'Submission & Registration'],
-        routes: ['/authors/call-for-papers', '','/authors/submission-registration'],
+        routes: ['/authors/call-for-papers', '/authors/call-for-special-session','/authors/submission-registration'],
     },
     {
         title: 'Program',
@@ -26,7 +26,7 @@ const navItems = [
     {
         title: 'Travel',
         dropdownItems: ['Visa Information', 'Hotel Booking', 'Tour', 'Food', 'Directions to Conference Venue'],
-        routes: ["/visa-info", "/hotel-booking", "/tour", "/food", "/directions-to-conference"],
+        routes: ["travel/visa-info", "travel/hotel-booking", "travel/tour", "travel/food", "travel/directions-to-conference"],
     },
     {
         title: 'Students & YPs',

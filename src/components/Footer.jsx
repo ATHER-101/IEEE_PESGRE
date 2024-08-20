@@ -6,15 +6,15 @@ const Footer = () => {
   const year = date.getFullYear();
 
   return (
-    <div id="footer" className="bg-gray-800 text-white py-3 px-4">
+    <div id="footer" className="bg-gray-800 text-white py-3 px-4 pt-10">
       <div className="max-w-6xl mx-auto">
-        <Link to="/">
+        {/* <Link to="/">
           <img
             className="max-w-[400px] w-[100%] px-5 fill-current text-white"
             src="/Logo_pesgre1-bgless.png"
             alt="Logo"
           />
-        </Link>
+        </Link> */}
         <div className="flex flex-col md:flex-row items-center justify-between">
           <div className="flex mb-4 md:mb-0">
             <Link to="/"

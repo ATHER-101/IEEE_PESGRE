@@ -6,14 +6,13 @@ import 'slick-carousel/slick/slick-theme.css';
 
 const images = [
   {
-    label: 'San Francisco – Oakland Bay Bridge, United States',
+    label: '1',
     imgPath: '/banner_2.png',
   },
   {
-    label: 'San Francisco – Oakland Bay Bridge, United States',
+    label: '2',
     imgPath: '/banner_1x.png',
   },
-  
 ];
 
 function SwipeableTextMobileStepper() {
@@ -34,7 +33,7 @@ function SwipeableTextMobileStepper() {
         {images.map((step) => (
           <div key={step.label}>
             <img
-              className="w-full h-[40vh] md:h-auto object-cover"
+              className="w-full md:w-[75%] h-auto mx-auto"
               src={step.imgPath}
               alt={step.label}
             />
@@ -60,7 +59,7 @@ function SwipeableTextMobileStepper() {
           <FaArrowRight />
         </button>
       </div>
-      
+
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-[6vw]">
         <h1
           className="justify-center text-center text-white"

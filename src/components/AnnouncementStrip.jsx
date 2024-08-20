@@ -3,9 +3,6 @@ import React, { useState, useRef, useEffect } from 'react';
 const textArray = [
   "PESGRE 2025 will be organised at IIT Dharwad, Karnataka, India during 18 - 21 December 2025.",
   "Call for Papers will be updated soon.",
-  "",
-  "",
-  "",
 ];
 
 export default function RunningTextStrip() {
@@ -53,7 +50,7 @@ export default function RunningTextStrip() {
 
   return (
     <div
-      className="overflow-hidden whitespace-nowrap bg-blue-800 text-white h-[60px] flex items-center cursor-pointer"
+      className="overflow-hidden whitespace-nowrap bg-blue-600 text-white h-[42px] flex items-center cursor-pointer"
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
       onClick={handleClick}

@@ -14,30 +14,41 @@ import Tour from "./pages/Tour";
 import Food from "./pages/Food";
 import DirectionsToConference from "./pages/DirectionsToConference";
 import IndustrySponsor from "./pages/IndustrySponsor";
+import CallForSpecialSession from "./pages/CallForSpecialSession";
 
 const AppRoutes = () => {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/contact" element={<Contact />} />
+
+      {/* about */}
       <Route
         path="/about/organizing-committee"
         element={<OrganizingCommittee />}
       />
       <Route path="/about/chairs" element={<Chairs />} />
+
+      {/* authors */}
       <Route path="/authors/call-for-papers" element={<CallForPapers />} />
+      <Route path="/authors/call-for-special-session" element={<CallForSpecialSession />} />
       <Route
         path="/authors/submission-registration"
         element={<SubmissionRegistration />}
       />
+
+      {/* program */}
       <Route path="/program/keynote-speakers" element={<KeynoteSpeakers />} />
+
+      {/* travel */}
+      <Route path="travel/visa-info" element={<VisaInfo />} />
+      <Route path="travel/hotel-booking" element={<HotelBooking />} />
+      <Route path="travel/tour" element={<Tour />} />
+      <Route path="travel/food" element={<Food />} />
+      <Route path="travel/directions-to-conference" element={<DirectionsToConference />} />
+
       <Route path="/students-yp" element={<StudentsAndYPs />} />
-      <Route path="/visa-info" element={<VisaInfo />} />
-      <Route path="/hotel-booking" element={<HotelBooking />} />
-      <Route path="/tour" element={<Tour />} />
-      <Route path="/food" element={<Food />} />
-      <Route path="/directions-to-conference" element={<DirectionsToConference />} />
       <Route path="/industry-sponsor" element={<IndustrySponsor />} />
+      <Route path="/contact" element={<Contact />} />
     </Routes>
   );
 };
