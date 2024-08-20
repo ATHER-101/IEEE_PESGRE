@@ -15,8 +15,8 @@ const navItems = [
     },
     {
         title: 'Authors',
-        dropdownItems: ['Call for Papers', 'Submission & Registration'],
-        routes: ['/authors/call-for-papers', '/authors/submission-registration'],
+        dropdownItems: ['Call for Papers', 'Call for Special Sessions', 'Submission & Registration'],
+        routes: ['/authors/call-for-papers', ,'/authors/submission-registration'],
     },
     {
         title: 'Program',
