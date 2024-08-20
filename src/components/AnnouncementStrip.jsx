@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 
 const textArray = [
   "PESGRE 2025 will be organised at IIT Dharwad, Karnataka, India during 18 - 21 December 2025.",
-  "",
+  "Call for Papers will be updated soon.",
   "",
   "",
   "",
