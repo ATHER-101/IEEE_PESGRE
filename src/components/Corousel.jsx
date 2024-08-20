@@ -35,7 +35,7 @@ function SwipeableTextMobileStepper() {
         {images.map((step) => (
           <div key={step.label}>
             <img
-              className="w-full md:w-[75%] h-auto mx-auto"
+              className="w-full md:w-[80%] h-auto mx-auto"
               src={step.imgPath}
               alt={step.label}
             />
