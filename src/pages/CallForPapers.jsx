@@ -76,18 +76,16 @@ function CallForPapers() {
         <section className="mb-8">
           <h2 className="text-xl font-semibold text-blue-600 mb-2">Technical Tracks</h2>
           <ul className="list-disc list-inside">
-            <li>Power generation, transmission and distribution</li>
-            <li>Power electronics and applications</li>
-            <li>Smart grids technologies and applications</li>
-            <li>Renewable energies</li>
-            <li>Energy storage technologies</li>
-            <li>Distributed power generation systems</li>
-            <li>Communication, security and smart metering</li>
-            <li>Electrical machines and adjustable speed drives</li>
-            <li>Transport electrification</li>
-            <li>Electric mobility</li>
-            <li>Energy market</li>
-            <li>EMI and EMC issues</li>
+            <li>Power Electronic Converters and Control Systems</li>
+            <li>Electric Drives and Electric Vehicles</li>
+            <li>Smart Grid & Microgrid</li>
+            <li>Renewable energy Resources, Distributed generation and Grid Interconnection</li>
+            <li>Energy storage & battery charging technologies</li>
+            <li>FACTS, Custom power, Power Quality & EMI</li>
+            <li>Wide band gap devices</li>
+            <li>Lighting & illumination</li>
+            <li>Power electronic education</li>
+            <li>Modern Power systems, Energy policies & Standards</li>
           </ul>
         </section>
 
