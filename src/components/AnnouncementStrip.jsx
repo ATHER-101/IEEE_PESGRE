@@ -1,11 +1,11 @@
 import React, { useState, useRef, useEffect } from 'react';
 
 const textArray = [
-  "Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, consectetur.",
-  "Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, consectetur.",
-  "Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, consectetur.",
-  "Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, consectetur.",
-  "Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, consectetur.",
+  "PESGRE 2025 will be organised at IIT Dharwad, Karnataka, India during 18 - 21 December 2025.",
+  "",
+  "",
+  "",
+  "",
 ];
 
 export default function RunningTextStrip() {
