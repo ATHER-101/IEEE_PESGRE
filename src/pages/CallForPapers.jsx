@@ -56,7 +56,7 @@ function CallForPapers() {
         <section className="mb-8">
           <h2 className="text-xl font-semibold text-blue-600 mb-2">Overview</h2>
           <p>
-            PESGRE 2025 is a biennial conference organized by IEEE Kerala Sections and IA/IE/PEL Jt. Chapter Kerala. The conference is financially co-sponsored by the IEEE Industry Applications Society, IEEE Kerala Section, and IA/IE/PEL Jt. Chapter Kerala. The conference is technically co-sponsored by IEEE Power Electronics Society, IEEE Industrial Electronics Society, IEEE Industry Applications Society and IEEE Power& Energy Society. The theme of the conference is “Power Electronics and Renewable Energy for Sustainable Development” and will be held from 18-21 December 2025 at Indian Institute of Technology Dharwad, Dharwad, Karnataka, India.
+            PESGRE 2025 is a biennial conference organized by IIT Dharwad. The conference is planned to be financially co-sponsored by the IEEE Industry Applications Society, IEEE Kerala Section, and IA/IE/PEL Jt. Chapter Kerala. The conference is planned to be technically co-sponsored by IEEE Power Electronics Society, IEEE Industrial Electronics Society, IEEE Industry Applications Society and IEEE Power& Energy Society. The theme of the conference is “Power Electronics and Renewable Energy for Sustainable Development” and will be held from 18-21 December 2025 at Indian Institute of Technology Dharwad, Dharwad, Karnataka, India.
           </p>
         </section>
 
@@ -69,7 +69,7 @@ function CallForPapers() {
           </p>
           <p>
             The papers presented at the PESGRE 2025 conference are eligible to submit the revised versions as post-conference papers for further review and possible publication in the IEEE-IAS
-            Transactions and Magazine.
+            Transactions and Magazine (Yet to get approval from IEEE IAS Society).
           </p>
         </section>
 
