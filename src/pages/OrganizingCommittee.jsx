@@ -76,6 +76,7 @@ function OrganizingCommittee() {
 
           <h2 className="text-blue-600 font-bold">Student and Young Professionals Chairs</h2>
           <p>Edivan Laercio Carvalho da Silva, Tallinn University of Technology, Estonia</p>
+          <p>Filipe Pinarello Scalcon, University of Calgary, Canada</p>
            <p> Sai Ram Boggavarapu, IIT Dharwad, India</p>
         
         </div>
