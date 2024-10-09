@@ -91,14 +91,12 @@ function OrganizingCommittee() {
           <p>Chun Che Fung, Director, IEEE R10</p>
           <p>Drazen Dujic, École Polytechnique Fédérale de Lausanne – EPFL, Switzerland</p>
           <p>Enrique Romero Cadaval, University of Extremadura, Badajoz, Spain</p>
-          <p>F. Flores, Universidad Andres Bello, Chile</p>
           <p>Frede Blaabjerg, Aalborg University</p>
           <p>G. Bhuvaneswari, Mahindra University, India</p>
           <p>Gopakumar K, IISc Bangalore, India</p>
           <p>Holtz, University of Wuppertal, Germany</p>
           <p>J. Rabkowski, Warsaw University of Technology, Poland</p>
           <p>Johann W. Kolar, ETH Zurich, Zurich, Switzerland</p>
-          <p>John D. McDonald, GE’s Grid Solutions business, USA</p>
           <p>Joseph Ojo, Tennessee Technological University</p>
           <p>Kaushik Rajashekara, University of Houston, Texas, USA</p>
           <p>L Umanand, IISC Bangalore, India</p>
