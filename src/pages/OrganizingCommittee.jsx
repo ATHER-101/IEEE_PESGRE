@@ -83,7 +83,7 @@ function OrganizingCommittee() {
 
         <div className="w-full md:w-1/2 p-4">
           <h2 className="text-blue-600 font-bold">International Advisory Board</h2>
-         <p> A K Srivasthava, IIT Kanpur, India</p>
+         <p> S C Srivasthava, IIT Kanpur, India</p>
          <p>  Amit Kumar Gupta, Rolls Royce, Singapore</p>
           <p>Bhim Singh, IIT Delhi, India</p>
           <p>C. Cecati, University of L’Aquila, Italy</p>
