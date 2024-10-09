@@ -106,7 +106,6 @@ function OrganizingCommittee() {
           <p>S S Murthy, BoG Member, IIT Dharwad</p>
           <p>Subba Reddy B, IISc Bangalore</p>
           <p>S. Norrga, KTH Royal Institute of Technology, Sweden</p>
-          <p>S. Pinto, University of Lisboa, Portugal</p>
           <p>Saifur Rahman, Advanced Research Institute at Virginia Tech, USA</p>
           <p>Sameer S M, Secretary, IEEE R10</p>
           <p>Samir Kouro, Universidad Tecnica Federico Santa Maria Valparaiso, Chile</p>
