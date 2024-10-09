@@ -93,6 +93,7 @@ function OrganizingCommittee() {
           <p>Enrique Romero Cadaval, University of Extremadura, Badajoz, Spain</p>
           <p>Frede Blaabjerg, Aalborg University</p>
           <p>G. Bhuvaneswari, Mahindra University, India</p>
+           <p>Giovanni De Carne, KIT, Germany</p>
           <p>Gopakumar K, IISc Bangalore, India</p>
           <p>Holtz, University of Wuppertal, Germany</p>
           <p>J. Rabkowski, Warsaw University of Technology, Poland</p>
