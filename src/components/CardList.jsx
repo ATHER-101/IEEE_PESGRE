@@ -13,12 +13,12 @@ function CardList() {
             className=" w-full bg-white rounded-lg border border-gray-200 shadow-lg transition-transform transform hover:-translate-y-1 hover:shadow-xl p-6 text-center"
           >
             <img className="mx-auto" src="/iitdh.png" alt="iitdh logo" />
-           /* <img className="mx-auto" src="/IEEE.png" alt="IEEE logo" /> 
-            <img className="mx-auto" src="/IEEEK.png" alt="IEEE Kerala logo" />
-            <img className="mx-auto" src="/IEEE-IAS-Logo.png" alt="IEEE IAS logo" />
-            <img className="mx-auto" src="/ies-logo.png" alt="IEEE IES logo" />
-            <img className="mx-auto" src="/PELS-Logo.png" alt="PELS logo" />
-            <img className="mx-auto" src="/PES-Logo.png" alt="PES logo" /> */
+           /* <img className="mx-auto" src="/IEEE.png" alt="IEEE logo" /> */
+          /*  <img className="mx-auto" src="/IEEEK.png" alt="IEEE Kerala logo" /> */
+          /*  <img className="mx-auto" src="/IEEE-IAS-Logo.png" alt="IEEE IAS logo" /> */
+          /*  <img className="mx-auto" src="/ies-logo.png" alt="IEEE IES logo" /> */
+         /*   <img className="mx-auto" src="/PELS-Logo.png" alt="PELS logo" /> */
+          /*  <img className="mx-auto" src="/PES-Logo.png" alt="PES logo" /> */
           </div>
         ))}
       </div>
