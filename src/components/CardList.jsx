@@ -12,7 +12,7 @@ function CardList() {
             key={idx}
             className=" w-full bg-white rounded-lg border border-gray-200 shadow-lg transition-transform transform hover:-translate-y-1 hover:shadow-xl p-6 text-center"
           >
-            <img className="mx-auto" src="/iitdh.png,IEEEK.png " alt="iitdh logo" />
+            <img className="mx-auto" src="/iitdh.png" alt="iitdh logo" />
             <img className="mx-auto" src="/IEEEK.png" alt="iitdh logo" />
           </div>
         ))}
