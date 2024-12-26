@@ -118,7 +118,7 @@ export default function DrawerAppBar() {
                         <div className="flex items-center justify-between px-4 py-2">
                             <Link to="/">
                                 <img
-                                    src="/Logo_pesgre1-bgless.png"
+                                    src="/PESGRE2025.png"
                                     alt="Logo"
                                     className="h-10"
                                 />
