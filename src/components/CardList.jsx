@@ -6,7 +6,7 @@ function CardList() {
       <h3 className="text-center text-blue-600 text-3xl pb-5 pl-6">
         Organisers
       </h3>
-      <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {Array.from({ length: 6 }).map((_, idx) => (
           <div
             key={idx}
