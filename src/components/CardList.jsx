@@ -7,7 +7,7 @@ function CardList() {
         Organisers
       </h3>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-        {Array.from({ length: 4 }).map((_, idx) => (
+        {Array.from({ length: 6 }).map((_, idx) => (
           <div
             key={idx}
             className=" w-full bg-white rounded-lg border border-gray-200 shadow-lg transition-transform transform hover:-translate-y-1 hover:shadow-xl p-6 text-center"
