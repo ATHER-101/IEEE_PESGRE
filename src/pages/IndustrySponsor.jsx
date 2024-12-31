@@ -18,7 +18,8 @@ function IndustrySponsor() {
         <div className="flex justify-between items-center bg-white rounded-sm border p-4 w-full md:w-1/2">
           <p className="text-lg">Download Sponsorship Brochure</p>
           <button
-            onClick={()=>openLink('/PESGRE-CFP-2025-final.pdf')}
+            onClick={()=>openLink('/PESGRE-CFP-2025-Sponsorship.pdf
+')}
             className="flex items-center bg-blue-600 text-white justify-center rounded-lg px-4 py-2 hover:bg-blue-700 transition duration-200 w-[25%]"
           >
             <svg
