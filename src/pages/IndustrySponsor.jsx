@@ -28,8 +28,8 @@ function IndustrySponsor() {
         Industry Sponsor
       </div>
 
-      <div className="flex items-center justify-center">
-        <div className="flex justify-between items-center bg-white rounded-sm border p-4 w-1/2">
+      <div className="flex items-center justify-center m-3">
+        <div className="flex justify-between items-center bg-white rounded-sm border p-4 w-full md:w-1/2">
           <p className="text-lg">Download Sponsorship Brochure</p>
           <button
             onClick={openPDF}
@@ -52,7 +52,7 @@ function IndustrySponsor() {
 
       </div>
       <img
-        className="w-1/2 my-7 mx-auto object-fill"
+        className="w-full md:w-1/2 px-3 my-7 mx-auto object-fill"
         src="PESGRE-CFP-2025-Sponsorship-only.png"
         alt="Sponsorship Brochure"
       />

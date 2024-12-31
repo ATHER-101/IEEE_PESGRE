@@ -28,8 +28,8 @@ function CallForPapers() {
         Call For Papers
       </div>
 
-      <div className="flex items-center justify-center">
-        <div className="flex justify-between items-center bg-white rounded-sm border p-4 w-1/2">
+      <div className="flex items-center justify-center mx-3">
+        <div className="flex justify-between items-center bg-white rounded-sm border p-4 w-full md:w-1/2">
           <p className="text-lg">Download  Call for Papers</p>
           <button
             onClick={openPDF}
