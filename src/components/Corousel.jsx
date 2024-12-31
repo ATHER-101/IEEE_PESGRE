@@ -7,11 +7,19 @@ import 'slick-carousel/slick/slick-theme.css';
 const images = [
   {
     label: '1',
-    imgPath: '/banner_1x.png',
+    imgPath: '/iitdh_admin_block.jpg',
   },
   {
     label: '2',
-    imgPath: '/banner_2.png',
+    imgPath: '/hampi3.jpg',
+  },
+  {
+    label: '3',
+    imgPath: '/dandeli.jpg',
+  },
+  {
+    label: '4',
+    imgPath: '/western-ghats.jpg',
   },
 ];
 
@@ -25,24 +33,39 @@ function SwipeableTextMobileStepper() {
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,
-    autoplay: true, // Enable autoplay
-    autoplaySpeed: 4000, // Set autoplay speed in milliseconds
+    autoplay: true,
+    autoplaySpeed: 4000,
   };
 
   return (
-    <div className="relative w-full z-10">
-      <Slider {...settings} ref={setSliderRef}>
-        {images.map((step) => (
-          <div key={step.label}>
-            <img
-              className="w-full md:w-[80%] h-auto mx-auto"
-              src={step.imgPath}
-              alt={step.label}
-            />
-            <div className="absolute inset-0 bg-white opacity-5"></div>
-          </div>
-        ))}
-      </Slider>
+    <div className="relative w-full md:h-full h-[356px] z-10">
+      <div className="relative w-full">
+        <Slider {...settings} ref={setSliderRef}>
+          {images.map((step) => (
+            <div key={step.label} className="w-full h-full">
+              <img
+                className="w-full md:h-full h-[350px] object-cover md:object-fill"
+                src={step.imgPath}
+                alt={step.label}
+              />
+            </div>
+          ))}
+        </Slider>
+
+        {/* Dark overlay */}
+        <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+
+        {/* Text overlay */}
+        <div className="absolute top-2/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center w-[90%] md:w-[80%]">
+          <h1
+            className="text-[6vw] md:text-[3.5vw] font-bold"
+            style={{ fontFamily: 'Libre Franklin, sans-serif', fontWeight: 800 }}
+          >
+            4th International Conference on Power Electronics Smart Grid and Renewable Energy
+          </h1>
+          <p className="text-[3.5vw] md:text-[2vw] mt-3 md:mt-2">December 18-21, 2025 IIT Dharwad, Karnataka, India</p>
+        </div>
+      </div>
 
       {/* Arrow buttons only visible on medium screens and larger */}
       <div className="hidden md:block absolute top-1/2 left-2 transform -translate-y-1/2">
@@ -60,15 +83,6 @@ function SwipeableTextMobileStepper() {
         >
           <FaArrowRight />
         </button>
-      </div>
-
-      <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-[6vw]">
-        <h1
-          className="justify-center text-center text-white"
-          style={{ fontFamily: 'Libre Franklin, sans-serif', fontWeight: 800 }}
-        >
-          
-        </h1>
       </div>
     </div>
   );

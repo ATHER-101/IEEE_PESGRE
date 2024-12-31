@@ -2,16 +2,24 @@ import React from "react";
 
 const cards = [
   {
+    "src":"/iitdh.png",
+    "alt":"IITDh logo"
+  },
+  {
     "src":"/IEEE.png",
     "alt":"IEEE logo"
   },
   {
-    "src":"/IEEEK.png",
-    "alt":"IEEE Kerala logo"
+    "src":"/PES-Logo.png",
+    "alt":"PES logo"
   },
   {
     "src":"/IEEE-IAS-Logo.png",
     "alt":"IEEE IAS logo"
+  },
+  {
+    "src":"/IEEEK.png",
+    "alt":"IEEE Kerala logo"
   },
   {
     "src":"/ies-logo.png",
@@ -21,10 +29,6 @@ const cards = [
     "src":"/PELS-Logo.png",
     "alt":"PELS logo"
   },
-  {
-    "src":"/PES-Logo.png",
-    "alt":"PES logo"
-  },
 ]
 
 function CardList() {
@@ -33,7 +37,7 @@ function CardList() {
       <h3 className="text-center text-blue-600 text-3xl pb-5 pl-6">
         Organisers
       </h3>
-      <div className="grid grid-cols-2 lg:grid-cols-6 gap-2">
+      <div className="grid grid-cols-2 lg:grid-cols-4 gap-2">
         {cards.map((card, idx) => (
           <div
             key={idx}

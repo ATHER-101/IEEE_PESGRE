@@ -2,7 +2,7 @@ import React from 'react'
 
 function CallForPapers() {
   const openPDF = () => {
-    window.open('/CFP-PESGRE25.pdf', '_blank'); // Opens the PDF in a new tab
+    window.open('/PESGRE-CFP-2025-final.pdf', '_blank'); // Opens the PDF in a new tab
   };
 
   return (
