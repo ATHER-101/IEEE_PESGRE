@@ -69,7 +69,7 @@ function CallForPapers() {
             <h2 className="text-xl font-semibold text-blue-600 mb-2">Technical Tracks</h2>
             <ul className="list-disc list-inside">
               <li>Power Electronic Converters and Control Systems</li>
-              <li>Electric Drives and Electric Vehicles</li>
+              <li>Electric Machines, Drives, and Electric Vehicles</li>
               <li>Smart Grid & Microgrid</li>
               <li>Renewable energy Resources, Distributed generation and Grid Interconnection</li>
               <li>Energy storage & battery charging technologies</li>
