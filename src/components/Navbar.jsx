@@ -25,8 +25,8 @@ const navItems = [
     },
     {
         title: 'Travel',
-        dropdownItems: ['Visa Information', 'Hotel Booking', 'Tour', 'Food', 'Directions to Conference Venue'],
-        routes: ["travel/visa-info", "travel/hotel-booking", "travel/tour", "travel/food", "travel/directions-to-conference"],
+        dropdownItems: ['Visa Information', 'Hotel Booking', 'Tour', 'Food', 'Location'],
+        routes: ["travel/visa-info", "travel/hotel-booking", "travel/tour", "travel/food", "travel/location"],
     },
     {
         title: 'Students & YPs',

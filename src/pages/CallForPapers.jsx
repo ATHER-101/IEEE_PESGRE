@@ -1,4 +1,5 @@
 import React from 'react'
+import Corousel from "../components/Corousel"
 
 function CallForPapers() {
   const openPDF = () => {
@@ -7,22 +8,7 @@ function CallForPapers() {
 
   return (
     <div>
-      <div className="relative">
-        <img
-          className="w-full h-[40vh] md:h-auto object-cover"
-          src="/tmp1.jpg"
-          alt="img"
-        />
-        <div className="absolute inset-0 bg-black opacity-30" />
-      </div>
-      <div className="absolute top-[200px] md:top-[280px] left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-[6vw]">
-        <h1
-          className="justify-center text-center text-white"
-          style={{ fontFamily: 'Libre Franklin, sans-serif', fontWeight: 800 }}
-        >
-          Call For Papers
-        </h1>
-      </div>
+      <Corousel font='5' text="Call For Papers"/>
 
       <div className="text-3xl text-center m-5 uppercase">
         Call For Papers
@@ -51,13 +37,13 @@ function CallForPapers() {
         </div>
       </div>
 
-      {/* text */}
       <div className='mx-[170px] my-5 grid grid-cols-2 gap-4'>
         <img
           className="shadow-lg"
           src="/PESGRE-CFP-2025-final.png"
           alt="Sponsorship Brochure"
         />
+        {/* text */}
         <div className="max-w-3xl mx-auto px-4">
           <section className="mb-8">
             <h2 className="text-xl font-semibold text-blue-600 mb-2">Overview</h2>
@@ -139,8 +125,8 @@ function CallForPapers() {
             </ol>
           </section>
         </div>
+        {/* text */}
       </div>
-      {/* text */}
     </div>
   )
 }

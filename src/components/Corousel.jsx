@@ -23,7 +23,7 @@ const images = [
   },
 ];
 
-function SwipeableTextMobileStepper() {
+function SwipeableTextMobileStepper({ text, subtext, font }) {
   const [sliderRef, setSliderRef] = useState(null);
 
   const settings = {
@@ -53,37 +53,40 @@ function SwipeableTextMobileStepper() {
         </Slider>
 
         {/* Dark overlay */}
-        <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+        <div className={`absolute inset-0 ${font === '5' ? 'bg-black bg-opacity-70' : 'bg-black bg-opacity-50'}`}></div>
 
         {/* Text overlay */}
-        <div className="absolute top-2/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center w-[90%] md:w-[80%]">
+        <div className={`absolute ${font === '5' ? 'top-1/2' : 'top-2/3'} left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center w-[90%] md:w-[80%]`}>
           <h1
-            className="text-[6vw] md:text-[3.5vw] font-bold"
+            className={`text-[6vw] md:text-[${font}vw] font-bold`}
             style={{ fontFamily: 'Libre Franklin, sans-serif', fontWeight: 800 }}
           >
-            4th International Conference on Power Electronics Smart Grid and Renewable Energy
+            {text}
           </h1>
-          <p className="text-[3.5vw] md:text-[2vw] mt-3 md:mt-2">December 18-21, 2025 IIT Dharwad, Karnataka, India</p>
+          <p className="text-[3.5vw] md:text-[2vw] mt-3 md:mt-2">{subtext}</p>
         </div>
       </div>
 
       {/* Arrow buttons only visible on medium screens and larger */}
-      <div className="hidden md:block absolute top-1/2 left-2 transform -translate-y-1/2">
-        <button
-          onClick={() => sliderRef.slickPrev()}
-          className="bg-white rounded-full p-2 shadow hover:bg-gray-200"
-        >
-          <FaArrowLeft />
-        </button>
-      </div>
-      <div className="hidden md:block absolute top-1/2 right-2 transform -translate-y-1/2">
-        <button
-          onClick={() => sliderRef.slickNext()}
-          className="bg-white rounded-full p-2 shadow hover:bg-gray-200"
-        >
-          <FaArrowRight />
-        </button>
-      </div>
+      {font === '5' ? <></> :
+        <>
+          <div className="hidden md:block absolute top-1/2 left-2 transform -translate-y-1/2">
+            <button
+              onClick={() => sliderRef.slickPrev()}
+              className="bg-white rounded-full p-2 shadow hover:bg-gray-200"
+            >
+              <FaArrowLeft />
+            </button>
+          </div>
+          <div className="hidden md:block absolute top-1/2 right-2 transform -translate-y-1/2">
+            <button
+              onClick={() => sliderRef.slickNext()}
+              className="bg-white rounded-full p-2 shadow hover:bg-gray-200"
+            >
+              <FaArrowRight />
+            </button>
+          </div>
+        </>}
     </div>
   );
 }

@@ -1,4 +1,5 @@
 import React from 'react'
+import Corousel from "../components/Corousel"
 
 function IndustrySponsor() {
   const openLink = (link) => {
@@ -7,22 +8,7 @@ function IndustrySponsor() {
 
   return (
     <div>
-      <div className="relative">
-        <img
-          className="w-full h-[40vh] md:h-auto object-cover"
-          src="/tmp1.jpg"
-          alt="img"
-        />
-        <div className="absolute inset-0 bg-black opacity-30" />
-      </div>
-      <div className="absolute top-[200px] md:top-[280px] left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-[6vw]">
-        <h1
-          className="justify-center text-center text-white"
-          style={{ fontFamily: 'Libre Franklin, sans-serif', fontWeight: 800 }}
-        >
-          Industry Sponsor
-        </h1>
-      </div>
+      <Corousel font='5' text="Industry Sponsor"/>
 
       <div className="text-3xl text-center m-5 mb-5 uppercase">
         Industry Sponsor
@@ -75,7 +61,7 @@ function IndustrySponsor() {
       </div>
 
       <img
-        className="w-full md:w-1/2 px-3 my-7 mx-auto object-fill"
+        className="w-full md:w-1/2 px-3 my-7 mx-auto object-fill shadow-lg"
         src="/PESGRE-CFP-2025-Sponsorship-only.png"
         alt="Sponsorship Brochure"
       />
