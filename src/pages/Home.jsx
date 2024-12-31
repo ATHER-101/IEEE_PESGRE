@@ -9,8 +9,8 @@ function Home() {
     <div>
       <Corousel font='3.5' text="4th International Conference on Power Electronics Smart Grid and Renewable Energy" subtext="December 18-21, 2025 IIT Dharwad, Karnataka, India" />
       <AnnouncementStrip />
-      <div className='py-6 px-0 md:px-24 mt-6 flex gap-4'>
-        <AnnouncementBox />
+      <div className='py-6 px-0 md:px-24 m-3 md:flex gap-4'>
+        <div className='hidden md:block w-[70%]'><AnnouncementBox size='70' /></div>
         {/* text */}
         <div className='w-full'>
           <div className="rounded-2xl shadow-lg p-3">
@@ -33,6 +33,7 @@ function Home() {
           </div>
         </div>
         {/* text */}
+        <div className='w-full md:hidden'><AnnouncementBox size='100' /></div>
       </div>
       <CardList />
     </div>

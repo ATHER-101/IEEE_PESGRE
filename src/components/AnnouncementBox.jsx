@@ -8,7 +8,7 @@ const images = [
   },
 ];
 
-function CustomCarousel({ text, subtext, font }) {
+function CustomCarousel({ text, subtext, size }) {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const handlePrev = () => {
@@ -20,7 +20,7 @@ function CustomCarousel({ text, subtext, font }) {
   };
 
   return (
-    <div className="relative rounded-2xl shadow-lg w-[70%] p-3">
+    <div className={`relative rounded-2xl shadow-lg w-full p-3`}>
       <div className="relative w-full h-full">
         {/* Carousel Images */}
         <div className="w-full h-full overflow-hidden">
