@@ -58,7 +58,7 @@ function SwipeableTextMobileStepper({ text, subtext, size }) {
         {/* Text overlay */}
         <div className={`absolute ${size == "small" ? 'top-2/3' : 'top-1/2'} left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center w-[90%] md:w-[80%]`}>
           <h1
-            className={`text-[9vw] ${size == "small" ? 'md:text-[3.5vw]' : 'text-[5vw]'} font-bold`}
+            className={`text-[9vw] ${size == "small" ? 'md:text-[3.5vw]' : 'text-[4vw]'} font-bold`}
             style={{ fontFamily: 'Libre Franklin, sans-serif', fontWeight: 800 }}
           >
             {text}
