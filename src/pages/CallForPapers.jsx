@@ -42,7 +42,7 @@ function CallForPapers() {
           className="shadow-lg mb-6"
           src="/PESGRE-CFP-2025-final.png"
           alt="CallForPapers"
-        />
+        /> 
         {/* text */}
         <div className="max-w-3xl mx-auto px-4">
           <section className="mb-8">
