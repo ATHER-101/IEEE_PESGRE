@@ -37,13 +37,13 @@ function CardList() {
       <h3 className="text-center text-blue-600 text-3xl pb-5 pl-6">
         Organisers
       </h3>
-      <div className="grid grid-cols-2 lg:grid-cols-4 gap-2">
+      <div className="grid grid-cols-2 lg:grid-cols-5 gap-2">
         {cards.map((card, idx) => (
           <div
             key={idx}
-            className=" w-full bg-white rounded-lg border border-gray-200 shadow-lg transition-transform transform hover:-translate-y-1 hover:shadow-xl p-6 text-center flex items-center justify-center"
+            className=" aspect-square w-full bg-white rounded-lg border border-gray-200 shadow-lg transition-transform transform hover:-translate-y-1 hover:shadow-xl p-6 text-center flex items-center justify-center"
           >
-            <img src={card.src} alt={card.alt} />
+            <img src={card.src} alt={card.alt} className="max-w-full max-h-full object-contain"/>
 
           </div>
         ))}

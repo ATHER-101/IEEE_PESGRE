@@ -64,18 +64,18 @@ export default function RunningTextStrip() {
     >
       <div
         ref={ref}
-        className="flex transition-transform duration-200 ease-in-out text-lg" // Adjust font size here
+        className="flex justify-center items-center transition-transform duration-200 ease-in-out text-lg" // Adjust font size here
         style={{
           transform: `translateX(${offset}px)`,
         }}
       >
         {textArray.map((text, index) => (
-          <>
-            <div>|</div>
-            <Link to={text.link} key={index} className="mx-4 hover:bg-blue-500 px-2 rounded">
+          <div key={index} className='flex items-center justify-center'>
+            <div className='bg-white w-[1.5px] h-5'></div>
+            <Link to={text.link} className="mx-2.5 hover:bg-blue-500 px-2 rounded">
               {text.text}
             </Link>
-          </>
+          </div>
         ))}
       </div>
     </div>
