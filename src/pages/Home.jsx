@@ -7,7 +7,7 @@ import CardList from '../components/CardList'
 function Home() {
   return (
     <div>
-      <Corousel size="small" text="4th International Conference on Power Electronics Smart Grid and Renewable Energy" subtext="December 18-21, 2025 IIT Dharwad, Karnataka, India" />
+      <Corousel size="small" text="4th IEEE International Conference on Power Electronics Smart Grid and Renewable Energy" subtext=" December 18-21, 2025 IIT Dharwad, Hubli, Karnataka, India" />
       <AnnouncementStrip />
       <div className='py-6 px-0 md:px-24 m-3 md:flex gap-4'>
         <div className='hidden md:block w-[70%]'><AnnouncementBox size='70' /></div>
