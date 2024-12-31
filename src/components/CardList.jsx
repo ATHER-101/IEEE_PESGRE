@@ -37,7 +37,7 @@ function CardList() {
       <h3 className="text-center text-blue-600 text-3xl pb-5 pl-6">
         Organisers
       </h3>
-      <div className="grid grid-cols-2 lg:grid-cols-5 gap-2">
+      <div className="grid grid-cols-2 lg:grid-cols-7 gap-2">
         {cards.map((card, idx) => (
           <div
             key={idx}

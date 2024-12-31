@@ -76,7 +76,7 @@ function IndustrySponsor() {
 
       <img
         className="w-full md:w-1/2 px-3 my-7 mx-auto object-fill"
-        src="PESGRE-CFP-2025-Sponsorship-only.png"
+        src="/PESGRE-CFP-2025-Sponsorship-only.png"
         alt="Sponsorship Brochure"
       />
     </div>

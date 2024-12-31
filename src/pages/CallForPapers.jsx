@@ -52,86 +52,93 @@ function CallForPapers() {
       </div>
 
       {/* text */}
-      <div className="max-w-3xl mx-auto px-4 py-8">
-        <section className="mb-8">
-          <h2 className="text-xl font-semibold text-blue-600 mb-2">Overview</h2>
-          <p>
-            PESGRE 2025 is a biennial conference organized by a Team of Faculty from IIT Dharwad. The conference is planned to be co-sponsored by IEEE Industry Applications Society, IEEE Kerala section, and IEEE IA/IE/PEL Jt. Chapter Kerala. The conference is planned to be technically co-sponsored by the IEEE Power Electronics Society, IEEE Industrial Electronics Society, IEEE Industry Applications Society and IEEE Power& Energy Society. The theme of the conference is “Power Electronics and Renewable Energy for Sustainable Development” and will be held from 18-21 December 2025 at IIT Dharwad, Dharwad, Karnataka, India.
-          </p>
-        </section>
+      <div className='mx-[170px] my-5 grid grid-cols-2 gap-4'>
+        <img
+          className="shadow-lg"
+          src="/PESGRE-CFP-2025-final.png"
+          alt="Sponsorship Brochure"
+        />
+        <div className="max-w-3xl mx-auto px-4">
+          <section className="mb-8">
+            <h2 className="text-xl font-semibold text-blue-600 mb-2">Overview</h2>
+            <p>
+              PESGRE 2025 is a biennial conference organized by a Team of Faculty from IIT Dharwad. The conference is planned to be co-sponsored by IEEE Industry Applications Society, IEEE Kerala section, and IEEE IA/IE/PEL Jt. Chapter Kerala. The conference is planned to be technically co-sponsored by the IEEE Power Electronics Society, IEEE Industrial Electronics Society, IEEE Industry Applications Society and IEEE Power& Energy Society. The theme of the conference is “Power Electronics and Renewable Energy for Sustainable Development” and will be held from 18-21 December 2025 at IIT Dharwad, Dharwad, Karnataka, India.
+            </p>
+          </section>
 
-        <section className="mb-8">
-          <h2 className="text-xl font-semibold text-blue-600 mb-2">Paper Submission</h2>
-          <p>
-            Prospective authors are invited to electronically submit full papers in English, 6 pages, in pdf format
-            following instructions on the website. The conference proceedings will be submitted to the IEEE Xplore
-            Digital Library®.
-          </p>
-          <p>
-            The papers presented at the PESGRE 2025 conference are eligible to submit the revised versions as post-conference papers for further review and possible publication in the IEEE-IAS
-            Transactions and Magazine (Yet to get the approval from IEEE IAS).
-          </p>
-        </section>
+          <section className="mb-8">
+            <h2 className="text-xl font-semibold text-blue-600 mb-2">Paper Submission</h2>
+            <p>
+              Prospective authors are invited to electronically submit full papers in English, 6 pages, in pdf format
+              following instructions on the website. The conference proceedings will be submitted to the IEEE Xplore
+              Digital Library®.
+            </p>
+            <p>
+              The papers presented at the PESGRE 2025 conference are eligible to submit the revised versions as post-conference papers for further review and possible publication in the IEEE-IAS
+              Transactions and Magazine (Yet to get the approval from IEEE IAS).
+            </p>
+          </section>
 
-        <section className="mb-8">
-          <h2 className="text-xl font-semibold text-blue-600 mb-2">Technical Tracks</h2>
-          <ul className="list-disc list-inside">
-            <li>Power Electronic Converters and Control Systems</li>
-            <li>Electric Drives and Electric Vehicles</li>
-            <li>Smart Grid & Microgrid</li>
-            <li>Renewable energy Resources, Distributed generation and Grid Interconnection</li>
-            <li>Energy storage & battery charging technologies</li>
-            <li>FACTS, Custom power, Power Quality & EMI</li>
-            <li>Wide band gap devices</li>
-            <li>Lighting & illumination</li>
-            <li>Power electronic education</li>
-            <li>Modern Power systems, Energy policies & Standards</li>
-          </ul>
-        </section>
+          <section className="mb-8">
+            <h2 className="text-xl font-semibold text-blue-600 mb-2">Technical Tracks</h2>
+            <ul className="list-disc list-inside">
+              <li>Power Electronic Converters and Control Systems</li>
+              <li>Electric Drives and Electric Vehicles</li>
+              <li>Smart Grid & Microgrid</li>
+              <li>Renewable energy Resources, Distributed generation and Grid Interconnection</li>
+              <li>Energy storage & battery charging technologies</li>
+              <li>FACTS, Custom power, Power Quality & EMI</li>
+              <li>Wide band gap devices</li>
+              <li>Lighting & illumination</li>
+              <li>Power electronic education</li>
+              <li>Modern Power systems, Energy policies & Standards</li>
+            </ul>
+          </section>
 
-        <section className="mb-8">
-          <h2 className="text-xl font-semibold text-blue-600 mb-2">Special Sessions</h2>
-          <p>
-            The conference will include special sessions on highly specialized topic areas, reporting technical trends
-            and breakthroughs within the scope of the conference. Special Sessions are organized at the initiative of
-            one or more individuals, who must adhere to specific procedures published on the conference website.
-          </p>
-        </section>
+          <section className="mb-8">
+            <h2 className="text-xl font-semibold text-blue-600 mb-2">Special Sessions</h2>
+            <p>
+              The conference will include special sessions on highly specialized topic areas, reporting technical trends
+              and breakthroughs within the scope of the conference. Special Sessions are organized at the initiative of
+              one or more individuals, who must adhere to specific procedures published on the conference website.
+            </p>
+          </section>
 
-        <section className="mb-8">
-          <h2 className="text-xl font-semibold text-blue-600 mb-2">Student & Young Professional Activities</h2>
-          <p>
-            The S&YP Activities enables engineering students and young professionals to present their R&D work in
-            Industrial Electronics, and to help them develop networking connections. IES S&YP can take part in a
-            competition for the IES-S&YP Paper Assistance during submission process. For more details, please visit IES
-            electronics channels.
-          </p>
-        </section>
+          <section className="mb-8">
+            <h2 className="text-xl font-semibold text-blue-600 mb-2">Student & Young Professional Activities</h2>
+            <p>
+              The S&YP Activities enables engineering students and young professionals to present their R&D work in
+              Industrial Electronics, and to help them develop networking connections. IES S&YP can take part in a
+              competition for the IES-S&YP Paper Assistance during submission process. For more details, please visit IES
+              electronics channels.
+            </p>
+          </section>
 
-        <section>
-          <h2 className="text-xl font-semibold text-blue-600 mb-2">Paper Submission Link</h2>
-          <p>
-            Prospective authors are invited to submit full papers to{' '}
-            <a
-              href="https://pesgre2025.org/"
-              className="text-blue-500 underline"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              this link
-            </a>.
-          </p>
-          <p>
-            Accepted, registered, and presented papers will be IEEE copyrighted and published in the conference
-            proceedings. For the accepted paper to be included in IEEE Xplore® Digital Library, all of the following
-            requirements must be satisfied:
-          </p>
-          <ol className="list-decimal list-inside mb-4">
-            <li>Appropriate publication materials: final paper and transfer of copyright to IEEE must be submitted.</li>
-            <li>At least one full registration should be paid.</li>
-            <li>Papers must be presented at the conference.</li>
-          </ol>
-        </section>
+          <section>
+            <h2 className="text-xl font-semibold text-blue-600 mb-2">Paper Submission Link</h2>
+            <p>
+              Prospective authors are invited to submit full papers to{' '}
+              <a
+                href="https://pesgre2025.org/"
+                className="text-blue-500 underline"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                this link
+              </a>.
+            </p>
+            <p>
+              Accepted, registered, and presented papers will be IEEE copyrighted and published in the conference
+              proceedings. For the accepted paper to be included in IEEE Xplore® Digital Library, all of the following
+              requirements must be satisfied:
+            </p>
+            <ol className="list-decimal list-inside mb-4">
+              <li>Appropriate publication materials: final paper and transfer of copyright to IEEE must be submitted.</li>
+              <li>At least one full registration should be paid.</li>
+              <li>Papers must be presented at the conference.</li>
+            </ol>
+          </section>
+        </div>
       </div>
       {/* text */}
     </div>
