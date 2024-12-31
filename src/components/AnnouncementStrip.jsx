@@ -1,8 +1,15 @@
 import React, { useState, useRef, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 const textArray = [
-  "PESGRE 2025 will be organised at IIT Dharwad, Karnataka, India during 18 - 21 December 2025.",
-  "Call for Papers will be updated soon.",
+  {
+    text: "PESGRE 2025 will be organised at IIT Dharwad, Karnataka, India during 18 - 21 December 2025.",
+    link: "/",
+  },
+  {
+    text: "Call for Paper Open",
+    link: "/authors/call-for-papers",
+  },
 ];
 
 export default function RunningTextStrip() {
@@ -46,7 +53,7 @@ export default function RunningTextStrip() {
     }
   }, [isPaused, offset]);
 
-  if(textArray.length==0) return <></>;
+  if (textArray.length == 0) return <></>;
 
   return (
     <div
@@ -63,9 +70,12 @@ export default function RunningTextStrip() {
         }}
       >
         {textArray.map((text, index) => (
-          <span key={index} className="mx-4">
-            {text}
-          </span>
+          <>
+            <div>|</div>
+            <Link to={text.link} key={index} className="mx-4 hover:bg-blue-500 px-2 rounded">
+              {text.text}
+            </Link>
+          </>
         ))}
       </div>
     </div>
