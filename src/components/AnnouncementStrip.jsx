@@ -7,7 +7,7 @@ const textArray = [
     link: "/",
   },
   {
-    text: "Call for Paper Open",
+    text: "Call for Papers is Open",
     link: "/authors/call-for-papers",
   },
 ];
