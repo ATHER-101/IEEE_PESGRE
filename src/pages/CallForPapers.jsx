@@ -37,11 +37,11 @@ function CallForPapers() {
         </div>
       </div>
 
-      <div className='mx-[170px] my-5 grid grid-cols-2 gap-4'>
+      <div className='mx-3 md:mx-[170px] my-5 md:grid grid-cols-2 gap-4'>
         <img
-          className="shadow-lg"
+          className="shadow-lg mb-6"
           src="/PESGRE-CFP-2025-final.png"
-          alt="Sponsorship Brochure"
+          alt="CallForPapers"
         />
         {/* text */}
         <div className="max-w-3xl mx-auto px-4">
