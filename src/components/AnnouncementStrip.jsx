@@ -10,6 +10,10 @@ const textArray = [
     text: "Call for Papers is Open",
     link: "/authors/call-for-papers",
   },
+    {
+    text: "Call for Special Session Proposals will be open soon",
+    link: "/authors/call-for-papers",
+  },
 ];
 
 export default function RunningTextStrip() {
