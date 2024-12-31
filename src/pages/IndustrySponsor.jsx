@@ -8,7 +8,7 @@ function IndustrySponsor() {
 
   return (
     <div>
-      <Corousel font='5' text="Industry Sponsor"/>
+      <Corousel text="Industry Sponsor"/>
 
       <div className="text-3xl text-center m-5 mb-5 uppercase">
         Industry Sponsor

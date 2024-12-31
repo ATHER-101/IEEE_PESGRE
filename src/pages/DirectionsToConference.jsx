@@ -5,7 +5,7 @@ function DirectionsToConference() {
   return (
     <div>
 
-      <Corousel font='5' text="Location" />
+      <Corousel text="Location" />
 
       <div className="text-3xl text-center m-5 mb-10 uppercase">
         Location

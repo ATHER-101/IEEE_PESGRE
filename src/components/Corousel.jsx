@@ -23,7 +23,7 @@ const images = [
   },
 ];
 
-function SwipeableTextMobileStepper({ text, subtext, font }) {
+function SwipeableTextMobileStepper({ text, subtext, size }) {
   const [sliderRef, setSliderRef] = useState(null);
 
   const settings = {
@@ -53,12 +53,12 @@ function SwipeableTextMobileStepper({ text, subtext, font }) {
         </Slider>
 
         {/* Dark overlay */}
-        <div className={`absolute inset-0 ${font === '5' ? 'bg-black bg-opacity-70' : 'bg-black bg-opacity-50'}`}></div>
+        <div className={`absolute inset-0 ${size == "small" ? 'bg-black bg-opacity-50' : 'bg-black bg-opacity-70'}`}></div>
 
         {/* Text overlay */}
-        <div className={`absolute ${font === '5' ? 'top-1/2' : 'top-2/3'} left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center w-[90%] md:w-[80%]`}>
+        <div className={`absolute ${size == "small" ? 'top-2/3' : 'top-1/2'} left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center w-[90%] md:w-[80%]`}>
           <h1
-            className={`text-[6vw] md:text-[${font}vw] font-bold`}
+            className={`text-[9vw] ${size == "small" ? 'md:text-[3.5vw]' : 'text-[5vw]'} font-bold`}
             style={{ fontFamily: 'Libre Franklin, sans-serif', fontWeight: 800 }}
           >
             {text}
@@ -68,7 +68,7 @@ function SwipeableTextMobileStepper({ text, subtext, font }) {
       </div>
 
       {/* Arrow buttons only visible on medium screens and larger */}
-      {font === '5' ? <></> :
+      {size == "small" ?
         <>
           <div className="hidden md:block absolute top-1/2 left-2 transform -translate-y-1/2">
             <button
@@ -86,7 +86,7 @@ function SwipeableTextMobileStepper({ text, subtext, font }) {
               <FaArrowRight />
             </button>
           </div>
-        </>}
+        </> : <></>}
     </div>
   );
 }

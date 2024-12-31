@@ -4,7 +4,7 @@ import Corousel from "../components/Corousel"
 function OrganizingCommittee() {
   return (
     <div>
-      <Corousel font='5' text="Conference Organizing Committee"/>
+      <Corousel text="Conference Organizing Committee"/>
 
       {/* text */}
       <div className="px-8 md:px-34 py-5">

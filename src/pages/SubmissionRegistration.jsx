@@ -4,7 +4,7 @@ import Corousel from "../components/Corousel"
 function SubmissionRegistration() {
   return (
     <div>
-      <Corousel font='5' text="Submission & Registration"/>
+      <Corousel text="Submission & Registration"/>
 
       <div className="text-3xl text-center m-5 mb-20 uppercase">
         Submission & Registration

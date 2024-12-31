@@ -8,7 +8,7 @@ function CallForPapers() {
 
   return (
     <div>
-      <Corousel font='5' text="Call For Papers"/>
+      <Corousel text="Call For Papers"/>
 
       <div className="text-3xl text-center m-5 uppercase">
         Call For Papers

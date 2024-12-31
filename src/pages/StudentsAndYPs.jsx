@@ -4,7 +4,7 @@ import Corousel from "../components/Corousel"
 function StudentsAndYPs() {
   return (
     <div>
-      <Corousel font='5' text="Students & YPs"/>
+      <Corousel text="Students & YPs"/>
 
       <div className="text-3xl text-center m-5 uppercase">
         Students & YPs

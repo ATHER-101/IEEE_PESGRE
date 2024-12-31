@@ -5,7 +5,7 @@ function Chairs() {
   return (
     <div>
       
-      <Corousel font='5' text="Chairs"/>
+      <Corousel text="Chairs"/>
 
       <div className="text-3xl text-center m-5 mb-20 uppercase">
         Chairs

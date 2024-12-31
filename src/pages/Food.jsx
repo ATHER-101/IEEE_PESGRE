@@ -5,7 +5,7 @@ function Food() {
   return (
     <div>
       
-      <Corousel font='5' text="Food"/>
+      <Corousel text="Food"/>
 
       <div className="text-3xl text-center m-5 mb-20 uppercase">
         Food

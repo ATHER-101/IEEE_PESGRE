@@ -4,7 +4,7 @@ import Corousel from "../components/Corousel"
 function KeynoteSpeakers() {
   return (
     <div>
-      <Corousel font='5' text="Keynote Speakers"/>
+      <Corousel text="Keynote Speakers"/>
 
       <div className="text-3xl text-center m-5 mb-20 uppercase">
         Keynote Speakers
