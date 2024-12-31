@@ -16,8 +16,7 @@ function Home() {
           <div className="rounded-2xl shadow-lg p-3">
             <div className="text-3xl text-center text-blue-600">Important Information</div>
             <div className="mx-8 md:mx-10 mt-4 text-lg leading-relaxed">
-              PESGRE 2025 is a biennial conference organized by a Team of Faculty from IIT Dharwad. The conference is planned to be co-sponsored by IEEE Industry Applications Society, IEEE Kerala section, and IEEE IA/IE/PEL Jt. Chapter Kerala. The conference is planned to be technically co-sponsored by the IEEE Power Electronics Society, IEEE Industrial Electronics Society, IEEE Industry Applications Society and IEEE Power& Energy Society. The theme of the conference is “Power Electronics and Renewable Energy for Sustainable Development” and will be held from 18-21 December 2025 at IIT Dharwad, Dharwad, Karnataka, India.
-            </div>
+IEEE PESGRE is the biennial flagship Conference of IEEE Kerala Section, IEEE IA/IE/PELS Joint Chapter Kerala and IEEE Industry Applications Society. IEEE Industry Applications Society, IEEE Kerala Section, and IA/IE/PELS Jt. Chapter Kerala are financial co-sponsors. The technical co-sponsors of the conference includes IEEE Power Electronics Society, IEEE Industrial Electronics Society, and IEEE Power & Energy Society. The theme of the conference is “Power Electronics and Renewable Energy for Sustainable Development” and will be held from 18-21 December 2025 at Indian Institute of Technology Dharwad, Dharwad, Hubli, Karnataka, India.            </div>
           </div>
 
           <div className="rounded-2xl shadow-lg p-3 py-7">
