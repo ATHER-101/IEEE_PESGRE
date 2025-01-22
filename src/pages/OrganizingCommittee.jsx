@@ -84,7 +84,7 @@ function OrganizingCommittee() {
           <p>J. Rabkowski, Warsaw University of Technology, Poland</p>
           <p>Johann W. Kolar, ETH Zurich, Zurich, Switzerland</p>
           <p>Kaushik Rajashekara, University of Houston, Texas, USA</p>
-          <p>L Umanand, IISC Bangalore, India</p>
+          <p>L Umanand, IISc Bangalore, India</p>
           <p>Mariusz Malinowski, Warsaw University of Technology, Poland</p>
           <p>Pragasen Pillai, Concordia University, Canada</p>
           <p>Prasad Enjeti, Texas A&M University, USA</p>
