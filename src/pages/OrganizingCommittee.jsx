@@ -72,7 +72,6 @@ function OrganizingCommittee() {
          <p> S C Srivasthava, IIT Kanpur, India</p>
          <p>  Amit Kumar Gupta, Rolls Royce, Singapore</p>
           <p>Bhim Singh, IIT Delhi, India</p>
-          <p>C. Cecati, University of L’Aquila, Italy</p>
           <p>C. Chakraborty, Indian Inst. of Technology Kharagpur, India</p>
           <p>Chun Che Fung, Director, IEEE R10</p>
           <p>Drazen Dujic, École Polytechnique Fédérale de Lausanne – EPFL, Switzerland</p>
@@ -84,7 +83,6 @@ function OrganizingCommittee() {
           <p>Holtz, University of Wuppertal, Germany</p>
           <p>J. Rabkowski, Warsaw University of Technology, Poland</p>
           <p>Johann W. Kolar, ETH Zurich, Zurich, Switzerland</p>
-          <p>Joseph Ojo, Tennessee Technological University</p>
           <p>Kaushik Rajashekara, University of Houston, Texas, USA</p>
           <p>L Umanand, IISC Bangalore, India</p>
           <p>Mariusz Malinowski, Warsaw University of Technology, Poland</p>
