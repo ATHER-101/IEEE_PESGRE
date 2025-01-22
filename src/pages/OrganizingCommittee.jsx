@@ -58,7 +58,7 @@ function OrganizingCommittee() {
           <h2 className="text-blue-600 font-bold">Finance Chair</h2>
           <p>Satish Naik Banavath, IIT Dharwad, India </p>
           <p>  Prathyasa Bhui, IIT Dharwad, India</p>
-           <p> Nandan S, Treasurer, IEEE Kerala Section, India</p>
+           <p> Sabiq P V, Treasurer, IEEE Kerala Section, India</p>
 
           <h2 className="text-blue-600 font-bold">Student and Young Professionals Chairs</h2>
           <p>Edivan Laercio Carvalho da Silva, Tallinn University of Technology, Estonia</p>
