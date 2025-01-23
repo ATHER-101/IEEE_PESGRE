@@ -6,3 +6,34 @@ body {
   margin: 0;
   padding: 0;
 }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulseGrid {
+  0% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 0.2;
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 1s ease-in-out;
+}
+
+.animate-pulse-grid {
+  animation: pulseGrid 3s infinite ease-in-out;
+}

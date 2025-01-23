@@ -6,54 +6,31 @@ const Footer = () => {
   const year = date.getFullYear();
 
   return (
-    <div id="footer" className="bg-gray-800 text-white py-3 px-4 pt-10">
-      <div className="max-w-6xl mx-auto">
-        {/* <Link to="/">
-          <img
-            className="max-w-[400px] w-[100%] px-5 fill-current text-white"
-            src="/Logo_pesgre1-bgless.png"
-            alt="Logo"
-          />
-        </Link> */}
-        <div className="flex flex-col md:flex-row items-center justify-between">
-          <div className="flex mb-4 md:mb-0">
-            <Link to="/"
-              className="cursor-pointer hover:text-blue-600 px-5 py-1"
-            >
-              Home
-            </Link>
-            <Link to="/contact"
-              className="cursor-pointer hover:text-blue-600 px-5 py-1"
-            >
-              Contact
-            </Link>
-          </div>
-
-          <div className="flex flex-col mb-4 md:mb-0">
+    <div
+      id="footer"
+      className="bg-gradient-to-r from-blue-500 to-blue-700 text-white py-8 px-4"
+    >
+      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+        {/* Contact Us Section */}
+        <div>
+          <h4 className="font-semibold text-lg mb-2">Contact Us</h4>
+          <div className="space-y-2">
             <a
               href="mailto:pesgre2025@iitdh.ac.in"
-              className="hover:text-blue-600"
+              className="block text-white hover:text-blue-200 transition duration-300"
             >
               pesgre2025@iitdh.ac.in
             </a>
           </div>
-          <div className="flex items-center space-x-4">
-            {/* <div className="flex items-center">
-              <a
-                href="https://www.instagram.com/technical.council_iitdh/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:underline"
-              >
-                <img
-                  src="https://uploads-ssl.webflow.com/60da2de038a15fdb730c5608/62f6a8eaaf7b5b57d23c61a3_Instagram%20White.svg"
-                  loading="lazy"
-                  alt="White Instagram Icon"
-                  className="h-6 w-6" // Adjust size as needed
-                />
-              </a>
-            </div> */}
-            <div>© Copyright - {year} IITDh all rights reserved</div>
+        </div>
+
+        {/* Copyright Information */}
+        <div>
+          <div className="mb-2 md:text-right">
+            <div>© Copyright - {year} IITDh. All rights reserved.</div>
+          </div>
+          <div className="md:text-right text-white">
+            <p>Designed & Developed by the IITDh Coding Club</p>
           </div>
         </div>
       </div>

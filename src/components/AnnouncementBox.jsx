@@ -20,7 +20,7 @@ function CustomCarousel({ text, subtext, size }) {
   };
 
   return (
-    <div className={`relative rounded-2xl shadow-lg w-full p-3`}>
+    <div className={`relative shadow-lg w-full`}>
       <div className="relative w-full h-full">
         {/* Carousel Images */}
         <div className="w-full h-full overflow-hidden">

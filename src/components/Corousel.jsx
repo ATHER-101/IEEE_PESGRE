@@ -1,25 +1,25 @@
-import React, { useState } from 'react';
-import Slider from 'react-slick';
-import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
+import React, { useState } from "react";
+import Slider from "react-slick";
+import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const images = [
   {
-    label: '1',
-    imgPath: '/iitdh_admin_block.jpg',
+    label: "1",
+    imgPath: "/iitdh_admin_block.jpg",
   },
   {
-    label: '2',
-    imgPath: '/hampi3.jpg',
+    label: "2",
+    imgPath: "/hampi3.jpg",
   },
   {
-    label: '3',
-    imgPath: '/dandeli.jpg',
+    label: "3",
+    imgPath: "/dandeli.jpg",
   },
   {
-    label: '4',
-    imgPath: '/western-ghats.jpg',
+    label: "4",
+    imgPath: "/western-ghats.jpg",
   },
 ];
 
@@ -52,28 +52,59 @@ function SwipeableTextMobileStepper({ text, subtext, size }) {
           ))}
         </Slider>
 
-        {/* Dark overlay */}
-        <div className={`absolute inset-0 ${size == "small" ? 'bg-black bg-opacity-50' : 'bg-black bg-opacity-70'}`}></div>
+        {/* Themed overlay with animation */}
+        <div
+          className={`absolute inset-0 ${
+            size === "small"
+              ? "bg-black bg-opacity-60"
+              : "bg-black bg-opacity-70"
+          }`}
+        >
+          <div
+            className="absolute inset-0 animate-pulse-grid"
+            style={{
+              maskImage:
+                "radial-gradient(circle at top right, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0.5) 15%, rgba(0, 0, 0, 0) 40%)",
+              WebkitMaskImage:
+                "radial-gradient(circle at top right, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0.5) 15%, rgba(0, 0, 0, 0) 40%)",
+              backgroundImage:
+                "linear-gradient(#ffffff 2px, transparent 2px), linear-gradient(to right, #ffffff 2px, transparent 2px)",
+              backgroundSize: "30px 30px",
+              backgroundRepeat: "repeat",
+            }}
+          ></div>
+        </div>
 
-        {/* Text overlay */}
-        <div className={`absolute ${size == "small" ? 'top-2/3' : 'top-1/2'} left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center w-[90%] md:w-[80%]`}>
-          <h1
-            className={`${size == "small" ? 'text-[6vw]' : 'text-[9vw]'} ${size == "small" ? 'md:text-[3.5vw]' : 'md:text-[5vw]'} font-bold`}
-            style={{ fontFamily: 'Libre Franklin, sans-serif', fontWeight: 800 }}
-          >
-            {text}
-          </h1>
-          <p className="text-[3.5vw] md:text-[2vw] mt-3 md:mt-2">{subtext}</p>
+        {/* Text overlay with animation */}
+        <div
+          className={`absolute ${
+            size === "small" ? "top-2/3" : "top-1/2"
+          } left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center w-[90%] md:w-[80%]`}
+        >
+          <div className="animate-fade-in">
+            <h1
+              className={`${size === "small" ? "text-[6vw]" : "text-[9vw]"} ${
+                size === "small" ? "md:text-[3.5vw]" : "md:text-[5vw]"
+              } font-bold`}
+              style={{
+                fontFamily: "Libre Franklin, sans-serif",
+                fontWeight: 800,
+              }}
+            >
+              {text}
+            </h1>
+            <p className="text-[3.5vw] md:text-[2vw] mt-3 md:mt-2">{subtext}</p>
+          </div>
         </div>
       </div>
 
-      {/* Arrow buttons only visible on medium screens and larger */}
-      {size == "small" ?
+      {/* Arrow buttons matching the theme */}
+      {size === "small" ? (
         <>
           <div className="hidden md:block absolute top-1/2 left-2 transform -translate-y-1/2">
             <button
               onClick={() => sliderRef.slickPrev()}
-              className="bg-white rounded-full p-2 shadow hover:bg-gray-200"
+              className=" text-white rounded-full p-2 shadow hover:bg-[#9cc9f775]"
             >
               <FaArrowLeft />
             </button>
@@ -81,12 +112,13 @@ function SwipeableTextMobileStepper({ text, subtext, size }) {
           <div className="hidden md:block absolute top-1/2 right-2 transform -translate-y-1/2">
             <button
               onClick={() => sliderRef.slickNext()}
-              className="bg-white rounded-full p-2 shadow hover:bg-gray-200"
+              className=" text-white rounded-full p-2 shadow hover:bg-[#9cc9f775]"
             >
               <FaArrowRight />
             </button>
           </div>
-        </> : <></>}
+        </>
+      ) : null}
     </div>
   );
 }

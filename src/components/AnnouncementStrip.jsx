@@ -10,7 +10,7 @@ const textArray = [
     text: "Call for Papers is Open",
     link: "/authors/call-for-papers",
   },
-    {
+  {
     text: "Call for Special Session Proposals will be open soon",
     link: "/authors/call-for-papers",
   },
@@ -21,17 +21,8 @@ export default function RunningTextStrip() {
   const [offset, setOffset] = useState(0);
   const ref = useRef(null);
 
-  const handleMouseEnter = () => {
-    setIsPaused(true);
-  };
-
-  const handleMouseLeave = () => {
-    setIsPaused(false);
-  };
-
-  const handleClick = () => {
-    setIsPaused((prev) => !prev);
-  };
+  const handleMouseEnter = () => setIsPaused(true);
+  const handleMouseLeave = () => setIsPaused(false);
 
   const updateOffset = () => {
     if (ref.current) {
@@ -39,44 +30,50 @@ export default function RunningTextStrip() {
       const width = rect.width; // Total width of the text content
       const parentWidth = ref.current.parentNode.offsetWidth; // Width of the parent container
 
-      // Move the text out of the view on the left
+      // Reset offset with a gap after text exits the left side
       if (offset <= -width) {
-        // Reset to the right side of the screen
-        setOffset(parentWidth);
+        setOffset(parentWidth + 100);
       } else {
-        setOffset((prev) => prev - 7); // Adjust speed by changing this value
+        setOffset((prev) => prev - 5); // Adjust speed here
       }
     }
   };
 
-  // Use a setInterval to update the offset periodically
   useEffect(() => {
     if (!isPaused) {
-      const interval = setInterval(updateOffset, 50); // Adjust speed as needed
+      const interval = setInterval(updateOffset, 30); // Smooth scrolling speed
       return () => clearInterval(interval);
     }
   }, [isPaused, offset]);
 
-  if (textArray.length == 0) return <></>;
+  if (textArray.length === 0) return null;
 
   return (
     <div
-      className="overflow-hidden whitespace-nowrap bg-blue-600 text-white h-[42px] flex items-center cursor-pointer"
+      className="relative overflow-hidden whitespace-nowrap bg-gradient-to-r from-blue-800 to-blue-600 text-white shadow-lg h-[50px] w-full flex items-center"
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
-      onClick={handleClick}
     >
+      {/* Fading Effect: Left and Right Edges */}
+      <div className="absolute inset-y-0 left-0 w-[100px] bg-gradient-to-r from-blue-800 to-transparent z-10 pointer-events-none"></div>
+      <div className="absolute inset-y-0 right-0 w-[100px] bg-gradient-to-l from-blue-800 to-transparent z-10 pointer-events-none"></div>
+
+      {/* Scrolling Content */}
       <div
         ref={ref}
-        className="flex justify-center items-center transition-transform duration-200 ease-in-out text-lg" // Adjust font size here
+        className="flex justify-start items-center transition-transform duration-200 ease-in-out"
         style={{
           transform: `translateX(${offset}px)`,
         }}
       >
         {textArray.map((text, index) => (
-          <div key={index} className='flex items-center justify-center'>
-            <div className='bg-white w-[1.5px] h-5'></div>
-            <Link to={text.link} className="mx-2.5 hover:bg-blue-500 px-2 rounded">
+          <div key={index} className="flex items-center">
+            {/* Separator Line */}
+            <div className="bg-white w-[1.5px] h-5 mx-2"></div>
+            <Link
+              to={text.link}
+              className="mx-4 text-sm md:text-lg hover:underline"
+            >
               {text.text}
             </Link>
           </div>
