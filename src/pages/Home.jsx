@@ -6,6 +6,44 @@ import CardList from "../components/CardList";
 import Countdown from "../components/Countdown";
 import { FaInfoCircle, FaCalendarAlt, FaBullhorn } from "react-icons/fa";
 
+const organisers_cards = [
+  {
+    src: "/iitdh.png",
+    alt: "IITDh logo",
+  },
+  {
+    src: "/IEEE.png",
+    alt: "IEEE logo",
+  },
+  {
+    src: "/PES-Logo.png",
+    alt: "PES logo",
+  },
+  {
+    src: "/IEEE-IAS-Logo.png",
+    alt: "IEEE IAS logo",
+  },
+  {
+    src: "/IEEEK.png",
+    alt: "IEEE Kerala logo",
+  },
+  {
+    src: "/ies-logo.png",
+    alt: "IEEE IES logo",
+  },
+  {
+    src: "/PELS-Logo.png",
+    alt: "PELS logo",
+  },
+];
+
+const sponsors_cards = [
+  {
+    src: "/JSC GROUP LOGO-01.png",
+    alt: "JSC GROUP LOGO-01",
+  },
+];
+
 function Home() {
   return (
     <div>
@@ -136,11 +174,112 @@ function Home() {
         </div>
       </div>
 
+      {/* Organizers Section */}
+      <div className="bg-gray-200 relative">
+        {/* Themed Background with Animation */}
+        <div
+          className="absolute inset-0 animate-pulse-grid w-full p-6"
+          style={{
+            maskImage:
+              "radial-gradient(circle at top left, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0.5) 15%, rgba(0, 0, 0, 0) 40%)",
+            WebkitMaskImage:
+              "radial-gradient(circle at top left, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0.5) 15%, rgba(0, 0, 0, 0) 40%)",
+            backgroundImage:
+              "linear-gradient(#52A9D5 2px, transparent 2px), linear-gradient(to right, #52A9D5 2px, transparent 2px)",
+            backgroundSize: "20px 20px",
+            backgroundRepeat: "repeat",
+          }}
+        >
+          <style>
+            {`
+              @media (min-width: 1024px) {
+                .animate-pulse-grid {
+                  background-size: 30px 30px !important;
+                }
+              }
+            `}
+          </style>
+        </div>
+        <div
+          className="absolute inset-0 animate-pulse-grid w-full p-6"
+          style={{
+            maskImage:
+              "radial-gradient(circle at bottom right, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0.5) 15%, rgba(0, 0, 0, 0) 40%)",
+            WebkitMaskImage:
+              "radial-gradient(circle at bottom right, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0.5) 15%, rgba(0, 0, 0, 0) 40%)",
+            backgroundImage:
+              "linear-gradient(#52A9D5 2px, transparent 2px), linear-gradient(to right, #52A9D5 2px, transparent 2px)",
+            backgroundSize: "20px 20px",
+            backgroundRepeat: "repeat",
+          }}
+        >
+          <style>
+            {`
+              @media (min-width: 1024px) {
+                .animate-pulse-grid {
+                  background-size: 30px 30px !important;
+                }
+              }
+            `}
+          </style>
+        </div>
+        <CardList title="Platinum Sponsor" cards={sponsors_cards} />
+      </div>
+
       {/* Countdown */}
       <Countdown conferenceDate="18/12/2025" />
 
-      {/* Card Section */}
-      <CardList />
+      {/* Sponsors Section */}
+      <div className="relative bg-gradient-to-r from-blue-200 via-blue-50 to-blue-200">
+        {/* Themed Background with Animation */}
+        <div
+          className="absolute inset-0 animate-pulse-grid w-full p-6"
+          style={{
+            maskImage:
+              "radial-gradient(circle at top left, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0.5) 15%, rgba(0, 0, 0, 0) 40%)",
+            WebkitMaskImage:
+              "radial-gradient(circle at top left, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0.5) 15%, rgba(0, 0, 0, 0) 40%)",
+            backgroundImage:
+              "linear-gradient(#FFFFFF 2px, transparent 2px), linear-gradient(to right, #FFFFFF 2px, transparent 2px)",
+            backgroundSize: "20px 20px",
+            backgroundRepeat: "repeat",
+          }}
+        >
+          <style>
+            {`
+              @media (min-width: 1024px) {
+                .animate-pulse-grid {
+                  background-size: 30px 30px !important;
+                  }
+                  }
+                  `}
+          </style>
+        </div>
+        <div
+          className="absolute inset-0 animate-pulse-grid w-full p-6"
+          style={{
+            maskImage:
+              "radial-gradient(circle at bottom right, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0.5) 15%, rgba(0, 0, 0, 0) 40%)",
+            WebkitMaskImage:
+              "radial-gradient(circle at bottom right, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0.5) 15%, rgba(0, 0, 0, 0) 40%)",
+            backgroundImage:
+              "linear-gradient(#FFFFFF 2px, transparent 2px), linear-gradient(to right, #FFFFFF 2px, transparent 2px)",
+            backgroundSize: "20px 20px",
+            backgroundRepeat: "repeat",
+          }}
+        >
+          <style>
+            {`
+              @media (min-width: 1024px) {
+                .animate-pulse-grid {
+                  background-size: 30px 30px !important;
+                  }
+                  }
+                  `}
+          </style>
+        </div>
+        <CardList title="Organisers" cards={organisers_cards} />
+      </div>
     </div>
   );
 }

@@ -1,5 +1,13 @@
 import React from "react";
 import Corousel from "../components/Corousel";
+import CardList from "../components/CardList";
+
+const sponsors_cards = [
+  {
+    src: "/JSC GROUP LOGO-01.png",
+    alt: "JSC GROUP LOGO-01",
+  },
+];
 
 function IndustrySponsor() {
   const openLink = (link) => {
@@ -75,8 +83,8 @@ function IndustrySponsor() {
         </div>
 
         {/* Two-Column Layout */}
-        <div className="flex flex-wrap -mx-4">
-          {/* Right Column */}
+        <div className="flex flex-wrap mx-4">
+          {/* Left Column */}
           <div className="w-full md:w-1/2 px-4">
             <div className="mb-8">
               <img
@@ -87,15 +95,13 @@ function IndustrySponsor() {
             </div>
           </div>
 
-          {/* Left Column */}
+          {/* Right Column */}
           <div className="w-full md:w-1/2 px-4">
             <div className="relative z-10  w-full md:w-[90%] mb-8">
               <div className="flex justify-between items-center bg-white rounded-md border p-4 w-full">
                 <p className="text-lg">Download Sponsorship Brochure</p>
                 <button
-                  onClick={() =>
-                    openLink("/PESGRE-CFP-2025-Sponsorship.pdf")
-                  }
+                  onClick={() => openLink("/PESGRE-CFP-2025-Sponsorship.pdf")}
                   className="flex items-center bg-blue-600 text-white rounded-lg px-4 py-2 hover:bg-blue-700 transition duration-200"
                 >
                   <svg
@@ -141,8 +147,10 @@ function IndustrySponsor() {
                 </button>
               </div>
             </div>
+            <div className="mt-16">
+              <CardList title="Platinum Sponsor" cards={sponsors_cards} />
+            </div>
           </div>
-
         </div>
       </div>
     </div>

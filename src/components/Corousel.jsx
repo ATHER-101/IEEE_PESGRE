@@ -10,16 +10,16 @@ const images = [
     imgPath: "/iitdh_admin_block.jpg",
   },
   {
+    label: "1",
+    imgPath: "/iitdh2.jpg",
+  },
+  {
     label: "2",
     imgPath: "/hampi3.jpg",
   },
   {
     label: "3",
     imgPath: "/dandeli.jpg",
-  },
-  {
-    label: "4",
-    imgPath: "/western-ghats.jpg",
   },
 ];
 

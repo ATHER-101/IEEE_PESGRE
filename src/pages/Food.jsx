@@ -4,7 +4,6 @@ import Corousel from "../components/Corousel"
 function Food() {
   return (
     <div>
-      
       {/* Carousel Section */}
       <Corousel text="Food" />
 
