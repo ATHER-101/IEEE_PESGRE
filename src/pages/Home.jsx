@@ -23,7 +23,10 @@ const organisers_cards = [
     src: "/IEEEK.png",
     alt: "IEEE Kerala logo",
   },
-  
+  {
+    src: "/IEEEkjt.png",
+    alt: "IEEE Kerala logo",
+  },
   {
     src: "/ies-logo.png",
     alt: "IEEE IES logo",
