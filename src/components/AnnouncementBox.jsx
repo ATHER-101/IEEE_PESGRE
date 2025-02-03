@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 
 const images = [
@@ -6,23 +6,42 @@ const images = [
     label: '1',
     imgPath: '/PESGRE-CFP-2025-final.png',
   },
+  {
+    label: '2',
+    imgPath: '/PlatinumSponsor-JSC-1.png',
+  },
+  {
+    label: '3',
+    imgPath: '/BronzeSponsor-ChargeHouse-1.png',
+  },
 ];
 
-function CustomCarousel({ text, subtext, size }) {
+function CustomCarousel({ text, subtext }) {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const handlePrev = () => {
-    setCurrentIndex((prevIndex) => (prevIndex === 0 ? images.length - 1 : prevIndex - 1));
+    setCurrentIndex((prevIndex) =>
+      prevIndex === 0 ? images.length - 1 : prevIndex - 1
+    );
   };
 
   const handleNext = () => {
-    setCurrentIndex((prevIndex) => (prevIndex === images.length - 1 ? 0 : prevIndex + 1));
+    setCurrentIndex((prevIndex) =>
+      prevIndex === images.length - 1 ? 0 : prevIndex + 1
+    );
   };
 
+  useEffect(() => {
+    const interval = setInterval(() => {
+      handleNext();
+    }, 5000);
+
+    return () => clearInterval(interval);
+  }, [currentIndex]);
+
   return (
-    <div className={`relative shadow-lg w-full`}>
+    <div className="relative shadow-lg w-full">
       <div className="relative w-full h-full">
-        {/* Carousel Images */}
         <div className="w-full h-full overflow-hidden">
           <div
             className="flex transition-transform duration-500"
@@ -64,11 +83,7 @@ function CustomCarousel({ text, subtext, size }) {
       {/* Optional Text */}
       {text && (
         <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 text-center">
-          <h3
-            className={`text-xl ${font || 'font-bold'} text-black`}
-          >
-            {text}
-          </h3>
+          <h3 className="text-xl font-bold text-black">{text}</h3>
           {subtext && <p className="text-sm text-gray-500">{subtext}</p>}
         </div>
       )}

@@ -37,10 +37,17 @@ const organisers_cards = [
   },
 ];
 
-const sponsors_cards = [
+const platinum_sponsors_cards = [
   {
     src: "/JSC GROUP LOGO-01.png",
     alt: "JSC GROUP LOGO-01",
+  },
+];
+
+const bronze_sponsors_cards = [
+  {
+    src: "/Chargehouse Logo.jpg",
+    alt: "Chargehouse Logo",
   },
 ];
 
@@ -223,7 +230,10 @@ function Home() {
             `}
           </style>
         </div>
-        <CardList title="Platinum Sponsor" cards={sponsors_cards} />
+        <div className="flex">
+          <CardList title="Platinum Sponsor" cards={platinum_sponsors_cards} />
+          <CardList title="Bronze Sponsor" cards={bronze_sponsors_cards} />
+        </div>
       </div>
 
       {/* Countdown */}
