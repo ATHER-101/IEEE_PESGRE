@@ -2,10 +2,17 @@ import React from "react";
 import Corousel from "../components/Corousel";
 import CardList from "../components/CardList";
 
-const sponsors_cards = [
+const platinum_sponsors_cards = [
   {
     src: "/JSC GROUP LOGO-01.png",
     alt: "JSC GROUP LOGO-01",
+  },
+];
+
+const bronze_sponsors_cards = [
+  {
+    src: "/Chargehouse Logo.jpg",
+    alt: "Chargehouse Logo",
   },
 ];
 
@@ -148,7 +155,8 @@ function IndustrySponsor() {
               </div>
             </div>
             <div className="mt-16">
-              <CardList title="Platinum Sponsor" cards={sponsors_cards} />
+              <CardList title="Platinum Sponsor" cards={platinum_sponsors_cards} />
+              <CardList title="Bronze Sponsor" cards={bronze_sponsors_cards} />
             </div>
           </div>
         </div>
