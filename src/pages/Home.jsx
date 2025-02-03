@@ -15,11 +15,7 @@ const organisers_cards = [
     src: "/IEEE.png",
     alt: "IEEE logo",
   },
-  {
-    src: "/PES-Logo.png",
-    alt: "PES logo",
-  },
-  {
+   {
     src: "/IEEE-IAS-Logo.png",
     alt: "IEEE IAS logo",
   },
@@ -27,6 +23,7 @@ const organisers_cards = [
     src: "/IEEEK.png",
     alt: "IEEE Kerala logo",
   },
+  
   {
     src: "/ies-logo.png",
     alt: "IEEE IES logo",
@@ -34,6 +31,10 @@ const organisers_cards = [
   {
     src: "/PELS-Logo.png",
     alt: "PELS logo",
+  },
+  {
+    src: "/PES-Logo.png",
+    alt: "PES logo",
   },
 ];
 
@@ -123,7 +124,7 @@ function Home() {
               </div>
               <ul className="space-y-4 text-lg text-gray-700">
                 <li>
-                  <strong>Submission Open:</strong> 15th April 2025
+                  <strong>Submission Opens:</strong> 15th April 2025
                 </li>
                 <li>
                   <strong>Paper Submission Deadline:</strong> 15th June 2025
