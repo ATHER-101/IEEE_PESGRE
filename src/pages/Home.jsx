@@ -3,6 +3,7 @@ import Corousel from "../components/Corousel";
 import AnnouncementStrip from "../components/AnnouncementStrip";
 import AnnouncementBox from "../components/AnnouncementBox";
 import CardList from "../components/CardList";
+import SponsorList from "../components/SponsorList";
 import Countdown from "../components/Countdown";
 import { FaInfoCircle, FaCalendarAlt, FaBullhorn } from "react-icons/fa";
 
@@ -15,7 +16,7 @@ const organisers_cards = [
     src: "/IEEE.png",
     alt: "IEEE logo",
   },
-   {
+  {
     src: "/IEEE-IAS-Logo.png",
     alt: "IEEE IAS logo",
   },
@@ -234,7 +235,7 @@ function Home() {
             `}
           </style>
         </div>
-        <div className="flex">
+        <div className="flex md:flex-row flex-col md:px-[150px]">
           <CardList title="Platinum Sponsor" cards={platinum_sponsors_cards} />
           <CardList title="Bronze Sponsor" cards={bronze_sponsors_cards} />
         </div>
@@ -292,7 +293,7 @@ function Home() {
                   `}
           </style>
         </div>
-        <CardList title="Organisers" cards={organisers_cards} />
+        <SponsorList title="Organisers" cards={organisers_cards} />
       </div>
     </div>
   );
