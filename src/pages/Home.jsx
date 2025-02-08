@@ -186,6 +186,23 @@ function Home() {
         </div>
       </div>
 
+      {/* Video Section */}
+      <div className="bg-gradient-to-r from-blue-700 via-blue-500 to-blue-700 text-white p-3 md:p-6 rounded-xl shadow-lg items-center justify-center flex">
+        <div className="w-full md:w-2/3 overflow-hidden">
+          <video
+            className="w-full h-full object-cover shadow-2xl rounded-lg md:rounded-xl"
+            controls
+            autoPlay
+            muted
+            loop
+            playsInline
+          >
+            <source src="/video.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+
       {/* Organizers Section */}
       <div className="bg-gray-200 relative">
         {/* Themed Background with Animation */}
@@ -295,6 +312,7 @@ function Home() {
         </div>
         <SponsorList title="Organisers" cards={organisers_cards} />
       </div>
+
     </div>
   );
 }
