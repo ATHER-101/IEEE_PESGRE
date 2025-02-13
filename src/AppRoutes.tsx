@@ -15,6 +15,7 @@ import Food from "./pages/Food";
 import DirectionsToConference from "./pages/DirectionsToConference";
 import IndustrySponsor from "./pages/IndustrySponsor";
 import CallForSpecialSession from "./pages/CallForSpecialSession";
+import TutorialSpeakers from "./pages/TutorialSpeakers";
 
 const AppRoutes = () => {
   return (
@@ -38,6 +39,7 @@ const AppRoutes = () => {
 
       {/* program */}
       <Route path="/program/keynote-speakers" element={<KeynoteSpeakers />} />
+      <Route path="/program/tutorial-speakers" element={<TutorialSpeakers />} />
 
       {/* travel */}
       <Route path="travel/visa-info" element={<VisaInfo />} />

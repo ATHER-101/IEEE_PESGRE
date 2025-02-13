@@ -1,7 +1,7 @@
 import React from "react";
 import Corousel from "../components/Corousel";
 
-function KeynoteSpeakers() {
+function TutorialSpeakers() {
   const speakers = [
     {
       name: "Drazen Dujic",
@@ -13,7 +13,8 @@ function KeynoteSpeakers() {
     {
       name: "Mariusz Malinowski",
       image: "/Malinowski_Mariusz.jpg",
-      title: "Professor at the Institute of Control and Industrial Electronics, WUT",
+      title:
+        "Professor at the Institute of Control and Industrial Electronics, WUT",
       bio: `Professor Mariusz Malinowski received his Ph.D. and D.Sc. degrees in electrical engineering from the Warsaw University of Technology (WUT), Poland. He has authored over 200 technical papers and seven books. His research focuses on the control and modulation of grid-side converters, multilevel converters, smart grids, and renewable energy systems. He has received numerous awards, including the IEEE IES David Irwin Early Career Award, IEEE IES Bimal Bose Energy Systems Award, and the Polish Prime Minister Award. He is a Fellow of IEEE and a member of the Polish Academy of Sciences.`,
     },
   ];
@@ -21,7 +22,7 @@ function KeynoteSpeakers() {
   return (
     <div>
       {/* Carousel Section */}
-      <Corousel text="Keynote Speakers" />
+      <Corousel text="Tutorial Speakers" />
 
       {/* Main Content Section */}
       <div
@@ -62,32 +63,13 @@ function KeynoteSpeakers() {
         {/* Section Title */}
         <div className="text-center mb-10">
           <h1 className="text-3xl font-bold text-[#168BEE] uppercase">
-            Keynote Speakers
+            Tutorial Speakers
           </h1>
         </div>
 
-        {/* Speakers List */}
-        <div className="flex flex-wrap -mx-4 relative z-10">
-          {speakers.map((speaker, index) => (
-            <div key={index} className="w-full md:w-1/2 px-4 mb-10">
-              <div className="bg-white shadow-lg rounded-2xl p-6 flex flex-col items-center text-center h-full">
-                <img
-                  src={speaker.image}
-                  alt={speaker.name}
-                  className="w-40 h-40 object-cover rounded-full mb-4"
-                />
-                <h2 className="text-xl font-semibold text-[#168BEE]">
-                  {speaker.name}
-                </h2>
-                <h3 className="text-gray-800 mb-5">{speaker.title}</h3>
-                <p className="text-gray-600">{speaker.bio}</p>
-              </div>
-            </div>
-          ))}
-        </div>
       </div>
     </div>
   );
 }
 
-export default KeynoteSpeakers;
+export default TutorialSpeakers;
