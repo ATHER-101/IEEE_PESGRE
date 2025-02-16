@@ -4,16 +4,16 @@ import Corousel from "../components/Corousel";
 function KeynoteSpeakers() {
   const speakers = [
     {
-      name: "Drazen Dujic",
+      name: "Drazen Dujic, Fellow, IEEE,", 
       image: "/Drazen.jpg",
       title:
-        "Associate Professor and Head of the Power Electronics Laboratory at EPFL",
+        "Associate Professor and Head of the Power Electronics Laboratory at EPFL, Switzerland.",
       bio: `Drazen Dujic received the Dipl. Ing. and MSc degrees from the University of Novi Sad, Serbia, and the PhD degree from Liverpool John Moores University, UK. He has worked as a Research Assistant at the University of Novi Sad, a Research Associate at Liverpool John Moores University, and in various roles at ABB Switzerland Ltd. Since 2014, he has been with EPFL. His research focuses on high-power electronic systems and high-performance drives. He has received multiple awards, including the Istvan Nagy Award (2024), the EPE Outstanding Service Award (2018), and the Isao Takahashi Power Electronics Award (2014). He is an IEEE Fellow.`,
     },
     {
-      name: "Mariusz Malinowski",
+      name: "Mariusz Malinowski, Fellow, IEEE", 
       image: "/Malinowski_Mariusz.jpg",
-      title: "Professor at the Institute of Control and Industrial Electronics, WUT",
+      title: "Professor at the Institute of Control and Industrial Electronics, WUT, Poland.", 
       bio: `Professor Mariusz Malinowski received his Ph.D. and D.Sc. degrees in electrical engineering from the Warsaw University of Technology (WUT), Poland. He has authored over 200 technical papers and seven books. His research focuses on the control and modulation of grid-side converters, multilevel converters, smart grids, and renewable energy systems. He has received numerous awards, including the IEEE IES David Irwin Early Career Award, IEEE IES Bimal Bose Energy Systems Award, and the Polish Prime Minister Award. He is a Fellow of IEEE and a member of the Polish Academy of Sciences.`,
     },
   ];
