@@ -56,6 +56,13 @@ const bronze_sponsors_cards = [
   },
 ];
 
+const gold_sponsors_cards = [
+  {
+    src: "/pragna_microdesigns.png",
+    alt: "PRAGNA Microdesigns Logo",
+  },
+];
+
 function Home() {
   return (
     <div>
@@ -254,6 +261,7 @@ function Home() {
         </div>
         <div className="flex md:flex-row flex-col md:px-[150px]">
           <CardList title="Platinum Sponsor" cards={platinum_sponsors_cards} />
+          <CardList title="Gold Sponsor" cards={gold_sponsors_cards} />
           <CardList title="Bronze Sponsor" cards={bronze_sponsors_cards} />
         </div>
       </div>

@@ -14,6 +14,18 @@ const images = [
     label: '3',
     imgPath: '/BronzeSponsor-ChargeHouse-1.png',
   },
+  {
+    label: '4',
+    imgPath: '/pragna_microdesigns_gold_sponsor.jpeg',
+  },
+  {
+    label: '5',
+    imgPath: '/Drazen-Keynote-poster.png',
+  },
+  {
+    label: '6',
+    imgPath: '/Malinowski_Mariusz-Keynote-poster.png',
+  },
 ];
 
 function CustomCarousel({ text, subtext }) {
