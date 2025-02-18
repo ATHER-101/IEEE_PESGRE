@@ -8,7 +8,12 @@ const platinum_sponsors_cards = [
     alt: "JSC GROUP LOGO-01",
   },
 ];
-
+const gold_sponsors_cards = [
+  {
+    src: "/pragna_microdesigns.png",
+    alt: "pragna_microdesigns",
+  },
+];
 const bronze_sponsors_cards = [
   {
     src: "/Chargehouse Logo.jpg",
@@ -156,6 +161,7 @@ function IndustrySponsor() {
             </div>
             <div className="mt-16">
               <CardList title="Platinum Sponsor" cards={platinum_sponsors_cards} />
+              <CardList title="Gold Sponsor" cards={gold_sponsors_cards} />
               <CardList title="Bronze Sponsor" cards={bronze_sponsors_cards} />
             </div>
           </div>
