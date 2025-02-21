@@ -16,6 +16,12 @@ function KeynoteSpeakers() {
       title: "Professor at the Institute of Control and Industrial Electronics, WUT, Poland.", 
       bio: `Professor Mariusz Malinowski received his Ph.D. and D.Sc. degrees in electrical engineering from the Warsaw University of Technology (WUT), Poland. He has authored over 200 technical papers and seven books. His research focuses on the control and modulation of grid-side converters, multilevel converters, smart grids, and renewable energy systems. He has received numerous awards, including the IEEE IES David Irwin Early Career Award, IEEE IES Bimal Bose Energy Systems Award, and the Polish Prime Minister Award. He is a Fellow of IEEE and a member of the Polish Academy of Sciences.`,
     },
+    {
+      "name": "Baylon G. Fernandes, Senior Member, IEEE", 
+      "image": "/Fernandes_Baylon.jpeg",
+      "title": "Professor at the Department of Electrical Engineering, IIT Bombay, India.", 
+      "bio": "Professor Baylon G. Fernandes received the B.Tech. degree from the National Institute of Technology Karnataka, Surathkal, India, in 1984, the M.Tech. degree from the Indian Institute of Technology Kharagpur, India, in 1989, and the Ph.D. degree from the Indian Institute of Technology Bombay (IIT Bombay), India, in 1993, all in electrical engineering. Since 1998, he has been with the Department of Electrical Engineering, IIT Bombay, where he is currently a Professor. From 2015 to 2020, he served as the Chairman of the Department. He is a Principal Investigator of the National Centre for Photovoltaic Research and Education and the National Centre of Excellence in Technology for Internal Security at IIT Bombay. His research interests include power electronic converters, motors for electric vehicles, and power electronic interfaces for non-conventional energy sources. Prof. Fernandes is a Senior Member of IEEE and serves as an Associate Editor for IEEE Transactions on Power Electronics."
+    },
   ];
 
   return (

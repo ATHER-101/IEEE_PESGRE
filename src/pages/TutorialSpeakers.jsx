@@ -4,9 +4,15 @@ import Corousel from "../components/Corousel";
 function TutorialSpeakers() {
   const speakers = [
     {
+      "name": "Sandeep Anand",
+      "image": "/Sandeep_Anand.png",
+      "title": "Professor, IIT Bombay, India",
+      "bio": "Prof. Sandeep Anand is a Full Professor in the Department of Electrical Engineering at IIT Bombay, India. Before this, he was at IIT Kanpur from 2013 to 2020. He was also a visiting scholar at Washington State University, Pullman, US, and Queen's University, Kingston, Canada, during Summer 2018 and Winter 2018, respectively. During 2012-13, he worked at Cosmic Circuits Pvt. Ltd., Bangalore, on new product development for solar PV systems. From 2007 to 2008, he worked at Emerson Network Power India (now Vertiv Co), Mumbai, on the development of digital controllers for medium-power online UPS systems. Prof. Anand received his Ph.D. and B.Tech. degrees in Electrical Engineering from IIT Bombay in 2013 and 2007, respectively. His research interests include electric vehicle drive trains and chargers, wide bandgap device-based (GaN and SiC) power converters, circuits for interfacing alternative energy sources (solar PV, batteries, fuel cells), and the reliability of power electronic circuits."
+    },
+    {
       name: "Riccardo Mandrioli",
       image: "/Riccardo_Mandrioli.jpeg",
-      title: "Tenure Track Assistant Professor, University of Bologna,  Italy"
+      title: "Tenure Track Assistant Professor, University of Bologna,  Italy",
       bio: `Riccardo Mandrioli received his M.Sc. degree (cum laude) in Electrical Engineering in 2019 and his PhD (Hons.) in Biomedical, Electrical, and System Engineering in 2023 from the University of Bologna, Italy. He is currently a Tenure Track Assistant Professor at the University of Bologna. He has been a Postdoctoral Research Fellow, Adjunct Professor, and Teaching Assistant since 2017. In 2022, he was a Visiting Scientist at Kiel University, Germany. He received the IEEE IES – Italy Section Chapter 2024 PhD Thesis Award and multiple IEEE conference awards. His research interests include EV chargers, photovoltaic systems, power electronic converters, and harmonic pollution. He is an Associate Editor for IEEE Access and serves on editorial boards of multiple journals.`,
     },
     {
