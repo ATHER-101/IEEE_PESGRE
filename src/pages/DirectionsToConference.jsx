@@ -27,6 +27,7 @@ function DirectionsToConference() {
               "linear-gradient(#52A9D5 2px, transparent 2px), linear-gradient(to right, #52A9D5 2px, transparent 2px)",
             backgroundSize: "20px 20px",
             backgroundRepeat: "repeat",
+            pointerEvents: "none",
           }}
         >
           <style>
@@ -50,6 +51,7 @@ function DirectionsToConference() {
               "linear-gradient(#52A9D5 2px, transparent 2px), linear-gradient(to right, #52A9D5 2px, transparent 2px)",
             backgroundSize: "20px 20px",
             backgroundRepeat: "repeat",
+            pointerEvents: "none",
           }}
         >
           <style>

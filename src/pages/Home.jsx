@@ -209,9 +209,46 @@ function Home() {
         </div>
       </div>
 
-      {/* Video Section */}
+      {/* Video Section
       <div className="bg-gradient-to-r from-blue-700 via-blue-500 to-blue-700 text-white p-3 md:p-6 rounded-xl shadow-lg items-center justify-center flex">
         <div className="w-full md:w-2/3 overflow-hidden">
+          <video
+            className="w-full h-full object-cover shadow-2xl rounded-lg md:rounded-xl"
+            controls
+            autoPlay
+            muted
+            loop
+            playsInline
+          >
+            <source src="/video.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div> */}
+
+      {/* Video & Announcements Section */}
+      <div className="md:h-[55vh] bg-gradient-to-r from-blue-700 via-blue-500 to-blue-700 p-3 md:p-6 rounded-xl shadow-lg flex flex-col md:flex-row justify-center">
+        <div className="w-full md:w-1/3 mr-6 hidden md:flex flex-col gap-6 items-center justify-center">
+          <div className="h-[50%] w-full relative">
+            <img
+              src="iitdh_admin_block.jpg"
+              alt=""
+              className="h-full w-full rounded-xl "
+            />
+            <div className="absolute inset-0 bg-black opacity-15 rounded-xl"></div>
+          </div>
+          <div className="h-[50%] w-full relative">
+            <img
+              src="iitdh2.jpg"
+              alt=""
+              className="h-full w-full rounded-xl"
+            />
+            <div className="absolute inset-0 bg-black opacity-15 rounded-xl"></div>
+          </div>
+        </div>
+
+        {/* Video Section (Expands to Fill Remaining Space) */}
+        <div className=" overflow-hidden">
           <video
             className="w-full h-full object-cover shadow-2xl rounded-lg md:rounded-xl"
             controls

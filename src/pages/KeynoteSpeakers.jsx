@@ -49,6 +49,7 @@ function KeynoteSpeakers() {
               "linear-gradient(#52A9D5 2px, transparent 2px), linear-gradient(to right, #52A9D5 2px, transparent 2px)",
             backgroundSize: "30px 30px",
             backgroundRepeat: "repeat",
+            pointerEvents: "none",
           }}
         ></div>
         <div
@@ -62,6 +63,7 @@ function KeynoteSpeakers() {
               "linear-gradient(#52A9D5 2px, transparent 2px), linear-gradient(to right, #52A9D5 2px, transparent 2px)",
             backgroundSize: "30px 30px",
             backgroundRepeat: "repeat",
+            pointerEvents: "none",
           }}
         ></div>
 
