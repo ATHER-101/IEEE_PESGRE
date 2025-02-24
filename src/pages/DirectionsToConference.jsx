@@ -76,7 +76,7 @@ function DirectionsToConference() {
           <div className="w-full md:w-1/2 px-4">
             <div className="mb-8">
               <h2 className="text-[#168BEE] text-xl font-bold mb-3">
-                Hubballi and Dharwad
+                Dharwad
               </h2>
               <p>
                 Hubballi (also Hubli) and dhArwAD are twin cities just about

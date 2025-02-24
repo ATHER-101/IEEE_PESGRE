@@ -26,6 +26,10 @@ const images = [
     label: '6',
     imgPath: '/Malinowski_Mariusz-Keynote-poster.png',
   },
+  {
+    label: '7',
+    imgPath: '/Prof_BGF_Keynote.png',
+  },
 ];
 
 function CustomCarousel({ text, subtext }) {

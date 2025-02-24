@@ -115,6 +115,22 @@ function Home() {
                 2025 at Indian Institute of Technology Dharwad, Dharwad, Hubli,
                 Karnataka, India.
               </p>
+
+              <div className="mt-3">
+                <p className="text-lg font-semibold leading-relaxed glowing-text">
+                  Nearest Airports
+                </p>
+                <div className="glowing-text">
+                  <div className="inline-block mr-3">Hubli Airport (HBX)</div>{" "}
+                  <div className="inline-block">Belagavi Airport (IXG)</div>
+                </div>
+                <div className="glowing-text">
+                  Both airports are well connected with major cities like New
+                  Delhi, Mumbai, Bengaluru, Hyderabad, and Chennai, ensuring
+                  convenient travel options.
+                </div>
+              </div>
+
               {/* Decorative Overlay */}
               <div
                 className="absolute inset-0 opacity-5 pointer-events-none"
@@ -320,7 +336,6 @@ function Home() {
         </div>
         <SponsorList title="Organisers" cards={organisers_cards} />
       </div>
-
     </div>
   );
 }
