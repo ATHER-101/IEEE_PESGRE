@@ -49,17 +49,21 @@ const platinum_sponsors_cards = [
   },
 ];
 
+const gold_sponsors_cards = [
+  {
+    src: "/pragna_microdesigns.png",
+    alt: "PRAGNA Microdesigns Logo",
+  },
+];
+
 const bronze_sponsors_cards = [
   {
     src: "/Chargehouse Logo.jpg",
     alt: "Chargehouse Logo",
   },
-];
-
-const gold_sponsors_cards = [
   {
-    src: "/pragna_microdesigns.png",
-    alt: "PRAGNA Microdesigns Logo",
+    src: "/TestBetterLogo.jpeg",
+    alt: "Test Better Logo",
   },
 ];
 
@@ -238,11 +242,7 @@ function Home() {
             <div className="absolute inset-0 bg-black opacity-15 rounded-xl"></div>
           </div>
           <div className="h-[50%] w-full relative">
-            <img
-              src="iitdh2.jpg"
-              alt=""
-              className="h-full w-full rounded-xl"
-            />
+            <img src="iitdh2.jpg" alt="" className="h-full w-full rounded-xl" />
             <div className="absolute inset-0 bg-black opacity-15 rounded-xl"></div>
           </div>
         </div>
@@ -312,10 +312,19 @@ function Home() {
             `}
           </style>
         </div>
-        <div className="flex md:flex-row flex-col md:px-[150px]">
-          <CardList title="Platinum Sponsor" cards={platinum_sponsors_cards} />
-          <CardList title="Gold Sponsor" cards={gold_sponsors_cards} />
-          <CardList title="Bronze Sponsor" cards={bronze_sponsors_cards} />
+        <div className="flex md:flex-row flex-col md:px-[80px] justify-evenly">
+          <div>
+            <CardList
+              title="Platinum Sponsor"
+              cards={platinum_sponsors_cards}
+            />
+          </div>
+          <div>
+            <CardList title="Gold Sponsor" cards={gold_sponsors_cards} />
+          </div>
+          <div>
+            <CardList title="Bronze Sponsor" cards={bronze_sponsors_cards} />
+          </div>
         </div>
       </div>
 

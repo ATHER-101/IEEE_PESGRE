@@ -12,22 +12,26 @@ const images = [
   },
   {
     label: '3',
-    imgPath: '/BronzeSponsor-ChargeHouse-1.png',
-  },
-  {
-    label: '4',
     imgPath: '/pragna_microdesigns_gold_sponsor.jpeg',
   },
   {
+    label: '4',
+    imgPath: '/BronzeSponsor-ChargeHouse-1.png',
+  },
+  {
     label: '5',
-    imgPath: '/Drazen-Keynote-poster.png',
+    imgPath: '/TestBetterPoster.jpeg',
   },
   {
     label: '6',
-    imgPath: '/Malinowski_Mariusz-Keynote-poster.png',
+    imgPath: '/Drazen-Keynote-poster.png',
   },
   {
     label: '7',
+    imgPath: '/Malinowski_Mariusz-Keynote-poster.png',
+  },
+  {
+    label: '8',
     imgPath: '/Prof_BGF_Keynote.png',
   },
 ];

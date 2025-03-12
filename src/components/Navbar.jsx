@@ -24,8 +24,8 @@ const navItems = [
   },
   {
     title: "Program",
-    dropdownItems: ["Keynote Speakers","Tutorial Speakers"],
-    routes: ["/program/keynote-speakers","/program/tutorial-speakers"],
+    dropdownItems: ["Keynote Speakers","Tutorial Speakers","IES SYP Keynotes"],
+    routes: ["/program/keynote-speakers","/program/tutorial-speakers","/program/ies-syp-keynotes"],
   },
   {
     title: "Travel",

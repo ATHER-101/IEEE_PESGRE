@@ -16,6 +16,7 @@ import DirectionsToConference from "./pages/DirectionsToConference";
 import IndustrySponsor from "./pages/IndustrySponsor";
 import CallForSpecialSession from "./pages/CallForSpecialSession";
 import TutorialSpeakers from "./pages/TutorialSpeakers";
+import IESSYPKeynotes from "./pages/IESSYPKeynotes";
 
 const AppRoutes = () => {
   return (
@@ -40,6 +41,7 @@ const AppRoutes = () => {
       {/* program */}
       <Route path="/program/keynote-speakers" element={<KeynoteSpeakers />} />
       <Route path="/program/tutorial-speakers" element={<TutorialSpeakers />} />
+      <Route path="/program/ies-syp-keynotes" element={<IESSYPKeynotes />} />
 
       {/* travel */}
       <Route path="travel/visa-info" element={<VisaInfo />} />
