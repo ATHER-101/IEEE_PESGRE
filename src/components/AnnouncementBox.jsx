@@ -34,6 +34,14 @@ const images = [
     label: '8',
     imgPath: '/Prof_BGF_Keynote.png',
   },
+  {
+    label: '9',
+    imgPath: '/SYP Keynote.png',
+  },
+  {
+    label: '10',
+    imgPath: '/Rajendra.png',
+  },
 ];
 
 function CustomCarousel({ text, subtext }) {

@@ -17,6 +17,12 @@ function KeynoteSpeakers() {
       bio: `Professor Mariusz Malinowski received his Ph.D. and D.Sc. degrees in electrical engineering from the Warsaw University of Technology (WUT), Poland. He has authored over 200 technical papers and seven books. His research focuses on the control and modulation of grid-side converters, multilevel converters, smart grids, and renewable energy systems. He has received numerous awards, including the IEEE IES David Irwin Early Career Award, IEEE IES Bimal Bose Energy Systems Award, and the Polish Prime Minister Award. He is a Fellow of IEEE and a member of the Polish Academy of Sciences.`,
     },
     {
+      "name": "Rajendra Singh, Fellow, IEEE",
+      "image": "/Prof_Rajendra.png",
+      "title": "Houser Banks Distinguished Professor at Clemson University, USA",
+      "bio": "Professor Rajendra Singh is the Houser Banks Distinguished Professor in the Holcombe Department of Electrical and Computer Engineering and Automotive Engineering at Clemson University (CU). Inspired by Thomas Edison's vision of solar energy, he pursued his Ph.D. dissertation on Silicon Solar Cells during the 1973 energy crisis. Over the past 50 years, he has significantly contributed to the growth of the photovoltaic and semiconductor industries. With expertise in operations, project leadership, R&D, product commercialization, and startups, Dr. Singh is dedicated to mitigating climate challenges through sustainable green electric power. He has authored or co-authored over 500 publications and edited more than fifteen conference proceedings. He has delivered over 60 keynote addresses and invited talks at national and international conferences. Dr. Singh is the founding technical chair of the IEEE DC Microgrid Conference and currently serves as Chair of the IEEE Power and Energy Society Committee on End-to-End DC Power. He holds six patents, with technologies from his lab licensed for commercialization. Recognized with numerous national and international awards, he was named one of the ten Global Champions of Photovoltaics by Photovoltaics World in 2010. In 2014, he was honored by US President Barack Obama as a White House 'Champion of Change for Solar Deployment.' In 2019, he received the Hind Rattan (Jewel of India) Award. Dr. Singh is a Fellow of IEEE, SPIE, ASM, and AAAS."
+    },
+    {
       "name": "Baylon G. Fernandes, Senior Member, IEEE", 
       "image": "/Fernandes_Baylon.png",
       "title": "Professor at the Department of Electrical Engineering, IIT Bombay, India.", 

@@ -19,6 +19,10 @@ const bronze_sponsors_cards = [
     src: "/Chargehouse Logo.jpg",
     alt: "Chargehouse Logo",
   },
+  {
+    src: "/TestBetterLogo.jpeg",
+    alt: "Test Better Logo",
+  },
 ];
 
 function IndustrySponsor() {
