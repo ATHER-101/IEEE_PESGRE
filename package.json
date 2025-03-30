@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "deploy": "vite build && sudo rm -rf /var/www/pesgre/* && sudo mv dist/* /var/www/pesgre/ && git add . && git commit -m \"Auto-deploy: $(date '+%Y-%m-%d %H:%M:%S')\" && git push origin main",
     "lint": "eslint .",
     "preview": "vite preview"
   },
