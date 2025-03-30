@@ -6,6 +6,8 @@ import CardList from "../components/CardList";
 import SponsorList from "../components/SponsorList";
 import Countdown from "../components/Countdown";
 import { FaInfoCircle, FaCalendarAlt, FaBullhorn } from "react-icons/fa";
+import ImportantDates from "../components/importantDates";
+import UpcomingEventReminder from "../components/UpcomingEventReminder";
 
 const organisers_cards = [
   {
@@ -67,6 +69,16 @@ const bronze_sponsors_cards = [
   },
 ];
 
+const importantDates = {
+  "Submission Opens": "2025-04-15",
+  "Call for Special Sessions": "2025-04-15",
+  "Deadline for Special Session Proposals": "2025-05-15",
+  "Paper Submission Deadline": "2025-06-15",
+  "Notification of Paper Acceptance": "2025-08-15",
+  "Final Camera-ready Paper": "2025-09-15",
+};
+
+
 function Home() {
   return (
     <div>
@@ -84,6 +96,7 @@ function Home() {
 
       {/* Main Content */}
       <div className="py-10 px-6 md:px-20 bg-gradient-to-b from-blue-50 to-gray-100 relative overflow-hidden">
+        <UpcomingEventReminder dates={importantDates} />
         {/* Subtle Grid Pattern */}
         <div
           className="absolute inset-0 pointer-events-none"
@@ -146,44 +159,7 @@ function Home() {
             </div>
 
             {/* Important Dates */}
-            <div className="rounded-2xl shadow-lg bg-gradient-to-r from-white via-blue-50 to-blue-100 p-6 relative overflow-hidden">
-              <div className="flex items-center gap-3 mb-4">
-                <FaCalendarAlt className="text-blue-700 text-3xl" />
-                <h2 className="text-3xl font-bold text-blue-700">
-                  Important Dates
-                </h2>
-              </div>
-              <ul className="space-y-4 text-lg text-gray-700">
-                <li>
-                  <strong>Submission Opens:</strong> 15th April 2025
-                </li>
-                <li>
-                  <strong>Paper Submission Deadline:</strong> 15th June 2025
-                </li>
-                <li>
-                  <strong>Call for Special Sessions:</strong> 15th April 2025
-                </li>
-                <li>
-                  <strong>Deadline for Special Session Proposals:</strong> 15th
-                  May 2025
-                </li>
-                <li>
-                  <strong>Notification of Paper Acceptance:</strong> 15th August
-                  2025
-                </li>
-                <li>
-                  <strong>Final Camera-ready Paper:</strong> 15th September 2025
-                </li>
-              </ul>
-              {/* Decorative Overlay */}
-              <div
-                className="absolute inset-0 opacity-5 pointer-events-none"
-                style={{
-                  backgroundImage:
-                    "radial-gradient(circle at top right, rgba(0,0,0,0.05) 10%, rgba(0,0,0,0) 60%)",
-                }}
-              ></div>
-            </div>
+            <ImportantDates dates={importantDates} />
           </div>
 
           {/* Right Column (Announcements) */}
