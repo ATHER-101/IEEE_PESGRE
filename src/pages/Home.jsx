@@ -96,7 +96,7 @@ function Home() {
 
       {/* Main Content */}
       <div className="py-10 px-6 md:px-20 bg-gradient-to-b from-blue-50 to-gray-100 relative overflow-hidden">
-        {/* <UpcomingEventReminder dates={importantDates} /> */}
+        <UpcomingEventReminder dates={importantDates} />
         {/* Subtle Grid Pattern */}
         <div
           className="absolute inset-0 pointer-events-none"
