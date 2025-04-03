@@ -1,12 +1,13 @@
 import React, { useState, useEffect } from "react";
 import { FaClock } from "react-icons/fa";
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 function UpcomingEventReminder({ dates }) {
   const today = new Date();
 
   // Convert dates to objects and sort
-  const sortedDates = Object.entries(dates)
-    .map(([title, dateStr]) => ({ title, date: new Date(dateStr) }))
+  const sortedDates = dates
+    .map(({ title, date, link }) => ({ title, date: new Date(date), link }))
     .sort((a, b) => a.date - b.date);
 
   // Find the next upcoming event date
@@ -69,8 +70,11 @@ function UpcomingEventReminder({ dates }) {
           </div>
           <p className="text-2xl font-semibold">{formatDate(nextEventDate)}</p>
           <ul className="mb-6 mt-2 md:my-4 md:space-y-2">
-            {nextEvents.map(({ title }, index) => (
-              <li key={index} className="text-xl">{title}</li>
+            {nextEvents.map(({ title, link }, index) => (
+              <li key={index} className="text-xl">
+                  <p className="inline">{title}</p>
+                  <a href={link} target="_blank" rel="noopener noreferrer" className="ml-4 inline-block text-sm"><FaExternalLinkAlt/></a>
+              </li>
             ))}
           </ul>
         </div>

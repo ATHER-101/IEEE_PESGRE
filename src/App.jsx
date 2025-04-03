@@ -8,7 +8,8 @@ const App = () => {
   
   const fetchData = async () => {
     try {
-      const response = await fetch('/api/');  // This will be proxied by NGINX to localhost:4000
+      const response = await fetch('http://localhost:3000/'); //test
+      // const response = await fetch('/api/');
       const data = await response.json();
       console.log(data);
     } catch (error) {
