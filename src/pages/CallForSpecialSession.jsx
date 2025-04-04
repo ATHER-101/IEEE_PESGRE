@@ -139,8 +139,8 @@ function CallForSpecialSession() {
                 </li>
                 <li>A list of potential authors and their affiliations.</li>
                 <li>A list of potential reviewers and their affiliations.</li>
-                <li>The Special Sessions proposal template can be found <a href="https://docs.google.com/document/d/1h63R1OjnEBVW82ivNBoR6wLz_6V1shOOg0_bxfrOToU/edit?usp=sharing" className="text-blue-500" target="_blank"
-                  rel="noopener noreferrer">here</a>, and submissions can be made <a href="https://forms.gle/WDmpw9AJqsFzdwPaA" className="text-blue-500" target="_blank"
+                <li>The Special Sessions proposal template can be found <a href="https://docs.google.com/document/d/1h63R1OjnEBVW82ivNBoR6wLz_6V1shOOg0_bxfrOToU/edit?usp=sharing" className="text-blue-600 underline" target="_blank"
+                  rel="noopener noreferrer">here</a>, and submissions can be made <a href="https://forms.gle/WDmpw9AJqsFzdwPaA" className="text-blue-600 underline" target="_blank"
                     rel="noopener noreferrer">here</a>.</li>
                 <li>Please send your proposal in .DOC, .DOCX, or .ODT format to pesgre2025@iitdh.ac.in. Proposals must be sent before the deadline.
                 </li>

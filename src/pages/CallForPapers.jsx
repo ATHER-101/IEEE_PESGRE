@@ -140,10 +140,10 @@ function CallForPapers() {
                 <li>All submissions must be written in English. All papers must be original unpublished work.</li>
                 <li>All papers must be submitted electronically in PDF format by the deadline.</li>
                 <li>The maximum length for full papers is 6 pages, including all text, tables, figures, and references. All   authors are encouraged to use as much of the allowed space to effectively explain their work.</li>
-                <li>The conference proceedings will be submitted to the <a href="https://ieeexplore.ieee.org/Xplore/home.jsp" className="text-blue-500" target="_blank"
+                <li>The conference proceedings will be submitted to the <a href="https://ieeexplore.ieee.org/Xplore/home.jsp" className="text-blue-600 underline" target="_blank"
                   rel="noopener noreferrer">IEEE Xplore Digital Library®.</a></li>
                 <li>Authors presenting papers at the conference at the PESGRE 2025 conference are eligible to submit the revised versions as post-conference papers for further review and possible publication in the IEEE-IAS Transactions and Magazine.</li>
-                <li>Standard manuscript templates for conference proceedings in LaTex and Word are present at <a href="https://www.ieee.org/conferences/publishing/templates.html" className="text-blue-500" target="_blank"
+                <li>Standard manuscript templates for conference proceedings in LaTex and Word are present at <a href="https://www.ieee.org/conferences/publishing/templates.html" className="text-blue-600 underline" target="_blank"
                   rel="noopener noreferrer">Standard IEEE Templates.</a> </li>
                 <li>The deadline for paper submission is 15th June 2025.</li>
               </ul>
@@ -175,7 +175,7 @@ function CallForPapers() {
                 Special Sessions
               </h2>
               <p>
-                The conference will include special sessions on highly specialized topic areas, reporting technical trends and breakthroughs within the scope of the conference. Special Sessions are organized at the initiative of one or more individuals, who must adhere to specific procedures published <Link to="/authors/call-for-special-session" className="text-blue-500">here.</Link>
+                The conference will include special sessions on highly specialized topic areas, reporting technical trends and breakthroughs within the scope of the conference. Special Sessions are organized at the initiative of one or more individuals, who must adhere to specific procedures published <Link to="/authors/call-for-special-session" className="text-blue-600 underline">here.</Link>
               </p>
             </div>
 
@@ -201,7 +201,7 @@ function CallForPapers() {
                 Prospective authors are invited to submit full papers to{" "}
                 <a
                   href="https://cmt3.research.microsoft.com/PESGRE2025/Submission/Index"
-                  className="text-blue-500"
+                  className="text-blue-600 underline"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -212,7 +212,7 @@ function CallForPapers() {
               <p>
                 Accepted, registered, and presented papers will be IEEE
                 copyrighted and published in the conference proceedings. For the
-                accepted paper to be included in <a href="https://ieeexplore.ieee.org/Xplore/home.jsp" className="text-blue-500" target="_blank"
+                accepted paper to be included in <a href="https://ieeexplore.ieee.org/Xplore/home.jsp" className="text-blue-600 underline" target="_blank"
                   rel="noopener noreferrer">IEEE Xplore Digital Library®.</a>,
                 all of the following requirements must be satisfied:
               </p>
