@@ -140,8 +140,9 @@ function OrganizingCommittee() {
               </h2>
               <p>Animesh Kumar Sahoo, IIT Dharwad, India</p>
               <p>Naga Brahmendra, IIT Palakad, India</p>
-              <p>Biju K, APJ Abdul Kalam Technological University, Kerala, India</p>
-              <p>Kalpana R, NIT Karnataka, India</p>
+              <p>
+                Biju K, APJ Abdul Kalam Technological University, Kerala, India
+              </p>
             </div>
 
             <div className="mb-8">
