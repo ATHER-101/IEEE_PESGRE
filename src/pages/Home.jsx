@@ -70,7 +70,7 @@ const bronze_sponsors_cards = [
 ];
 
 const importantDates = [
-  {title:"Submission Opens",date: "2025-04-15", link:"https://cmt3.research.microsoft.com/PESGRE2025/Submission/Index"},
+  {title:"Submission Opens",date: "2025-04-15", link:"/authors/call-for-papers"},
   {title:"Call for Special Sessions",date: "2025-04-15",link:"/authors/call-for-special-session"},
   {title:"Deadline for Special Session Proposals",date: "2025-05-15", link:""},
   {title:"Paper Submission Deadline",date: "2025-06-15", link:""},

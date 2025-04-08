@@ -72,8 +72,8 @@ function UpcomingEventReminder({ dates }) {
           <ul className="mb-6 mt-2 md:my-4 md:space-y-2">
             {nextEvents.map(({ title, link }, index) => (
               <li key={index} className="text-xl">
-                  <p className="inline">{title}</p>
-                  <a href={link} target="_blank" rel="noopener noreferrer" className="ml-4 inline-block text-sm"><FaExternalLinkAlt/></a>
+                  
+                  <a href={link} target="_blank" rel="noopener noreferrer" ><p className="inline">{title}</p><FaExternalLinkAlt className="ml-4 mb-1 inline-block text-sm"/></a>
               </li>
             ))}
           </ul>
