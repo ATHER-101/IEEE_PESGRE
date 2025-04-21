@@ -72,8 +72,8 @@ const bronze_sponsors_cards = [
 const importantDates = [
   {title:"Submission Opens",date: "2025-04-15", link:"/authors/call-for-papers"},
   {title:"Call for Special Sessions",date: "2025-04-15",link:"/authors/call-for-special-session"},
-  {title:"Deadline for Special Session Proposals",date: "2025-05-15", link:""},
-  {title:"Paper Submission Deadline",date: "2025-06-15", link:""},
+  {title:"Deadline for Special Session Proposals",date: "2025-05-15", link:"/authors/call-for-special-session"},
+  {title:"Paper Submission Deadline",date: "2025-06-15", link:"/authors/submission-registration"},
   {title:"Notification of Paper Acceptance",date: "2025-08-15", link:""},
   {title:"Final Camera-ready Paper",date: "2025-09-15", link:""},
 ];

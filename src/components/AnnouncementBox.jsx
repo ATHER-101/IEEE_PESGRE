@@ -4,6 +4,10 @@ import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 const images = [
   {
     label: '1',
+    imgPath: '/Paper_Submission_Announcement.png',
+  },
+  {
+    label: '1',
     imgPath: '/PESGRE-CFP-2025-final.png',
   },
   {
@@ -68,7 +72,7 @@ function CustomCarousel({ text, subtext }) {
   }, [currentIndex]);
 
   return (
-    <div className="relative shadow-lg w-full">
+    <div className="relative w-full">
       <div className="relative w-full h-full">
         <div className="w-full h-full overflow-hidden">
           <div
