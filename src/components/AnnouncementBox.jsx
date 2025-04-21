@@ -76,7 +76,7 @@ function CustomCarousel({ text, subtext }) {
       <div className="relative w-full h-full">
         <div className="w-full h-full overflow-hidden">
           <div
-            className="flex transition-transform duration-500"
+            className="flex transition-transform duration-500 items-center"
             style={{
               transform: `translateX(-${currentIndex * 100}%)`,
             }}
