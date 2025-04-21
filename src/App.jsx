@@ -3,6 +3,7 @@ import { BrowserRouter as Router } from 'react-router-dom'; // Import Router
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import AppRoutes from './AppRoutes';
+import PopupNotification from './components/PopUp';
 
 const App = () => {
   
@@ -25,6 +26,7 @@ const App = () => {
     <Router>
       <Navbar />
       <AppRoutes />
+      <PopupNotification />
       <Footer />
     </Router>
   );
