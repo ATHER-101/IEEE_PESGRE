@@ -8,7 +8,7 @@ const textArray = [
   },
   {
     text: "Paper Submission is OPEN, Deadline 15th June 2025",
-    link: "/https://cmt3.research.microsoft.com/PESGRE2025",
+    link: "https://cmt3.research.microsoft.com/PESGRE2025",
   },
   {
     text: "Call for Special Session Proposals is OPEN, Deadline 15 May 2025",
