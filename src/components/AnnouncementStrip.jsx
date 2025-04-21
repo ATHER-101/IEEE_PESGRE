@@ -7,12 +7,12 @@ const textArray = [
     link: "/",
   },
   {
-    text: "Call for Papers is Open",
-    link: "/authors/call-for-papers",
+    text: "Paper Submission is OPEN, Deadline 15th June 2025",
+    link: "https://cmt3.research.microsoft.com/PESGRE2025",
   },
   {
-    text: "Call for Special Session Proposals will be open soon",
-    link: "/authors/call-for-papers",
+    text: "Call for Special Session Proposals is OPEN, Deadline 15 May 2025",
+    link: "/authors/call-for-special-session",
   },
 ];
 
