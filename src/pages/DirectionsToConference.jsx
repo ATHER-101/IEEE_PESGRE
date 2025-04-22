@@ -81,20 +81,20 @@ function DirectionsToConference() {
                 Dharwad
               </h2>
               <p>
-                Hubballi (also Hubli) and dhArwAD are twin cities just about
+                Hubballi (also Hubli) and Dharwad are twin cities just about
                 20km apart. Hubballi is a major railway junction with about a
                 dozen trains to Bengaluru (8-9 hours) daily. There are many
-                buses between Hubballi/dhArwAD and major cities such as
+                buses between Hubballi/Dharwad and major cities such as
                 Bengaluru, Hyderabad, Mumbai etc.
               </p>
               <p className="mt-4">
-                dhArwAD is connected with three airports. Hubballi is the
+                Dharwad is connected with three airports. Hubballi (HBX) is the
                 nearest airport to IIT DHARWAD (about 30 minutes). At present
                 Air India, Indigo, Spice-jet etc. operates flights between
                 Ahmedabad, Bengaluru, Chennai, Goa, Hyderabad, Kochi, Mumbai
-                etc. Belgavi (Belgaum) airport is about 50 minutes away. Goa
-                airport is about 160 km from IIT DHARWAD. dhArwAD railway
-                station and Hubli railway stations are at distances 15 kms and
+                etc. Belgavi (Belgaum) - [IXG] airport is about 50 minutes away. Goa
+                airport is about 160 km from IIT DHARWAD. Dharwad railway
+                station (DWR) and Hubli (UBL) railway stations are at distances 15 kms and
                 35 kms respectively from the current campus.
               </p>
             </div>
