@@ -83,7 +83,7 @@ function SubmissionRegistration() {
               </h2>
               <p>
                 A paper can be submitted to one of the technical tracks and special sessions. Please, make sure you have correctly selected the most suitable track or special session in the submission system. All papers will be reviewed by at least three independent reviewers. We invite you to submit the initial version of your full paper using the following link:
-                <li> PAPER SUBMISSION LINK <a href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FPESGRE2025" className="text-blue-800 underline" target="_blank"
+                <li> PAPER SUBMISSION LINK <a href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FPESGRE2025" className="text-blue-600 underline" target="_blank"
                   rel="noopener noreferrer"> SUBMISSION LINK.</a></li>
               </p>
             </div>
