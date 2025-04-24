@@ -97,8 +97,7 @@ function OrganizingCommittee() {
                 Patron
               </h2>
               <p>Venkappayya R Desai, Director, IIT DHARWAD</p>
-              
-            </div>
+          </div>
         
         <div className="flex flex-wrap -mx-4">
           {/* Left Column */}
