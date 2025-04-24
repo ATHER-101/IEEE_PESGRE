@@ -87,7 +87,19 @@ function OrganizingCommittee() {
           </div>
         </div>
 
+        
         {/* Two-Column Layout */}
+         <div className="flex flex-wrap -mx-4">
+          {/* Left Column */}
+          <div className="w-full md:w-1/2 px-4">
+            <div className="mb-8">
+              <h2 className="text-[#168BEE] text-xl font-bold mb-3">
+                Patron
+              </h2>
+              <p>Venkappayya R Desai, Director, IIT DHARWAD</p>
+              
+            </div>
+        
         <div className="flex flex-wrap -mx-4">
           {/* Left Column */}
           <div className="w-full md:w-1/2 px-4">
