@@ -1,4 +1,5 @@
 import { FaCalendarAlt } from "react-icons/fa";
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 function ImportantDates({ dates }) {
   const today = new Date();
@@ -14,9 +15,9 @@ function ImportantDates({ dates }) {
 
   // Convert date strings to Date objects and sort them
   const sortedDates = dates
-    .map(({ title, date, link }) => {
+    .map(({ title, date, link, secondary_link }) => {
       const parsedDate = new Date(date);
-      return { title, date: parsedDate, formattedDate: formatDate(date), link };
+      return { title, date: parsedDate, formattedDate: formatDate(date), link, secondary_link };
     })
     .sort((a, b) => a.date - b.date);
 
@@ -30,10 +31,10 @@ function ImportantDates({ dates }) {
         <h2 className="text-3xl font-bold text-blue-700">Important Dates</h2>
       </div>
       <ul className="text-lg text-gray-700 space-y-1">
-        {sortedDates.map(({ title, formattedDate, date, link }) => {
+        {sortedDates.map(({ title, formattedDate, date, link, secondary_link }) => {
           const isPast = date < today;
           const isNext = nextUpcoming && date.getTime() === nextUpcoming.date.getTime();
-          
+
           return (
             <li
               key={title}
@@ -48,6 +49,11 @@ function ImportantDates({ dates }) {
                   title
                 )}
               </strong>: {formattedDate}
+              {secondary_link &&
+                <a href={secondary_link} target="_blank" rel="noopener noreferrer">
+                  <FaExternalLinkAlt className="ml-6 mb-1 inline-block" />
+                </a>
+              }
             </li>
           );
         })}

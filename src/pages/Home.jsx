@@ -69,10 +69,17 @@ const bronze_sponsors_cards = [
   },
 ];
 
+const other_sponsors_cards = [
+  {
+    src: "/ReliamotiveLab.jpeg",
+    alt: "ReliamotiveLab Logo",
+  }
+];
+
 const importantDates = [
   {title:"Submission Opens",date: "2025-04-15", link:"/authors/call-for-papers"},
   {title:"Call for Special Sessions",date: "2025-04-15",link:"/authors/call-for-special-session"},
-  {title:"Deadline for Special Session Proposals",date: "2025-05-15", link:"/authors/call-for-special-session"},
+  {title:"Deadline for Special Session Proposals",date: "2025-05-15", link:"/authors/call-for-special-session", secondary_link:"https://cmt3.research.microsoft.com/PESGRE2025"},
   {title:"Paper Submission Deadline",date: "2025-06-15", link:"/authors/submission-registration"},
   {title:"Notification of Paper Acceptance",date: "2025-08-15", link:""},
   {title:"Final Camera-ready Paper",date: "2025-09-15", link:""},
@@ -291,15 +298,18 @@ function Home() {
         <div className="flex md:flex-row flex-col md:px-[80px] justify-evenly">
           <div>
             <CardList
-              title="Platinum Sponsor"
+              title="Platinum Sponsors"
               cards={platinum_sponsors_cards}
             />
           </div>
           <div>
-            <CardList title="Gold Sponsor" cards={gold_sponsors_cards} />
+            <CardList title="Gold Sponsors" cards={gold_sponsors_cards} />
           </div>
           <div>
-            <CardList title="Bronze Sponsor" cards={bronze_sponsors_cards} />
+            <CardList title="Bronze Sponsors" cards={bronze_sponsors_cards} />
+          </div>
+          <div>
+            <CardList title="Other Sponsors" cards={other_sponsors_cards} />
           </div>
         </div>
       </div>
