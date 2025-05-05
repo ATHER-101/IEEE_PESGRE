@@ -87,9 +87,9 @@ function OrganizingCommittee() {
           </div>
         </div>
 
-        
+
         {/* Two-Column Layout */}
-         <div className="flex flex-wrap -mx-4">
+        <div className="flex flex-wrap -mx-4">
           {/* Left Column */}
           <div className="w-full md:w-1/2 px-4">
             <div className="mb-8">
@@ -97,123 +97,125 @@ function OrganizingCommittee() {
                 Patron
               </h2>
               <p>Venkappayya R Desai, Director, IIT DHARWAD</p>
-          </div>
-        
-        <div className="flex flex-wrap -mx-4">
-          {/* Left Column */}
-          <div className="w-full md:w-1/2 px-4">
-            <div className="mb-8">
-              <h2 className="text-[#168BEE] text-xl font-bold mb-3">
-                Honorary Chair
-              </h2>
-              <p>Andy Knight, President, IEEE IAS</p>
-              <p>Brad Lehman, President, IEEE PELS</p>
-              <p>Milos Manic, President, IEEE IES</p>
-              <p>Shay Bahramirad, President, IEEE PES</p>
-              <p>Muhammed Kasim S, Chair, IEEE Kerala Section</p>
-              <p>Vasanthi V, Chair IA/IE/PELS Jt. Chapter Kerala Section</p>
             </div>
 
-            <div className="mb-8">
-              <h2 className="text-[#168BEE] text-xl font-bold mb-3">
-                Technical Program Chairs
-              </h2>
-              <p>Abhijit Kshirsagar, IIT Dharwad, India</p>
-              <p>Andrii Chub, Tallinn University of Technology, Estonia</p>
-              <p>Rajendra Singh, Clemson University, Clemson USA</p>
-              <p>Bijuna Kunju K, TKMCE, Kollam, India</p>
-            </div>
+            <div className="flex flex-wrap -mx-4">
+              {/* Left Column */}
+              <div className="w-full md:w-1/2 px-4">
+                <div className="mb-8">
+                  <h2 className="text-[#168BEE] text-xl font-bold mb-3">
+                    Honorary Chair
+                  </h2>
+                  <p>Andy Knight, President, IEEE IAS</p>
+                  <p>Brad Lehman, President, IEEE PELS</p>
+                  <p>Milos Manic, President, IEEE IES</p>
+                  <p>Shay Bahramirad, President, IEEE PES</p>
+                  <p>Muhammed Kasim S, Chair, IEEE Kerala Section</p>
+                  <p>Vasanthi V, Chair IA/IE/PELS Jt. Chapter Kerala Section</p>
+                </div>
 
-            <div className="mb-8">
-              <h2 className="text-[#168BEE] text-xl font-bold mb-3">
-                Special Session Chairs
-              </h2>
-              <p>Deepak Ronanki, IIT Madras, India</p>
-              <p>Sertac Bayhan, Hamad Bin Khalifa University, Qatar</p>
-              <p>Sairaj Dhople, University of Minnesota, USA</p>
-            </div>
+                <div className="mb-8">
+                  <h2 className="text-[#168BEE] text-xl font-bold mb-3">
+                    Technical Program Chairs
+                  </h2>
+                  <p>Abhijit Kshirsagar, IIT Dharwad, India</p>
+                  <p>Andrii Chub, Tallinn University of Technology, Estonia</p>
+                  <p>Rajendra Singh, Clemson University, Clemson USA</p>
+                  <p>Bijuna Kunju K, TKMCE, Kollam, India</p>
+                </div>
 
-            <div className="mb-8">
-              <h2 className="text-[#168BEE] text-xl font-bold mb-3">
-                Publication Chairs
-              </h2>
-              <p>Srinivas Bhaskar Karanki, IIT Bhubaneswar, India</p>
-              <p>Amarkumar Ayodhyasingh Kushwaha, IIT Dharwad, India</p>
-              <p>
-                Jaison Mathew, Government Engineering College Thrissur, Kerala,
-                India
-              </p>
-            </div>
+                <div className="mb-8">
+                  <h2 className="text-[#168BEE] text-xl font-bold mb-3">
+                    Special Session Chairs
+                  </h2>
+                  <p>Deepak Ronanki, IIT Madras, India</p>
+                  <p>Sertac Bayhan, Hamad Bin Khalifa University, Qatar</p>
+                  <p>Sairaj Dhople, University of Minnesota, USA</p>
+                </div>
 
-            <div className="mb-8">
-              <h2 className="text-[#168BEE] text-xl font-bold mb-3">
-                Publicity Chairs
-              </h2>
-              <p>Animesh Kumar Sahoo, IIT Dharwad, India</p>
-              <p>Naga Brahmendra, IIT Palakad, India</p>
-              <p>Biju K, APJ Abdul Kalam Technological University, Kerala, India</p>
-              <p>Kalpana R, NIT Karnataka, India</p>
-            </div>
+                <div className="mb-8">
+                  <h2 className="text-[#168BEE] text-xl font-bold mb-3">
+                    Publication Chairs
+                  </h2>
+                  <p>Srinivas Bhaskar Karanki, IIT Bhubaneswar, India</p>
+                  <p>Amarkumar Ayodhyasingh Kushwaha, IIT Dharwad, India</p>
+                  <p>
+                    Jaison Mathew, Government Engineering College Thrissur, Kerala,
+                    India
+                  </p>
+                </div>
 
-            <div className="mb-8">
-              <h2 className="text-[#168BEE] text-xl font-bold mb-3">
-                Finance Chair
-              </h2>
-              <p>Satish Naik Banavath, IIT Dharwad, India</p>
-              <p>Prathyasa Bhui, IIT Dharwad, India</p>
-              <p>Sabiq P V, Treasurer, IEEE Kerala Section, India</p>
-            </div>
+                <div className="mb-8">
+                  <h2 className="text-[#168BEE] text-xl font-bold mb-3">
+                    Publicity Chairs
+                  </h2>
+                  <p>Animesh Kumar Sahoo, IIT Dharwad, India</p>
+                  <p>Naga Brahmendra, IIT Palakad, India</p>
+                  <p>Biju K, APJ Abdul Kalam Technological University, Kerala, India</p>
+                  <p>Kalpana R, NIT Karnataka, India</p>
+                </div>
 
-            <div className="mb-8">
-              <h2 className="text-[#168BEE] text-xl font-bold mb-3">
-                Student and Young Professionals Chairs
-              </h2>
-              <p>
-                Edivan Laercio Carvalho da Silva, Tallinn University of
-                Technology, Estonia
-              </p>
-              <p>Filipe Pinarello Scalcon, University of Calgary, Canada</p>
-              <p>Sai Ram Boggavarapu, IIT Dharwad, India</p>
-            </div>
-          </div>
+                <div className="mb-8">
+                  <h2 className="text-[#168BEE] text-xl font-bold mb-3">
+                    Finance Chair
+                  </h2>
+                  <p>Satish Naik Banavath, IIT Dharwad, India</p>
+                  <p>Prathyasa Bhui, IIT Dharwad, India</p>
+                  <p>Sabiq P V, Treasurer, IEEE Kerala Section, India</p>
+                </div>
 
-          {/* Right Column */}
-          <div className="w-full md:w-1/2 px-4">
-            <div className="mb-8">
-              <h2 className="text-[#168BEE] text-xl font-bold mb-3">
-                International Advisory Board
-              </h2>
-              <p>S C Srivasthava, IIT Kanpur, India</p>
-              <p>Amit Kumar Gupta, Rolls Royce, Singapore</p>
-              <p>Bhim Singh, IIT Delhi, India</p>
-              <p>C. Chakraborty, Indian Inst. of Technology Kharagpur, India</p>
-              <p>Chun Che Fung, Director, IEEE R10</p>
-              <p>Drazen Dujic, EPFL, Switzerland</p>
-              <p>Enrique Romero Cadaval, University of Extremadura, Spain</p>
-              <p>Frede Blaabjerg, Aalborg University</p>
-              <p>G. Bhuvaneswari, Mahindra University, India</p>
-              <p>Giovanni De Carne, KIT, Germany</p>
-              <p>Gopakumar K, IISc Bangalore, India</p>
-              <p>Holtz, University of Wuppertal, Germany</p>
-              <p>J. Rabkowski, Warsaw University of Technology, Poland</p>
-              <p>Johann W. Kolar, ETH Zurich, Zurich, Switzerland</p>
-              <p>Kaushik Rajashekara, University of Houston, Texas, USA</p>
-              <p>L Umanand, IISc Bangalore, India</p>
-              <p>Mariusz Malinowski, Warsaw University of Technology, Poland</p>
-              <p>Pragasen Pillai, Concordia University, Canada</p>
-              <p>Prasad Enjeti, Texas A&M University, USA</p>
-              <p>S S Murthy, BoG Member, IIT Dharwad</p>
-              <p>Subba Reddy B, IISc Bangalore</p>
-              <p>S. Norrga, KTH Royal Institute of Technology, Sweden</p>
-              <p>Sameer S M, Secretary, IEEE R10</p>
-              <p>
-                Samir Kouro, Universidad Tecnica Federico Santa Maria
-                Valparaiso, Chile
-              </p>
-              <p>Sanjib Panda, NUS Singapore</p>
-              <p>Suresh Nair, Immediate Past Chair, IEEE India Council</p>
-              <p>Vivek Agarwal, IIT Bombay, India</p>
-              <p>V. Fernão Pires, Polytechnic Institute of Setubal, Portugal</p>
+                <div className="mb-8">
+                  <h2 className="text-[#168BEE] text-xl font-bold mb-3">
+                    Student and Young Professionals Chairs
+                  </h2>
+                  <p>
+                    Edivan Laercio Carvalho da Silva, Tallinn University of
+                    Technology, Estonia
+                  </p>
+                  <p>Filipe Pinarello Scalcon, University of Calgary, Canada</p>
+                  <p>Sai Ram Boggavarapu, IIT Dharwad, India</p>
+                </div>
+              </div>
+
+              {/* Right Column */}
+              <div className="w-full md:w-1/2 px-4">
+                <div className="mb-8">
+                  <h2 className="text-[#168BEE] text-xl font-bold mb-3">
+                    International Advisory Board
+                  </h2>
+                  <p>S C Srivasthava, IIT Kanpur, India</p>
+                  <p>Amit Kumar Gupta, Rolls Royce, Singapore</p>
+                  <p>Bhim Singh, IIT Delhi, India</p>
+                  <p>C. Chakraborty, Indian Inst. of Technology Kharagpur, India</p>
+                  <p>Chun Che Fung, Director, IEEE R10</p>
+                  <p>Drazen Dujic, EPFL, Switzerland</p>
+                  <p>Enrique Romero Cadaval, University of Extremadura, Spain</p>
+                  <p>Frede Blaabjerg, Aalborg University</p>
+                  <p>G. Bhuvaneswari, Mahindra University, India</p>
+                  <p>Giovanni De Carne, KIT, Germany</p>
+                  <p>Gopakumar K, IISc Bangalore, India</p>
+                  <p>Holtz, University of Wuppertal, Germany</p>
+                  <p>J. Rabkowski, Warsaw University of Technology, Poland</p>
+                  <p>Johann W. Kolar, ETH Zurich, Zurich, Switzerland</p>
+                  <p>Kaushik Rajashekara, University of Houston, Texas, USA</p>
+                  <p>L Umanand, IISc Bangalore, India</p>
+                  <p>Mariusz Malinowski, Warsaw University of Technology, Poland</p>
+                  <p>Pragasen Pillai, Concordia University, Canada</p>
+                  <p>Prasad Enjeti, Texas A&M University, USA</p>
+                  <p>S S Murthy, BoG Member, IIT Dharwad</p>
+                  <p>Subba Reddy B, IISc Bangalore</p>
+                  <p>S. Norrga, KTH Royal Institute of Technology, Sweden</p>
+                  <p>Sameer S M, Secretary, IEEE R10</p>
+                  <p>
+                    Samir Kouro, Universidad Tecnica Federico Santa Maria
+                    Valparaiso, Chile
+                  </p>
+                  <p>Sanjib Panda, NUS Singapore</p>
+                  <p>Suresh Nair, Immediate Past Chair, IEEE India Council</p>
+                  <p>Vivek Agarwal, IIT Bombay, India</p>
+                  <p>V. Fernão Pires, Polytechnic Institute of Setubal, Portugal</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
