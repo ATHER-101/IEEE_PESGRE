@@ -44,21 +44,51 @@ const organisers_cards = [
   },
 ];
 
-const platinum_sponsors_cards = [
+// const platinum_sponsors_cards = [
+//   {
+//     src: "/JSC GROUP LOGO-01.png",
+//     alt: "JSC GROUP LOGO-01",
+//   },
+// ];
+
+// const gold_sponsors_cards = [
+//   {
+//     src: "/pragna_microdesigns.png",
+//     alt: "PRAGNA Microdesigns Logo",
+//   },
+// ];
+
+// const bronze_sponsors_cards = [
+//   {
+//     src: "/Chargehouse Logo.jpg",
+//     alt: "Chargehouse Logo",
+//   },
+//   {
+//     src: "/TestBetterLogo.jpeg",
+//     alt: "Test Better Logo",
+//   },
+// ];
+
+// const other_sponsors_cards = [
+//   {
+//     src: "/ReliamotiveLab.jpeg",
+//     alt: "ReliamotiveLab Logo",
+//   },
+//   {
+//     src: "/Tektronix.jpeg",
+//     alt: "Tektronix Logo",
+//   }
+// ];
+
+const sponsors_cards = [
   {
     src: "/JSC GROUP LOGO-01.png",
     alt: "JSC GROUP LOGO-01",
   },
-];
-
-const gold_sponsors_cards = [
   {
     src: "/pragna_microdesigns.png",
     alt: "PRAGNA Microdesigns Logo",
   },
-];
-
-const bronze_sponsors_cards = [
   {
     src: "/Chargehouse Logo.jpg",
     alt: "Chargehouse Logo",
@@ -67,14 +97,15 @@ const bronze_sponsors_cards = [
     src: "/TestBetterLogo.jpeg",
     alt: "Test Better Logo",
   },
-];
-
-const other_sponsors_cards = [
   {
     src: "/ReliamotiveLab.jpeg",
     alt: "ReliamotiveLab Logo",
-  }
-];
+  },
+  {
+    src: "/Tektronix.jpeg",
+    alt: "Tektronix Logo",
+  },
+]
 
 const importantDates = [
   {title:"Submission Opens",date: "2025-04-15", link:"/authors/call-for-papers"},
@@ -296,11 +327,11 @@ function Home() {
           </style>
         </div>
         <div className="flex md:flex-row flex-col md:px-[80px] justify-evenly">
-          <div>
-            <CardList
-              title="Platinum Sponsors"
-              cards={platinum_sponsors_cards}
-            />
+          <div className="w-full p-6 pb-12">
+            <CardList title="Our Sponsors" cards={sponsors_cards}/>
+          </div>
+          {/* <div>
+            <CardList title="Platinum Sponsors" cards={platinum_sponsors_cards}/>
           </div>
           <div>
             <CardList title="Gold Sponsors" cards={gold_sponsors_cards} />
@@ -310,7 +341,7 @@ function Home() {
           </div>
           <div>
             <CardList title="Other Sponsors" cards={other_sponsors_cards} />
-          </div>
+          </div> */}
         </div>
       </div>
 

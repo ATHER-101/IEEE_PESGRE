@@ -2,10 +2,10 @@ import React from "react";
 
 function CardList({ title, cards }) {
   return (
-      <div className="relative z-10 w-full p-6">
-        <h3 className="text-center text-4xl font-bold text-blue-700 pb-10">
+      <div className="relative z-10 w-full">
+        {title && <h3 className="text-center text-4xl md:text-5xl font-bold text-blue-700 pb-10">
           {title}
-        </h3>
+        </h3>}
         <div className="flex flex-wrap justify-center gap-6">
           {cards.map((card, idx) => (
             <div
