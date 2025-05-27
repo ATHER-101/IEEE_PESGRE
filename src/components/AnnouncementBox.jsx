@@ -81,8 +81,8 @@ function CustomCarousel({ text, subtext }) {
               transform: `translateX(-${currentIndex * 100}%)`,
             }}
           >
-            {images.map((step) => (
-              <div key={step.label} className="flex-shrink-0 w-full h-full">
+            {images.map((step,idx) => (
+              <div key={idx} className="flex-shrink-0 w-full h-full">
                 <img
                   className="w-full h-full object-cover"
                   src={step.imgPath}
