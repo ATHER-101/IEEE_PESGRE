@@ -84,26 +84,37 @@ const sponsors_cards = [
   {
     src: "/JSC GROUP LOGO-01.png",
     alt: "JSC GROUP LOGO-01",
+    width: 1,
   },
   {
     src: "/pragna_microdesigns.png",
     alt: "PRAGNA Microdesigns Logo",
+    width: 1,
   },
   {
     src: "/Chargehouse Logo.jpg",
     alt: "Chargehouse Logo",
+    width: 1,
   },
   {
-    src: "/TestBetterLogo.jpeg",
-    alt: "Test Better Logo",
-  },
-  {
-    src: "/ReliamotiveLab.jpeg",
-    alt: "ReliamotiveLab Logo",
+    src: "/Hioki.jpeg",
+    alt: "Hioki Logo",
+    width: 1,
   },
   {
     src: "/Tektronix.jpeg",
     alt: "Tektronix Logo",
+    width: 1,
+  },
+  {
+    src: "/TestBetterNew.jpeg",
+    alt: "Test Better Logo",
+    width: 2,
+  },
+  {
+    src: "/ReliamotiveLab.jpeg",
+    alt: "ReliamotiveLab Logo",
+    width: 2,
   },
 ]
 
