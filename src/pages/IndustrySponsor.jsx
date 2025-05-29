@@ -2,57 +2,7 @@ import React from "react";
 import Corousel from "../components/Corousel";
 import CardList from "../components/CardList";
 
-// const platinum_sponsors_cards = [
-//   {
-//     src: "/JSC GROUP LOGO-01.png",
-//     alt: "JSC GROUP LOGO-01",
-//   },
-// ];
-// const gold_sponsors_cards = [
-//   {
-//     src: "/pragna_microdesigns.png",
-//     alt: "pragna_microdesigns",
-//   },
-// ];
-// const bronze_sponsors_cards = [
-//   {
-//     src: "/Chargehouse Logo.jpg",
-//     alt: "Chargehouse Logo",
-//   },
-//   {
-//     src: "/TestBetterLogo.jpeg",
-//     alt: "Test Better Logo",
-//   },
-// ];
-
-const sponsors_cards = [
-  {
-    src: "/JSC GROUP LOGO-01.png",
-    alt: "JSC GROUP LOGO-01",
-  },
-  {
-    src: "/pragna_microdesigns.png",
-    alt: "PRAGNA Microdesigns Logo",
-  },
-  {
-    src: "/Chargehouse Logo.jpg",
-    alt: "Chargehouse Logo",
-  },
-  {
-    src: "/TestBetterLogo.jpeg",
-    alt: "Test Better Logo",
-  },
-  {
-    src: "/ReliamotiveLab.jpeg",
-    alt: "ReliamotiveLab Logo",
-  },
-  {
-    src: "/Tektronix.jpeg",
-    alt: "Tektronix Logo",
-  },
-];
-
-function IndustrySponsor() {
+function IndustrySponsor({sponsors_cards}) {
   const openLink = (link) => {
     window.open(link, "_blank");
   };

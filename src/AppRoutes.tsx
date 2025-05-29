@@ -19,9 +19,47 @@ import TutorialSpeakers from "./pages/TutorialSpeakers";
 import IESSYPKeynotes from "./pages/IESSYPKeynotes";
 
 const AppRoutes = () => {
+  const sponsors_cards = [
+    {
+      src: "/JSC GROUP LOGO-01.png",
+      alt: "JSC GROUP LOGO-01",
+      width: 1,
+    },
+    {
+      src: "/pragna_microdesigns.png",
+      alt: "PRAGNA Microdesigns Logo",
+      width: 1,
+    },
+    {
+      src: "/Chargehouse Logo.jpg",
+      alt: "Chargehouse Logo",
+      width: 1,
+    },
+    {
+      src: "/Hioki.jpeg",
+      alt: "Hioki Logo",
+      width: 1,
+    },
+    {
+      src: "/Tektronix.jpeg",
+      alt: "Tektronix Logo",
+      width: 1,
+    },
+    {
+      src: "/TestBetterNew.jpeg",
+      alt: "Test Better Logo",
+      width: 2,
+    },
+    {
+      src: "/ReliamotiveLab.jpeg",
+      alt: "ReliamotiveLab Logo",
+      width: 2,
+    },
+  ];
+
   return (
     <Routes>
-      <Route path="/" element={<Home />} />
+      <Route path="/" element={<Home sponsors_cards={sponsors_cards}/>} />
 
       {/* about */}
       <Route
@@ -32,7 +70,10 @@ const AppRoutes = () => {
 
       {/* authors */}
       <Route path="/authors/call-for-papers" element={<CallForPapers />} />
-      <Route path="/authors/call-for-special-session" element={<CallForSpecialSession />} />
+      <Route
+        path="/authors/call-for-special-session"
+        element={<CallForSpecialSession />}
+      />
       <Route
         path="/authors/submission-registration"
         element={<SubmissionRegistration />}
@@ -51,7 +92,10 @@ const AppRoutes = () => {
       <Route path="travel/location" element={<DirectionsToConference />} />
 
       <Route path="/students-yp" element={<StudentsAndYPs />} />
-      <Route path="/industry-sponsor" element={<IndustrySponsor />} />
+      <Route
+        path="/industry-sponsor"
+        element={<IndustrySponsor sponsors_cards={sponsors_cards} />}
+      />
       <Route path="/contact" element={<Contact />} />
     </Routes>
   );

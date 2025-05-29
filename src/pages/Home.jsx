@@ -44,80 +44,6 @@ const organisers_cards = [
   },
 ];
 
-// const platinum_sponsors_cards = [
-//   {
-//     src: "/JSC GROUP LOGO-01.png",
-//     alt: "JSC GROUP LOGO-01",
-//   },
-// ];
-
-// const gold_sponsors_cards = [
-//   {
-//     src: "/pragna_microdesigns.png",
-//     alt: "PRAGNA Microdesigns Logo",
-//   },
-// ];
-
-// const bronze_sponsors_cards = [
-//   {
-//     src: "/Chargehouse Logo.jpg",
-//     alt: "Chargehouse Logo",
-//   },
-//   {
-//     src: "/TestBetterLogo.jpeg",
-//     alt: "Test Better Logo",
-//   },
-// ];
-
-// const other_sponsors_cards = [
-//   {
-//     src: "/ReliamotiveLab.jpeg",
-//     alt: "ReliamotiveLab Logo",
-//   },
-//   {
-//     src: "/Tektronix.jpeg",
-//     alt: "Tektronix Logo",
-//   }
-// ];
-
-const sponsors_cards = [
-  {
-    src: "/JSC GROUP LOGO-01.png",
-    alt: "JSC GROUP LOGO-01",
-    width: 1,
-  },
-  {
-    src: "/pragna_microdesigns.png",
-    alt: "PRAGNA Microdesigns Logo",
-    width: 1,
-  },
-  {
-    src: "/Chargehouse Logo.jpg",
-    alt: "Chargehouse Logo",
-    width: 1,
-  },
-  {
-    src: "/Hioki.jpeg",
-    alt: "Hioki Logo",
-    width: 1,
-  },
-  {
-    src: "/Tektronix.jpeg",
-    alt: "Tektronix Logo",
-    width: 1,
-  },
-  {
-    src: "/TestBetterNew.jpeg",
-    alt: "Test Better Logo",
-    width: 2,
-  },
-  {
-    src: "/ReliamotiveLab.jpeg",
-    alt: "ReliamotiveLab Logo",
-    width: 2,
-  },
-]
-
 const importantDates = [
   {title:"Submission Opens",date: "2025-04-15", link:"/authors/call-for-papers"},
   {title:"Call for Special Sessions",date: "2025-04-15",link:"/authors/call-for-special-session"},
@@ -128,7 +54,7 @@ const importantDates = [
 ];
 
 
-function Home() {
+function Home({sponsors_cards}) {
   return (
     <div>
       {/* Hero Section */}
