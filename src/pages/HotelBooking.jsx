@@ -6,6 +6,138 @@ function HotelBooking() {
     window.open("/ExtendedListOfHotelsForAdditionalDetails.xlsx", "_blank"); // Opens the PDF in a new tab
   };
 
+  const dharwadHotels = [
+    {
+      name: "MR Residency Dharwad",
+      map: "https://maps.app.goo.gl/biywTUBWcCQhzE6p7",
+      contact: "9164994466",
+      distance: "12",
+      rating: "4.7",
+    },
+    {
+      name: "Rising Resorts and Spa",
+      map: "https://maps.app.goo.gl/LcQz46foZpmk1M4H8",
+      contact: "8951578555",
+      distance: "6.3",
+      rating: "4.5",
+    },
+    {
+      name: "Mastiff Grand Dharwad",
+      map: "https://maps.app.goo.gl/oHUrj9ZQnSaQJxzD9",
+      contact: "9035038181",
+      distance: "6.1",
+      rating: "4.3",
+    },
+    {
+      name: "Hotel Crown Inn",
+      map: "https://maps.app.goo.gl/gDzqNonzZjPYRVqr7",
+      contact: "8904264777",
+      distance: "18.5",
+      rating: "4.3",
+    },
+    {
+      name: "The Ocean Pearl Resort And Spa",
+      map: "https://maps.app.goo.gl/2FrAgDaaAmgydwge6",
+      contact: "8362226600",
+      distance: "20.1",
+      rating: "4.2",
+    },
+    {
+      name: "Hotel Brindavan",
+      map: "https://maps.app.goo.gl/gTe5vC3sA6ncTbNu7",
+      contact: "8362792123",
+      distance: "12.4",
+      rating: "4.2",
+    },
+    {
+      name: "Hotel Royal inn lodge Dharwad",
+      map: "https://maps.app.goo.gl/4udunMNvvFjvrAV19",
+      contact: "8050387999",
+      distance: "14.2",
+      rating: "4.2",
+    },
+    {
+      name: "Menaka Inn",
+      map: "https://maps.app.goo.gl/AEzuTtgq9VsH5DjP8",
+      contact: "7090422999",
+      distance: "17",
+      rating: "4",
+    },
+    {
+      name: "Hotel Vishwa Resort & Lodging",
+      map: "https://maps.app.goo.gl/ucUGxLXspA8mcFGn7",
+      contact: "N/A",
+      distance: "5.6",
+      rating: "3.9",
+    },
+  ]
+
+  const hubliHotels = [
+    {
+      name: "Denissons Hotel",
+      map: "https://maps.app.goo.gl/zWKCHPcT7GRbSf657",
+      contact: "8362377777",
+      distance: "32.9",
+      rating: "4.4",
+    },
+    {
+      name: "Hotel Naveen",
+      map: "https://maps.app.goo.gl/NA8eKD4xaMdcZ1KH8",
+      contact: "8362239100",
+      distance: "27.3",
+      rating: "4.4",
+    },
+    {
+      name: "The President Hotel",
+      map: "https://maps.app.goo.gl/qJPqg8RLDVTc15zZ8",
+      contact: "8362234888",
+      distance: "26.9",
+      rating: "4.3",
+    },
+    {
+      name: "Sunshine Lodge",
+      map: "https://maps.app.goo.gl/LRB4xyUpsXT7G4n1A",
+      contact: "N/A",
+      distance: "33.3",
+      rating: "4.6",
+    },
+    {
+      name: "Hotel Oasis Suites",
+      map: "https://maps.app.goo.gl/2xE8aDx2BFGHoDsy7",
+      contact: "8762204777",
+      distance: "32.4",
+      rating: "4.6",
+    },
+    {
+      name: "Hotel Red fort lodging",
+      map: "https://maps.app.goo.gl/W9yqddr9Z3kEREYx5",
+      contact: "9008764999",
+      distance: "18.3",
+      rating: "4.4",
+    },
+    {
+      name: "Aithals Canara Lodge",
+      map: "https://maps.app.goo.gl/cuyEWkAJdHsb6bAp7",
+      contact: "8362372561",
+      distance: "34.7",
+      rating: "4.1",
+    },
+    {
+      name: "Ananth Residency",
+      map: "https://maps.app.goo.gl/4PXxM6D9V2gD35Xf8",
+      contact: "8088415720",
+      distance: "38.4",
+      rating: "4.1",
+    },
+    {
+      name: "Lemon Tree Hotel Hubli",
+      map: "https://maps.app.goo.gl/qzwGEEAsbhnoh3PP9",
+      contact: "8884455627",
+      distance: "29",
+      rating: "4.1",
+    },
+  ]
+
   return (
     <div>
       {/* Carousel Section */}
@@ -109,71 +241,7 @@ function HotelBooking() {
           <div className="z-10">
             <h2 className="text-xl font-bold text-[#168BEE] mb-4">Hotels in Dharwad</h2>
             <ul className="space-y-4">
-              {[
-                {
-                  name: "MR Residency Dharwad",
-                  map: "https://maps.app.goo.gl/biywTUBWcCQhzE6p7",
-                  contact: "9164994466",
-                  distance: "12",
-                  rating: "4.7",
-                },
-                {
-                  name: "Rising Resorts and Spa",
-                  map: "https://maps.app.goo.gl/LcQz46foZpmk1M4H8",
-                  contact: "8951578555",
-                  distance: "6.3",
-                  rating: "4.5",
-                },
-                {
-                  name: "Mastiff Grand Dharwad",
-                  map: "https://maps.app.goo.gl/oHUrj9ZQnSaQJxzD9",
-                  contact: "9035038181",
-                  distance: "6.1",
-                  rating: "4.3",
-                },
-                {
-                  name: "Hotel Crown Inn",
-                  map: "https://maps.app.goo.gl/gDzqNonzZjPYRVqr7",
-                  contact: "8904264777",
-                  distance: "18.5",
-                  rating: "4.3",
-                },
-                {
-                  name: "The Ocean Pearl Resort And Spa",
-                  map: "https://maps.app.goo.gl/2FrAgDaaAmgydwge6",
-                  contact: "8362226600",
-                  distance: "20.1",
-                  rating: "4.2",
-                },
-                {
-                  name: "Hotel Brindavan",
-                  map: "https://maps.app.goo.gl/gTe5vC3sA6ncTbNu7",
-                  contact: "8362792123",
-                  distance: "12.4",
-                  rating: "4.2",
-                },
-                {
-                  name: "Hotel Royal inn lodge Dharwad",
-                  map: "https://maps.app.goo.gl/4udunMNvvFjvrAV19",
-                  contact: "8050387999",
-                  distance: "14.2",
-                  rating: "4.2",
-                },
-                {
-                  name: "Menaka Inn",
-                  map: "https://maps.app.goo.gl/AEzuTtgq9VsH5DjP8",
-                  contact: "7090422999",
-                  distance: "17",
-                  rating: "4",
-                },
-                {
-                  name: "Hotel Vishwa Resort & Lodging",
-                  map: "https://maps.app.goo.gl/ucUGxLXspA8mcFGn7",
-                  contact: "N/A",
-                  distance: "5.6",
-                  rating: "3.9",
-                },
-              ].map((hotel, i) => (
+              {dharwadHotels.map((hotel, i) => (
                 <li key={i} className="border p-4 rounded-lg shadow-sm bg-white">
                   <a href={hotel.map} target="_blank" rel="noopener noreferrer" className="text-lg font-semibold text-[#0A81EA] hover:underline">
                     {hotel.name}
@@ -190,71 +258,7 @@ function HotelBooking() {
           <div className="z-10">
             <h2 className="text-xl font-bold text-[#168BEE] mb-4">Hotels in Hubballi</h2>
             <ul className="space-y-4">
-              {[
-                {
-                  name: "Denissons Hotel",
-                  map: "https://maps.app.goo.gl/zWKCHPcT7GRbSf657",
-                  contact: "8362377777",
-                  distance: "32.9",
-                  rating: "4.4",
-                },
-                {
-                  name: "Hotel Naveen",
-                  map: "https://maps.app.goo.gl/NA8eKD4xaMdcZ1KH8",
-                  contact: "8362239100",
-                  distance: "27.3",
-                  rating: "4.4",
-                },
-                {
-                  name: "The President Hotel",
-                  map: "https://maps.app.goo.gl/qJPqg8RLDVTc15zZ8",
-                  contact: "8362234888",
-                  distance: "26.9",
-                  rating: "4.3",
-                },
-                {
-                  name: "Sunshine Lodge",
-                  map: "https://maps.app.goo.gl/LRB4xyUpsXT7G4n1A",
-                  contact: "N/A",
-                  distance: "33.3",
-                  rating: "4.6",
-                },
-                {
-                  name: "Hotel Oasis Suites",
-                  map: "https://maps.app.goo.gl/2xE8aDx2BFGHoDsy7",
-                  contact: "8762204777",
-                  distance: "32.4",
-                  rating: "4.6",
-                },
-                {
-                  name: "Hotel Red fort lodging",
-                  map: "https://maps.app.goo.gl/W9yqddr9Z3kEREYx5",
-                  contact: "9008764999",
-                  distance: "18.3",
-                  rating: "4.4",
-                },
-                {
-                  name: "Aithals Canara Lodge",
-                  map: "https://maps.app.goo.gl/cuyEWkAJdHsb6bAp7",
-                  contact: "8362372561",
-                  distance: "34.7",
-                  rating: "4.1",
-                },
-                {
-                  name: "Ananth Residency",
-                  map: "https://maps.app.goo.gl/4PXxM6D9V2gD35Xf8",
-                  contact: "8088415720",
-                  distance: "38.4",
-                  rating: "4.1",
-                },
-                {
-                  name: "Lemon Tree Hotel Hubli",
-                  map: "https://maps.app.goo.gl/qzwGEEAsbhnoh3PP9",
-                  contact: "8884455627",
-                  distance: "29",
-                  rating: "4.1",
-                },
-              ].map((hotel, i) => (
+              {hubliHotels.map((hotel, i) => (
                 <li key={i} className="border p-4 rounded-lg shadow-sm bg-white">
                   <a href={hotel.map} target="_blank" rel="noopener noreferrer" className="text-lg font-semibold text-[#0A81EA] hover:underline">
                     {hotel.name}
