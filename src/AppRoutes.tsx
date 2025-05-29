@@ -45,7 +45,7 @@ const AppRoutes = () => {
 
       {/* travel */}
       <Route path="travel/visa-info" element={<VisaInfo />} />
-      <Route path="travel/hotel-booking" element={<HotelBooking />} />
+      <Route path="travel/accommodation" element={<HotelBooking />} />
       <Route path="travel/tour" element={<Tour />} />
       <Route path="travel/food" element={<Food />} />
       <Route path="travel/location" element={<DirectionsToConference />} />

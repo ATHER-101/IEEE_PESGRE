@@ -31,14 +31,14 @@ const navItems = [
     title: "Travel",
     dropdownItems: [
       "Visa Information",
-      "Hotel Booking",
+      "Accommodation",
       "Tour",
       "Food",
       "Location",
     ],
     routes: [
       "/travel/visa-info",
-      "/travel/hotel-booking",
+      "/travel/accommodation",
       "/travel/tour",
       "/travel/food",
       "/travel/location",

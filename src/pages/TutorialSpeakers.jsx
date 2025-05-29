@@ -27,6 +27,21 @@ function TutorialSpeakers() {
       "title": "Professor, IIT Bombay, India",
       "bio": "Prof. Sandeep Anand is a Full Professor in the Department of Electrical Engineering at IIT Bombay, India. Before this, he was at IIT Kanpur from 2013 to 2020. He was also a visiting scholar at Washington State University, Pullman, US, and Queen's University, Kingston, Canada, during Summer 2018 and Winter 2018, respectively. During 2012-13, he worked at Cosmic Circuits Pvt. Ltd., Bangalore, on new product development for solar PV systems. From 2007 to 2008, he worked at Emerson Network Power India (now Vertiv Co), Mumbai, on the development of digital controllers for medium-power online UPS systems. Prof. Anand received his Ph.D. and B.Tech. degrees in Electrical Engineering from IIT Bombay in 2013 and 2007, respectively. His research interests include electric vehicle drive trains and chargers, wide bandgap device-based (GaN and SiC) power converters, circuits for interfacing alternative energy sources (solar PV, batteries, fuel cells), and the reliability of power electronic circuits."
     },
+    {
+      name: "Shan S",
+      title: "Senior Principal Technical Expert, Schneider Electric, Bangalore",
+      bio: `Shan is currently working as a Senior Principal Technical Expert at Schneider Electric, Bangalore. He has a Masters and PhD from IISc. He has around 15 years of experience in power electronics and has worked in companies like GE Research and Schneider Electric. His expertise lies in R&D of power converters for grid applications and UPS.`,
+    },
+    {
+      name: "Gourahari Nayak",
+      title: "Senior Design Engineer, Schneider Electric, Bangalore",
+      bio: `Gourahari Nayak is currently working as a Senior Design Engineer at Schneider Electric, Bangalore, since 2023. He holds a Masters from NIT Warangal and a PhD from IIST. His research interests include modelling and control of Solid State Transformers (SST) and Modular Dual Active Bridge (DAB) converter configurations.`,
+    },
+    {
+      name: "Aravind H S",
+      title: "Director, R&D, Schneider Electric, India",
+      bio: `Aravind H S is the Director of R&D at Schneider Electric, India, with over 25 years of experience in electronics and power engineering. He has held key positions at companies like Honeywell and Enphase, and brings rich experience in leading research and development of power electronic systems.`,
+    },
   ];
 
 
@@ -86,11 +101,11 @@ function TutorialSpeakers() {
           {speakers.map((speaker, index) => (
             <div key={index} className="w-full md:w-1/2 px-4 mb-10">
               <div className="bg-white shadow-lg rounded-2xl p-6 flex flex-col items-center text-center h-full">
-                <img
+                {speaker.image && <img
                   src={speaker.image}
                   alt={speaker.name}
                   className="w-40 h-40 object-cover rounded-full mb-4"
-                />
+                />}
                 <h2 className="text-xl font-semibold text-[#168BEE]">
                   {speaker.name}
                 </h2>
