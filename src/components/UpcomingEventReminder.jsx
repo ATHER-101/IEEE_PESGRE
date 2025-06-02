@@ -7,7 +7,7 @@ function UpcomingEventReminder({ dates }) {
 
   // Convert dates to objects and sort
   const sortedDates = dates
-    .map(({ title, date, link }) => ({ title, date: new Date(date), link }))
+    .map(({ title, date, link, secondary_link, secondary_title }) => ({ title, date: new Date(date), link, secondary_link, secondary_title }))
     .sort((a, b) => a.date - b.date);
 
   // Find the next upcoming event date
@@ -70,10 +70,10 @@ function UpcomingEventReminder({ dates }) {
           </div>
           <p className="text-2xl font-semibold">{formatDate(nextEventDate)}</p>
           <ul className="mb-6 mt-2 md:my-4 md:space-y-2">
-            {nextEvents.map(({ title, link }, index) => (
+            {nextEvents.map(({ title, link, secondary_link, secondary_title }, index) => (
               <li key={index} className="text-xl">
-                  
-                  <a href={link} target="_blank" rel="noopener noreferrer" ><p className="inline">{title}</p><FaExternalLinkAlt className="ml-4 mb-1 inline-block text-sm"/></a>
+                <a href={link} target="_blank" rel="noopener noreferrer" ><p className="inline">{title}</p><FaExternalLinkAlt className="mx-4 mb-1 inline-block text-sm" /></a><br/>
+                {secondary_title && <a href={secondary_link} target="_blank" rel="noopener noreferrer" ><p className="inline text-sm">{secondary_title}</p><FaExternalLinkAlt className="ml-4 mb-1 inline-block text-xs" /></a>}
               </li>
             ))}
           </ul>
