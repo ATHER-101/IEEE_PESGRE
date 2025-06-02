@@ -14,12 +14,14 @@ const navItems = [
     dropdownItems: [
       "Call for Papers",
       "Call for Special Session",
-      "Submission & Registration",
+      "Submission",
+      "Registration",
     ],
     routes: [
       "/authors/call-for-papers",
       "/authors/call-for-special-session",
-      "/authors/submission-registration",
+      "/authors/submission",
+      "/authors/registration",
     ],
   },
   {

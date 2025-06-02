@@ -5,7 +5,7 @@ import Contact from "./pages/Contact";
 import OrganizingCommittee from "./pages/OrganizingCommittee";
 import Chairs from "./pages/Chairs";
 import CallForPapers from "./pages/CallForPapers";
-import SubmissionRegistration from "./pages/SubmissionRegistration";
+import Submission from "./pages/Submission";
 import KeynoteSpeakers from "./pages/KeynoteSpeakers";
 import StudentsAndYPs from "./pages/StudentsAndYPs";
 import VisaInfo from "./pages/VisaInfo";
@@ -17,6 +17,7 @@ import IndustrySponsor from "./pages/IndustrySponsor";
 import CallForSpecialSession from "./pages/CallForSpecialSession";
 import TutorialSpeakers from "./pages/TutorialSpeakers";
 import IESSYPKeynotes from "./pages/IESSYPKeynotes";
+import Registration from "./pages/Registration";
 
 const AppRoutes = () => {
   const sponsors_cards = [
@@ -75,8 +76,12 @@ const AppRoutes = () => {
         element={<CallForSpecialSession />}
       />
       <Route
-        path="/authors/submission-registration"
-        element={<SubmissionRegistration />}
+        path="/authors/submission"
+        element={<Submission />}
+      />
+      <Route
+        path="/authors/registration"
+        element={<Registration />}
       />
 
       {/* program */}

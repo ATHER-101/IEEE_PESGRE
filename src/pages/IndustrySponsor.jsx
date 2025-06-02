@@ -87,7 +87,7 @@ function IndustrySponsor({sponsors_cards}) {
             <div className="mb-8">
               <img
                 className="shadow-lg  w-full md:w-[90%] relative z-10"
-                src="/PESGRE-CFP-2025-Sponsorship-only.png"
+                src="/PESGRE-CFP-2025-Sponsorship-new.jpeg"
                 alt="Sponsorship Brochure"
               />
             </div>
@@ -99,7 +99,7 @@ function IndustrySponsor({sponsors_cards}) {
               <div className="flex justify-between items-center bg-white rounded-md border p-4 w-full">
                 <p className="text-lg">Download Sponsorship Brochure</p>
                 <button
-                  onClick={() => openLink("/PESGRE-CFP-2025-Sponsorship.pdf")}
+                  onClick={() => openLink("/PESGRE-CFP-2025-Sponsorship-new.pdf")}
                   className="flex items-center bg-blue-600 text-white rounded-lg px-4 py-2 hover:bg-blue-700 transition duration-200"
                 >
                   <svg
@@ -145,11 +145,6 @@ function IndustrySponsor({sponsors_cards}) {
                 </button>
               </div>
             </div>
-            {/* <div className="mt-16">
-              <CardList title="Platinum Sponsor" cards={platinum_sponsors_cards} />
-              <CardList title="Gold Sponsor" cards={gold_sponsors_cards} />
-              <CardList title="Bronze Sponsor" cards={bronze_sponsors_cards} />
-            </div> */}
           </div>
         </div>
       </div>
