@@ -22,23 +22,26 @@ function TutorialSpeakers() {
       bio: `Riccardo Mandrioli received his M.Sc. degree (cum laude) in Electrical Engineering in 2019 and his PhD (Hons.) in Biomedical, Electrical, and System Engineering in 2023 from the University of Bologna, Italy. He is currently a Tenure Track Assistant Professor at the University of Bologna. He has been a Postdoctoral Research Fellow, Adjunct Professor, and Teaching Assistant since 2017. In 2022, he was a Visiting Scientist at Kiel University, Germany. He received the IEEE IES – Italy Section Chapter 2024 PhD Thesis Award and multiple IEEE conference awards. His research interests include EV chargers, photovoltaic systems, power electronic converters, and harmonic pollution. He is an Associate Editor for IEEE Access and serves on editorial boards of multiple journals.`,
     },
     {
-      "name": "Sandeep Anand",
-      "image": "/Sandeep_Anand.png",
-      "title": "Professor, IIT Bombay, India",
-      "bio": "Prof. Sandeep Anand is a Full Professor in the Department of Electrical Engineering at IIT Bombay, India. Before this, he was at IIT Kanpur from 2013 to 2020. He was also a visiting scholar at Washington State University, Pullman, US, and Queen's University, Kingston, Canada, during Summer 2018 and Winter 2018, respectively. During 2012-13, he worked at Cosmic Circuits Pvt. Ltd., Bangalore, on new product development for solar PV systems. From 2007 to 2008, he worked at Emerson Network Power India (now Vertiv Co), Mumbai, on the development of digital controllers for medium-power online UPS systems. Prof. Anand received his Ph.D. and B.Tech. degrees in Electrical Engineering from IIT Bombay in 2013 and 2007, respectively. His research interests include electric vehicle drive trains and chargers, wide bandgap device-based (GaN and SiC) power converters, circuits for interfacing alternative energy sources (solar PV, batteries, fuel cells), and the reliability of power electronic circuits."
+      name: "Sandeep Anand",
+      image: "/Sandeep_Anand.png",
+      title: "Professor, IIT Bombay, India",
+      bio: "Prof. Sandeep Anand is a Full Professor in the Department of Electrical Engineering at IIT Bombay, India. Before this, he was at IIT Kanpur from 2013 to 2020. He was also a visiting scholar at Washington State University, Pullman, US, and Queen's University, Kingston, Canada, during Summer 2018 and Winter 2018, respectively. During 2012-13, he worked at Cosmic Circuits Pvt. Ltd., Bangalore, on new product development for solar PV systems. From 2007 to 2008, he worked at Emerson Network Power India (now Vertiv Co), Mumbai, on the development of digital controllers for medium-power online UPS systems. Prof. Anand received his Ph.D. and B.Tech. degrees in Electrical Engineering from IIT Bombay in 2013 and 2007, respectively. His research interests include electric vehicle drive trains and chargers, wide bandgap device-based (GaN and SiC) power converters, circuits for interfacing alternative energy sources (solar PV, batteries, fuel cells), and the reliability of power electronic circuits."
     },
     {
       name: "Shan S",
+      image: "/Shan_S.png",
       title: "Senior Principal Technical Expert, Schneider Electric, Bangalore",
       bio: `Shan is currently working as a Senior Principal Technical Expert at Schneider Electric, Bangalore. He has a Masters and PhD from IISc. He has around 15 years of experience in power electronics and has worked in companies like GE Research and Schneider Electric. His expertise lies in R&D of power converters for grid applications and UPS.`,
     },
     {
       name: "Gourahari Nayak",
+      image: "/Gourahari_Nayak.jpeg",
       title: "Senior Design Engineer, Schneider Electric, Bangalore",
       bio: `Gourahari Nayak is currently working as a Senior Design Engineer at Schneider Electric, Bangalore, since 2023. He holds a Masters from NIT Warangal and a PhD from IIST. His research interests include modelling and control of Solid State Transformers (SST) and Modular Dual Active Bridge (DAB) converter configurations.`,
     },
     {
       name: "Aravind H S",
+      image: "/Aravind.jpeg",
       title: "Director, R&D, Schneider Electric, India",
       bio: `Aravind H S is the Director of R&D at Schneider Electric, India, with over 25 years of experience in electronics and power engineering. He has held key positions at companies like Honeywell and Enphase, and brings rich experience in leading research and development of power electronic systems.`,
     },
