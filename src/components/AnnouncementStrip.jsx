@@ -11,10 +11,6 @@ const textArray = [
     link: "https://cmt3.research.microsoft.com/PESGRE2025",
   },
   {
-    text: "Call for Special Session Proposals is OPEN, Deadline 15 May 2025",
-    link: "/authors/call-for-special-session",
-  },
-  {
     text: "PESGRE 2025 financially co-sponsored by IAS society and hence all the presented papers (100%) are eligible for further review and possible publication in IEEE Transaction on Industry Applications",
     link: "/",
   },
