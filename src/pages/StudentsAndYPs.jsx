@@ -77,9 +77,9 @@ function StudentsAndYPs() {
           {/* Left Column */}
           <div className="w-full md:w-1/2 px-4 mb-8">
             {/* Overview Section */}
-            <div className="mb-10">
+            <div className="mb-7">
               <h2 className="text-xl font-bold text-[#168BEE] mb-4">Overview</h2>
-              <p className="mb-5">
+              <p className="mb-4">
                 The Student & Young Professionals (S&YP) Activity Committee of
                 the Industrial Electronics Society (IES) is continuously
                 implementing a paper assistance program (IES-SYPA) – a
@@ -97,6 +97,29 @@ function StudentsAndYPs() {
                 <strong>3-min Video Session</strong>, and an open discussion
                 forum.
               </p>
+            </div>
+            
+            <div className="mb-7">
+              <h2 className="text-[#168BEE] text-xl font-bold mb-3">
+                Timeline
+              </h2>
+              <ul className="list-disc list-inside">
+                <li><strong>SYPA Application Submission Deadline:</strong> 30 Aug 2025</li>
+                <li><strong>General Reviewer Comments on Videos:</strong> 15 Sep 2025</li>
+                <li><strong>Final 3-Minute Video Submission Deadline:</strong> 25 Sep 2025</li>
+                <li><strong>Announcement of Winners:</strong> 10 Oct 2025</li>
+              </ul>
+            </div>
+            
+            <div className="mb-8">
+              <h2 className="text-[#168BEE] text-xl font-bold mb-3">
+                Student & Young Professional Chairs
+              </h2>
+              <ul className="list-disc list-inside">
+                <li><strong>Chathurika S. Wickramasinghe,</strong> USA</li>
+                <li><strong>Edivan Carvalho,</strong> Estonia</li>
+                <li><strong>João Carvalho Neto,</strong> Brazil</li>
+              </ul>
             </div>
           </div>
 

@@ -32,11 +32,6 @@ const AppRoutes = () => {
       width: 1,
     },
     {
-      src: "/Chargehouse Logo.jpg",
-      alt: "Chargehouse Logo",
-      width: 1,
-    },
-    {
       src: "/Hioki.jpeg",
       alt: "Hioki Logo",
       width: 1,
@@ -52,14 +47,19 @@ const AppRoutes = () => {
       width: 2,
     },
     {
-      src: "/ReliamotiveLab.jpeg",
-      alt: "ReliamotiveLab Logo",
-      width: 2,
+      src: "/Chargehouse Logo.jpg",
+      alt: "Chargehouse Logo",
+      width: 1,
     },
     {
       src: "/typhoonHIL.jpeg",
       alt: "Typhoon HIL Logo",
       width: 1,
+    },
+    {
+      src: "/ReliamotiveLab.jpeg",
+      alt: "ReliamotiveLab Logo",
+      width: 2,
     },
   ];
 
