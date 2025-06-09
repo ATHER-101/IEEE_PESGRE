@@ -86,65 +86,82 @@ function Registration() {
 
                         <div className="mb-6">
                             <h2 className="text-[#168BEE] text-xl font-bold mb-3">Registration Fee Structure</h2>
-                            <div className="overflow-auto border border-gray-300 rounded relative z-10 bg-blue-100">
-                                <table className="min-w-full text-sm text-left">
-                                    <thead className="bg-blue-100 text-center">
+                            <div className="overflow-auto border border-black rounded-md mb-8 relative z-10">
+                                <table className="min-w-full text-center text-sm font-medium">
+                                    <thead>
                                         <tr>
-                                            <th rowSpan="2" className="border px-4 py-2 align-middle border-gray-300">Delegate<br />Categories</th>
-                                            <th colSpan="2" className="border px-4 py-2 border-gray-300">Early Bird</th>
-                                            <th colSpan="2" className="border px-4 py-2 border-gray-300">Standard</th>
+                                            <th rowSpan="3" className="bg-[#1C3F63] text-white px-4 py-4 border border-black text-base font-bold">
+                                                Delegate<br />Categories
+                                            </th>
+                                            <th colSpan="4" className="bg-[#D92525] text-white px-4 py-2 border border-black text-base font-bold">
+                                                Registration Fee
+                                            </th>
                                         </tr>
                                         <tr>
-                                            <th className="border px-4 py-2 border-gray-300">Indian</th>
-                                            <th className="border px-4 py-2 border-gray-300">Foreign</th>
-                                            <th className="border px-4 py-2 border-gray-300">Indian</th>
-                                            <th className="border px-4 py-2 border-gray-300">Foreign</th>
+                                            <th colSpan="2" className="bg-[#0E9449] text-white border border-black text-sm px-2 py-1">
+                                                Early Bird Registration<br />
+                                                <span className="text-[12px]">Last Date: November 1, 2025</span>
+                                            </th>
+                                            <th colSpan="2" className="bg-[#F27032] text-white border border-black text-sm px-2 py-1">
+                                                Standard Registration
+                                            </th>
+                                        </tr>
+                                        <tr className="text-black bg-white">
+                                            <th className="border border-black px-2 py-1 bg-white">Indian Delegates</th>
+                                            <th className="border border-black px-2 py-1 bg-white text-[#A020F0]">Foreign Delegates</th>
+                                            <th className="border border-black px-2 py-1 bg-white">Indian Delegates</th>
+                                            <th className="border border-black px-2 py-1 bg-white text-[#A020F0]">Foreign Delegates</th>
                                         </tr>
                                     </thead>
                                     <tbody>
+                                        {/* Professionals Section */}
                                         <tr>
-                                            <td className="border px-4 py-2 font-semibold bg-gray-50" colSpan="5">
+                                            <td colSpan="5" className="bg-[#BCD6F5] text-black font-semibold border border-black px-2 py-1">
                                                 Professionals from Academia and Industry (FULL FEE)
                                             </td>
                                         </tr>
-                                        <tr>
-                                            <td className="border px-4 py-2 border-gray-300">IEEE Member</td>
-                                            <td className="border px-4 py-2 border-gray-300">INR 8500</td>
-                                            <td className="border px-4 py-2 border-gray-300">USD 350</td>
-                                            <td className="border px-4 py-2 border-gray-300">INR 12500</td>
-                                            <td className="border px-4 py-2 border-gray-300">USD 450</td>
+                                        <tr className="bg-[#BCD6F5]">
+                                            <td className="border border-black px-2 py-1">IEEE Member</td>
+                                            <td className="border border-black px-2 py-1">INR 8500</td>
+                                            <td className="border border-black px-2 py-1 text-[#A020F0]">USD 350</td>
+                                            <td className="border border-black px-2 py-1">INR 12500</td>
+                                            <td className="border border-black px-2 py-1 text-[#A020F0]">USD 450</td>
                                         </tr>
-                                        <tr>
-                                            <td className="border px-4 py-2 border-gray-300">Non – IEEE Member</td>
-                                            <td className="border px-4 py-2 border-gray-300">INR 10200</td>
-                                            <td className="border px-4 py-2 border-gray-300">USD 420</td>
-                                            <td className="border px-4 py-2 border-gray-300">INR 15000</td>
-                                            <td className="border px-4 py-2 border-gray-300">USD 540</td>
+                                        <tr className="bg-[#BCD6F5]">
+                                            <td className="border border-black px-2 py-1">Non – IEEE Member</td>
+                                            <td className="border border-black px-2 py-1">INR 10200</td>
+                                            <td className="border border-black px-2 py-1 text-[#A020F0]">USD 420</td>
+                                            <td className="border border-black px-2 py-1">INR 15000</td>
+                                            <td className="border border-black px-2 py-1 text-[#A020F0]">USD 540</td>
                                         </tr>
+
+                                        {/* Students Section */}
                                         <tr>
-                                            <td className="border px-4 py-2 font-semibold bg-gray-50" colSpan="5">
+                                            <td colSpan="5" className="bg-[#FFD4C3] text-black font-semibold border border-black px-2 py-1">
                                                 Student Participants
                                             </td>
                                         </tr>
-                                        <tr>
-                                            <td className="border px-4 py-2 border-gray-300">IEEE Member</td>
-                                            <td className="border px-4 py-2 border-gray-300">INR 5000</td>
-                                            <td className="border px-4 py-2 border-gray-300">USD 250</td>
-                                            <td className="border px-4 py-2 border-gray-300">INR 7000</td>
-                                            <td className="border px-4 py-2 border-gray-300">USD 350</td>
+                                        <tr className="bg-[#FFD4C3]">
+                                            <td className="border border-black px-2 py-1">IEEE Member</td>
+                                            <td className="border border-black px-2 py-1">INR 5000</td>
+                                            <td className="border border-black px-2 py-1 text-[#A020F0]">USD 250</td>
+                                            <td className="border border-black px-2 py-1">INR 7000</td>
+                                            <td className="border border-black px-2 py-1 text-[#A020F0]">USD 350</td>
                                         </tr>
-                                        <tr>
-                                            <td className="border px-4 py-2 border-gray-300">Non – IEEE Member</td>
-                                            <td className="border px-4 py-2 border-gray-300">INR 6000</td>
-                                            <td className="border px-4 py-2 border-gray-300">USD 300</td>
-                                            <td className="border px-4 py-2 border-gray-300">INR 8400</td>
-                                            <td className="border px-4 py-2 border-gray-300">USD 420</td>
+                                        <tr className="bg-[#FFD4C3]">
+                                            <td className="border border-black px-2 py-1">Non – IEEE Member</td>
+                                            <td className="border border-black px-2 py-1">INR 6000</td>
+                                            <td className="border border-black px-2 py-1 text-[#A020F0]">USD 300</td>
+                                            <td className="border border-black px-2 py-1">INR 8400</td>
+                                            <td className="border border-black px-2 py-1 text-[#A020F0]">USD 420</td>
                                         </tr>
                                     </tbody>
                                 </table>
-                                <p className="text-sm p-2 text-gray-600 italic">
-                                    *All fees are exclusive of 18% GST, payment gateway, and currency conversion charges.
-                                </p>
+
+                                {/* Footnote */}
+                                <div className="bg-white border-t border-black text-red-600 font-semibold text-center text-sm py-2">
+                                    The fee shown above is excluding 18% GST, and Payment gateway fees and currency conversion fees
+                                </div>
                             </div>
                         </div>
 
@@ -161,7 +178,7 @@ function Registration() {
                                 rel="noopener noreferrer"
                                 className="text-blue-600 underline"
                             >
-                                
+
                             </a>
                         </div>
                     </div>

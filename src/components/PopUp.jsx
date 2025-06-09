@@ -47,7 +47,7 @@ export default function PopupNotification() {
                 </div>
                 {/* Image */}
                 <img
-                    src="/Paper Submission Announcement.png"
+                    src="/popup.jpeg"
                     alt="Popup"
                     className="rounded-xl shadow-xl border-2 border-gray-200"
                 />
