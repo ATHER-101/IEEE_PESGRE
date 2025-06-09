@@ -53,9 +53,8 @@ function Registration() {
                         <div className='mb-8 z-10'>
                             <h2 className="text-[#168BEE] text-xl font-bold mb-3">Important Notes</h2>
                             <ul className="list-disc list-inside">
-                                <li>At least one author of each accepted paper must register at <a href="" className="text-blue-600 underline" target="_blank"
-                                    rel="noopener noreferrer">FULL FEE (Academician/
-                                    Scientists/ Foreign Authors/ Industry Person)</a> before the deadline for the paper to be
+                                <li>At least one author of each accepted paper must register at FULL FEE (Academician/
+                                    Scientists/ Foreign Authors/ Industry Person) before the deadline for the paper to be
                                     presented in the conference and included in IEEE Xplore.</li>
                                 <li>A maximum of one (1) paper may be presented and submitted to IEEE Xplore under a
                                     full registration.</li>
