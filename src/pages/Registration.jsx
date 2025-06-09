@@ -53,7 +53,7 @@ function Registration() {
                         <div className='mb-8 z-10'>
                             <h2 className="text-[#168BEE] text-xl font-bold mb-3">Important Notes</h2>
                             <ul className="list-disc list-inside">
-                                <li>At least one author of each accepted paper must register at <a href="https://nitgoa.ac.in/STPEC2025/registration.html" className="text-blue-600 underline" target="_blank"
+                                <li>At least one author of each accepted paper must register at <a href="" className="text-blue-600 underline" target="_blank"
                                     rel="noopener noreferrer">FULL FEE (Academician/
                                     Scientists/ Foreign Authors/ Industry Person)</a> before the deadline for the paper to be
                                     presented in the conference and included in IEEE Xplore.</li>
@@ -162,7 +162,7 @@ function Registration() {
                                 rel="noopener noreferrer"
                                 className="text-blue-600 underline"
                             >
-                                https://nitgoa.ac.in/STPEC2025/registration.html
+                                
                             </a>
                         </div>
                     </div>
