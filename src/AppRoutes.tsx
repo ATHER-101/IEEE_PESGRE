@@ -56,6 +56,11 @@ const AppRoutes = () => {
       alt: "ReliamotiveLab Logo",
       width: 2,
     },
+    {
+      src: "/typhoonHIL.jpeg",
+      alt: "Typhoon HIL Logo",
+      width: 1,
+    },
   ];
 
   return (
