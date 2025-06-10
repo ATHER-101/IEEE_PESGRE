@@ -186,7 +186,7 @@ function Submission() {
 
             <div className="mb-8">
               <h2 className="text-[#168BEE] text-xl font-bold mb-3">
-                Paper Submission Guidelines
+                Guidlines for final-paper submission (for accepted papers)
               </h2>
               <ul className="list-disc list-inside">
                 <li>The guidelines for authors of accepted manuscripts can be viewed <a href="https://docs.google.com/document/d/1R_GRd8wJT1MmypM-NC2fTbGBN0KdIaOHGZqsuLTjH-0/edit?usp=sharing" className="text-blue-600 underline" target="_blank"
