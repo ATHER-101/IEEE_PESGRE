@@ -8,6 +8,13 @@ function HotelBooking() {
 
   const dharwadHotels = [
     {
+      name: "Mastiff Grand Dharwad",
+      map: "https://maps.app.goo.gl/oHUrj9ZQnSaQJxzD9",
+      contact: "9035038181",
+      distance: "6.1",
+      rating: "4.3",
+    },
+    {
       name: "MR Residency Dharwad",
       map: "https://maps.app.goo.gl/biywTUBWcCQhzE6p7",
       contact: "9164994466",
@@ -20,13 +27,6 @@ function HotelBooking() {
       contact: "8951578555",
       distance: "6.3",
       rating: "4.5",
-    },
-    {
-      name: "Mastiff Grand Dharwad",
-      map: "https://maps.app.goo.gl/oHUrj9ZQnSaQJxzD9",
-      contact: "9035038181",
-      distance: "6.1",
-      rating: "4.3",
     },
     {
       name: "Hotel Crown Inn",
@@ -74,6 +74,20 @@ function HotelBooking() {
 
   const hubliHotels = [
     {
+      name: "Fortune Park, Airport Road",
+      map: "https://maps.app.goo.gl/J5fmKQwyuMteQRG47",
+      contact: "8363577777",
+      distance: "29.8",
+      rating: "4.2",
+    },
+    {
+      name: "Ananth Residency",
+      map: "https://maps.app.goo.gl/4PXxM6D9V2gD35Xf8",
+      contact: "8088415720",
+      distance: "38.4",
+      rating: "4.1",
+    },
+    {
       name: "Denissons Hotel",
       map: "https://maps.app.goo.gl/zWKCHPcT7GRbSf657",
       contact: "8362377777",
@@ -120,13 +134,6 @@ function HotelBooking() {
       map: "https://maps.app.goo.gl/cuyEWkAJdHsb6bAp7",
       contact: "8362372561",
       distance: "34.7",
-      rating: "4.1",
-    },
-    {
-      name: "Ananth Residency",
-      map: "https://maps.app.goo.gl/4PXxM6D9V2gD35Xf8",
-      contact: "8088415720",
-      distance: "38.4",
       rating: "4.1",
     },
     {
