@@ -126,7 +126,7 @@ function Submission() {
                 <li>Authors presenting papers at the conference at the PESGRE 2025 conference are eligible to submit the revised versions as post-conference papers for further review and possible publication in the IEEE-IAS Transactions and Magazine.</li>
                 <li>Standard manuscript templates for conference proceedings in LaTex and Word are present at <a href="https://www.ieee.org/conferences/publishing/templates.html" className="text-blue-600 underline" target="_blank"
                   rel="noopener noreferrer">Standard IEEE Templates.</a> </li>
-                <li>The deadline for paper submission is 15th June 2025.</li>
+                <li>The deadline for paper submission is <span className='text-red-600 font-bold'>30th June 2025 (Extended paper submission deadline)</span>.</li>
               </ul>
             </div>
 

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function CallForPapers() {
   const openPDF = () => {
-    window.open("/PESGRE-CFP-2025-final.pdf", "_blank"); // Opens the PDF in a new tab
+    window.open("/Website/Deadline Extended/Deadline extended Full Paper Submission/1.pdf", "_blank"); // Opens the PDF in a new tab
   };
 
   return (
@@ -149,7 +149,7 @@ function CallForPapers() {
             <div className="relative z-10 mt-5  w-full md:w-[90%]">
               <img
                 className="shadow-lg mb-6  w-full"
-                src="/PESGRE-CFP-2025-final.png"
+                src="/Website/Deadline Extended/Deadline extended Full Paper Submission/1.png"
                 alt="CallForPapers"
               />
             </div>
@@ -170,7 +170,7 @@ function CallForPapers() {
                 <li>Authors presenting papers at the conference at the PESGRE 2025 conference are eligible to submit the revised versions as post-conference papers for further review and possible publication in the IEEE-IAS Transactions and Magazine.</li>
                 <li>Standard manuscript templates for conference proceedings in LaTex and Word are present at <a href="https://www.ieee.org/conferences/publishing/templates.html" className="text-blue-600 underline" target="_blank"
                   rel="noopener noreferrer">Standard IEEE Templates.</a> </li>
-                <li>The deadline for paper submission is 15th June 2025.</li>
+                <li>The deadline for paper submission is <span className='text-red-600 font-bold'>30th June 2025 (Extended paper submission deadline)</span>.</li>
               </ul>
             </div>
 
