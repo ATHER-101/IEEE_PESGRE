@@ -4,46 +4,50 @@ import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 const images = [
   {
     label: '1',
-    imgPath: '/Paper_Submission_Announcement.png',
-  },
-  {
-    label: '1',
-    imgPath: '/PESGRE-CFP-2025-final.png',
+    imgPath: '/popup.jpeg',
   },
   {
     label: '2',
-    imgPath: '/PlatinumSponsor-JSC-1.png',
+    imgPath: '/Website/Deadline Extended/Deadline extended Full Paper Submission/1.png',
   },
   {
     label: '3',
-    imgPath: '/pragna_microdesigns_gold_sponsor.jpeg',
+    imgPath: '/Website/Deadline Extended/Deadline extended Full Paper Submission/2.png',
   },
   {
     label: '4',
-    imgPath: '/BronzeSponsor-ChargeHouse-1.png',
+    imgPath: '/PlatinumSponsor-JSC-1.png',
   },
   {
     label: '5',
-    imgPath: '/TestBetterPoster.jpeg',
+    imgPath: '/pragna_microdesigns_gold_sponsor.jpeg',
   },
   {
     label: '6',
-    imgPath: '/Drazen-Keynote-poster.png',
+    imgPath: '/BronzeSponsor-ChargeHouse-1.png',
   },
   {
     label: '7',
-    imgPath: '/Malinowski_Mariusz-Keynote-poster.png',
+    imgPath: '/TestBetterPoster.jpeg',
   },
   {
     label: '8',
-    imgPath: '/Prof_BGF_Keynote.png',
+    imgPath: '/Drazen-Keynote-poster.png',
   },
   {
     label: '9',
-    imgPath: '/SYP Keynote.png',
+    imgPath: '/Malinowski_Mariusz-Keynote-poster.png',
   },
   {
     label: '10',
+    imgPath: '/Prof_BGF_Keynote.png',
+  },
+  {
+    label: '11',
+    imgPath: '/SYP Keynote.png',
+  },
+  {
+    label: '12',
     imgPath: '/Rajendra.png',
   },
 ];

@@ -32,11 +32,6 @@ const AppRoutes = () => {
       width: 1,
     },
     {
-      src: "/Hioki.jpeg",
-      alt: "Hioki Logo",
-      width: 1,
-    },
-    {
       src: "/Tektronix.jpeg",
       alt: "Tektronix Logo",
       width: 1,
@@ -45,6 +40,11 @@ const AppRoutes = () => {
       src: "/TestBetterNew.jpeg",
       alt: "Test Better Logo",
       width: 2,
+    },
+    {
+      src: "/Hioki.jpeg",
+      alt: "Hioki Logo",
+      width: 1,
     },
     {
       src: "/Chargehouse Logo.jpg",
