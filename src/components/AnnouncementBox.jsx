@@ -16,19 +16,31 @@ const images = [
   },
   {
     label: '4',
-    imgPath: '/PlatinumSponsor-JSC-1.png',
+    imgPath: '/Website/Sponsors/PlatinumSponsor-JSC.png',
   },
   {
-    label: '5',
-    imgPath: '/pragna_microdesigns_gold_sponsor.jpeg',
+    label: '4',
+    imgPath: '/Website/Sponsors/GoldSponsor-PragnaMicroDesigns.png',
   },
   {
-    label: '6',
-    imgPath: '/BronzeSponsor-ChargeHouse-1.png',
+    label: '4',
+    imgPath: '/Website/Sponsors/Silver Sponsor - Tektronix.png',
   },
   {
-    label: '7',
-    imgPath: '/TestBetterPoster.jpeg',
+    label: '4',
+    imgPath: '/Website/Sponsors/NL Silver Sponsor - Convergent Technologies.png',
+  },
+  {
+    label: '4',
+    imgPath: '/Website/Sponsors/HIOKI Gold Sponsor.png',
+  },
+  {
+    label: '4',
+    imgPath: '/Website/Sponsors/BronzeSponsor-ChargeHouse.png',
+  },
+  {
+    label: '4',
+    imgPath: '/Website/Sponsors/Bronze Sponsor - Typhoon HIL.png',
   },
   {
     label: '8',

@@ -92,10 +92,13 @@ function StudentsAndYPs() {
                 directly from IEEE Fellows, the IES President, AdCom members,
                 and experienced colleagues.
               </p>
-              <p>
+              <p className="mb-4">
                 This event includes tutorials from academia and industry, a{" "}
                 <strong>3-min Video Session</strong>, and an open discussion
                 forum.
+              </p>
+              <p>
+                <strong>The SYPA covers Local Travel (economy class fare ), Accommodation (below 3 star hotel)  and Full registration fee.</strong>
               </p>
             </div>
             
