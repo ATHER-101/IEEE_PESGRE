@@ -42,6 +42,16 @@ const AppRoutes = () => {
       width: 2,
     },
     {
+      src: "/KREDL.jpeg",
+      alt: "Test Better Logo",
+      width: 1,
+    },
+    {
+      src: "/AmaraRaja.jpeg",
+      alt: "Test Better Logo",
+      width: 1,
+    },
+    {
       src: "/Hioki.jpeg",
       alt: "Hioki Logo",
       width: 1,

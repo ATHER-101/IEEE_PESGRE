@@ -30,10 +30,10 @@ const images = [
     label: '4',
     imgPath: '/Website/Sponsors/NL Silver Sponsor - Convergent Technologies.png',
   },
-  {
-    label: '4',
-    imgPath: '/Website/Sponsors/HIOKI Gold Sponsor.png',
-  },
+  // {
+  //   label: '4',
+  //   imgPath: '/Website/Sponsors/HIOKI Gold Sponsor.png',
+  // },
   {
     label: '4',
     imgPath: '/Website/Sponsors/BronzeSponsor-ChargeHouse.png',

@@ -16,6 +16,18 @@ function TutorialSpeakers() {
       bio: `Aravind H S is the Director of R&D at Schneider Electric, India, with over 25 years of experience in electronics and power engineering. He has held key positions at companies like Honeywell and Enphase, and brings rich experience in leading research and development of power electronic systems.`,
     },
     {
+      "name": "Calina Ciuhu",
+      "image": "/Calina_Ciuhu.jpg",
+      "title": "Assistant Professor, Eindhoven University of Technology (TU/e), The Netherlands",
+      "bio": "Calina Ciuhu received her M.Sc. degree in High Energy Physics from the University of Cluj-Napoca, Romania, and her Ph.D. degree in Physics from the Vrije Universiteit Amsterdam, The Netherlands, in 2002. Her Ph.D. research focused on the modeling of superconducting multilayers. From 2003 to 2023, she worked as a Senior Scientist at Philips Research Laboratories in Eindhoven, The Netherlands. Since March 2024, she has been an Assistant Professor at the TU/e Electromechanics Lab (PELe), The Netherlands. Her current research in electromechanics involves probabilistic modeling to address tolerances, guided by physics-based principles of problem formulation and solution interpretation. Her methodology integrates domain knowledge as priors, representing a hybrid approach in contrast to purely data-driven black-box models."
+    },
+    {
+      "name": "Francesca Grazian",
+      "image": "/Francesca_Grazian.jpg",
+      "title": "Assistant Professor, Eindhoven University of Technology (TU/e), The Netherlands",
+      "bio": "Francesca Grazian received her B.Sc. degree in Electrical Engineering from the University of Bologna, Italy, in 2016, followed by her M.Sc. and Ph.D. degrees in Electrical Engineering from Delft University of Technology, The Netherlands, in 2018 and 2023, respectively. Her Ph.D. research focused on power electronics for wireless charging of electric vehicles. From 2023 to 2024, she gained experience in the railway industry as a Lead Electrical Engineer at Laser Precision Solutions in Amsterdam, The Netherlands. Since May 2024, she has been an Assistant Professor at the TU/e Power Electronics Lab (PELe), The Netherlands. Her research focuses on innovative wireless power transfer systems, the electrification of the industry, and the environmental impact of power electronics."
+    },
+    {
       name: "Gourahari Nayak",
       image: "/Gourahari_Nayak.jpeg",
       title: "Senior Design Engineer, Schneider Electric, Bangalore",
