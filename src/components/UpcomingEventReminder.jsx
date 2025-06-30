@@ -7,28 +7,55 @@ function UpcomingEventReminder({ dates }) {
 
   // Convert dates to objects and sort
   const sortedDates = dates
-    .map(({ title, date, link, secondary_link, secondary_title }) => ({ title, date: new Date(date), link, secondary_link, secondary_title }))
+    .map(({ title, date, link, secondary_link, secondary_title }) => ({
+      title,
+      date: new Date(date),
+      link,
+      secondary_link,
+      secondary_title,
+    }))
     .sort((a, b) => a.date - b.date);
 
   // Find the next upcoming event date
-  const nextEventDate = sortedDates.find(({ date }) => date >= today)?.date;
+  const nextRawEvent = sortedDates.find(({ date }) => date >= today);
+  const nextEventDate = nextRawEvent?.date;
+
+  // Adjust event date to 23:59:59 IST (UTC+5:30 → UTC = IST - 5:30)
+  const adjustedEventDate = nextEventDate
+    ? new Date(
+        Date.UTC(
+          nextEventDate.getFullYear(),
+          nextEventDate.getMonth(),
+          nextEventDate.getDate(),
+          18, // 23:59:59 IST = 18:29:59 UTC
+          29,
+          59
+        )
+      )
+    : null;
 
   // Get all events happening on that date
   const nextEvents = sortedDates.filter(
     ({ date }) => date.getTime() === nextEventDate?.getTime()
   );
 
-  // Function to format date
+  // Format date for display
   const formatDate = (date) => {
     const day = date.getDate();
-    const suffix = ["th", "st", "nd", "rd"][(day % 10) > 3 || Math.floor(day % 100 / 10) === 1 ? 0 : day % 10];
-    return `${day}${suffix} ${date.toLocaleDateString("en-GB", { month: "long", year: "numeric" })}`;
+    const suffix =
+      ["th", "st", "nd", "rd"][
+        day % 10 > 3 || Math.floor(day % 100 / 10) === 1 ? 0 : day % 10
+      ];
+    return `${day}${suffix} ${date.toLocaleDateString("en-GB", {
+      month: "long",
+      year: "numeric",
+    })}`;
   };
 
   // Countdown logic
   const calculateTimeLeft = () => {
-    if (!nextEventDate) return null;
-    const difference = nextEventDate - new Date();
+    if (!adjustedEventDate) return null;
+    const difference = adjustedEventDate - new Date();
     if (difference <= 0) return null;
 
     return {
@@ -42,13 +69,12 @@ function UpcomingEventReminder({ dates }) {
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
 
   useEffect(() => {
-    if (!nextEventDate) return;
+    if (!adjustedEventDate) return;
     const timer = setInterval(() => {
       setTimeLeft(calculateTimeLeft());
     }, 1000);
-
     return () => clearInterval(timer);
-  }, [nextEventDate]);
+  }, [adjustedEventDate]);
 
   if (!nextEvents.length) {
     return (
@@ -70,21 +96,45 @@ function UpcomingEventReminder({ dates }) {
           </div>
           <p className="text-2xl font-semibold">{formatDate(nextEventDate)}</p>
           <ul className="mb-6 mt-2 md:my-4 md:space-y-2">
-            {nextEvents.map(({ title, link, secondary_link, secondary_title }, index) => (
-              <li key={index} className="text-xl">
-                <a href={link} target="_blank" rel="noopener noreferrer" ><p className="inline">{title}</p><FaExternalLinkAlt className="mx-4 mb-1 inline-block text-sm" /></a><br/>
-                {secondary_title && <a href={secondary_link} target="_blank" rel="noopener noreferrer" ><p className="inline text-sm">{secondary_title}</p><FaExternalLinkAlt className="ml-4 mb-1 inline-block text-xs" /></a>}
-              </li>
-            ))}
+            {nextEvents.map(
+              ({ title, link, secondary_link, secondary_title }, index) => (
+                <li key={index} className="text-xl">
+                  <a
+                    href={link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <p className="inline">{title}</p>
+                    <FaExternalLinkAlt className="mx-4 mb-1 inline-block text-sm" />
+                  </a>
+                  <br />
+                  {secondary_title && (
+                    <a
+                      href={secondary_link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <p className="inline text-sm">{secondary_title}</p>
+                      <FaExternalLinkAlt className="ml-4 mb-1 inline-block text-xs" />
+                    </a>
+                  )}
+                </li>
+              )
+            )}
           </ul>
         </div>
 
         {/* Right Side - Countdown Timer */}
         {timeLeft && (
           <div className="bg-white text-blue-600 px-6 py-4 rounded-lg text-center shadow-lg w-full md:w-[450px]">
-            <h3 className="text-lg md:text-2xl font-semibold mb-0 md:mb-2">Time Left</h3>
+            <h3 className="text-lg md:text-2xl font-semibold mb-0 md:mb-2">
+              Time Left
+            </h3>
             <div className="text-xl md:text-3xl font-bold">
-              <div className="inline mx-1 md:mx-2">{timeLeft.days}d</div> : <div className="inline mx-1 md:mx-2">{timeLeft.hours}h</div> : <div className="inline mx-1 md:mx-2">{timeLeft.minutes}m</div> : <div className="inline mx-1 md:mx-2">{timeLeft.seconds}s</div>
+              <div className="inline mx-1 md:mx-2">{timeLeft.days}d</div> :{" "}
+              <div className="inline mx-1 md:mx-2">{timeLeft.hours}h</div> :{" "}
+              <div className="inline mx-1 md:mx-2">{timeLeft.minutes}m</div> :{" "}
+              <div className="inline mx-1 md:mx-2">{timeLeft.seconds}s</div>
             </div>
           </div>
         )}

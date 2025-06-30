@@ -7,7 +7,7 @@ const textArray = [
     link: "/",
   },
   {
-    text: "Paper Submission is OPEN, Deadline 30th June 2025 (Extended paper submission deadline)",
+    text: "Paper Submission is OPEN, Deadline 15th July 2025 (Extended paper submission deadline)",
     link: "https://cmt3.research.microsoft.com/PESGRE2025",
   },
   {
