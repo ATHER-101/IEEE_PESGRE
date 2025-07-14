@@ -34,7 +34,7 @@ const AppRoutes = () => {
     {
       src: "/Tektronix.jpeg",
       alt: "Tektronix Logo",
-      width: 1,
+      width: 2,
     },
     {
       src: "/TestBetterNew.jpeg",
@@ -65,6 +65,11 @@ const AppRoutes = () => {
       src: "/AmaraRaja.jpeg",
       alt: "Test Better Logo",
       width: 1,
+    },
+    {
+      src: "/comsol.png",
+      alt: "Comsol",
+      width: 2,
     },
     {
       src: "/IFB.jpeg",

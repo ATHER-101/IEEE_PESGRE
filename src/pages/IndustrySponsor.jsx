@@ -78,7 +78,7 @@ function IndustrySponsor({sponsors_cards}) {
         </div>
 
         {/* Two-Column Layout */}
-        <div className="flex flex-wrap mx-4">
+        <div className="flex flex-wrap mx-2">
           <div className="w-full pb-20">
             <CardList cards={sponsors_cards} />
           </div>
