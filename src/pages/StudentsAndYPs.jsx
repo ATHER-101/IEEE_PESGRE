@@ -128,6 +128,12 @@ function StudentsAndYPs() {
 
           {/* Right Column */}
           <div className="w-full md:w-1/2 px-4">
+            <div className="mb-8">
+              <h2 className="text-[#168BEE] text-xl font-bold mb-3">
+                SYPA Application Link
+              </h2>
+              <p>Click <a href="https://docs.google.com/forms/d/e/1FAIpQLSfDJMHFyZyRJBJlc_TQ_bHJJ0zqHNpgsjz3c9iXiK2FgVeusg/viewform?usp=preview" className="text-blue-600 underline" target="_blank" rel="noopener noreferrer">here</a> to apply.</p>
+            </div>
             {/* How to Apply Section */}
             <div>
               <h2 className="text-xl font-bold text-[#168BEE] mb-4">
