@@ -146,8 +146,7 @@ function StudentsAndYPs() {
                   years after your graduation.
                 </li>
                 <li>
-                  You MUST be a member of the IEEE Industrial Electronics
-                  Society.
+                  You MUST be a member of the IEEE Industrial Electronics Society.
                 </li>
                 <li>
                   You MUST have a paper accepted at the conference as an author
